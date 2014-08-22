@@ -22,7 +22,6 @@ module Vitae
 
       entries.each do |entry|
                entry_path = File.join(path, entry)
-               pp entry_path
                key = File.basename(entry_path, File.extname(entry_path))
 
                if File.directory?(entry_path)

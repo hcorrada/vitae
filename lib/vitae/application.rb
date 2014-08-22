@@ -8,8 +8,6 @@ module Vitae
       @config, @content = parse_input()
       @config['db_path'] ||= 'db'
       @db = Vitae::DB.new(@config['db_path'])
-
-      pp @db.data
     end
 
     def parse_input()
