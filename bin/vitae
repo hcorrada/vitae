@@ -1,0 +1,13 @@
+#! /usr/bin/env ruby
+
+require_relative '../lib/vitae.rb'
+require 'pp'
+
+begin
+  Vitae::Application.new(ARGV[0]).run
+rescue Errno::ENOENT => err
+  abort "vitae: #{err.message}"
+end
+
+
+
