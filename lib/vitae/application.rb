@@ -1,20 +1,36 @@
+require 'safe_yaml'
+require 'pp'
+
 module Vitae
   class Application
     def initialize(inputfile)
       @inputfile = inputfile
-      @config, @content = parse_input(@inputfile)
-      pp @config
-
-      @config['db_path'] ||= 'data'
+      @config, @content = parse_input()
+      @config['db_path'] ||= 'db'
       @db = Vitae::DB.new(@config['db_path'])
     end
 
-    def parse_input(file)
-      return [Hash.new, 'This is a test']
+    def parse_input()
+      begin
+        content = File.read(@inputfile)
+        if content =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
+          content = $'
+          config = SafeYAML.load($1)
+        end
+
+      rescue SyntaxError => e
+        print "YAML exception reading #{@inputfile}: #{e.message}"
+      rescue Exception => e
+        print "Error reading file #{@inputfile}: #{e.message}"
+      end
+
+      config ||= {}
+      return [config, content]
     end
 
     def run()
-      output = render()
+      renderer = Vitae::Renderer.new
+      output = renderer.run(@content, @db.data)
       
       @config['outfile'] ||= 'out.pdf'
       @config['tmpdir'] ||= './tmp'
@@ -22,12 +38,12 @@ module Vitae
       write(output, @config['outfile'], @config['tmpdir'], @config['pandoc'])
     end
 
-    def render()
-      puts @content
+    def render(str)
+      return str
     end
 
     def write(str, outfile, tmpdir, pandoc_config)
-      puts 'write'
+      puts str
     end
   end
 end  
