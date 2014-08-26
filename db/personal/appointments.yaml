@@ -1,0 +1,31 @@
+academic_appointments:
+  -  
+    title: Assistant Professor
+    unit: Department of Computer Science
+    institution: University of Maryland
+    location: College Park, MD
+    dates: July 2010-Present
+  -  
+    title: Assistant Professor
+    unit: Institute for Advanced Computer Studies
+    institution: University of Maryland
+    location: College Park, MD
+    dates: July 2010-Present
+  -  
+    title: Postdoctoral Fellow
+    unit: Department of Biostatistics
+    institution: Johns Hopkins University School of Public Health
+    location: Baltimore, MD
+    dates: September 2008-June 2010
+  -  
+    title: Research and Teaching Assistant
+    unit: Departments of Computer Science and Statistics
+    institution: University of Wisconsin
+    location: Madison, WI
+    dates: September 2003-August 2008
+other_employment:
+  -  
+    title: Resarch Intern
+    institution: IBM Research 
+    location: Almaden, CA
+    dates: May 2005-August 2005

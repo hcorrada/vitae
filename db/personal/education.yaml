@@ -1,0 +1,13 @@
+education:
+  -  
+    degree: Ph.D., Computer Science
+    institution: University of Wisconsin
+    location: Madison, WI
+    date: August 2008
+    dissertation: Graph-based data analysis
+    advisor:
+      - Grace Wahba
+      - Raghu Ramakrishnan
+      
+      
+      
