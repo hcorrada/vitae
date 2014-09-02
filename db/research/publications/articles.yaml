@@ -1,0 +1,233 @@
+-
+  authors:
+    - C. Kuang:
+    - P. McMurry:
+    - A. McCormick:
+    - F. Eisele:
+    - S.H. Lee:
+    - L.H. Young:
+    - D.R. Benson:
+    - et al.: 
+  year: 2007
+  title: A system for operational aerosol optical depth data assimilation over global oceans
+  cite: {journal: J. Geophys. Res, volume: "113(D10):D10208"}
+  status: published
+-
+  authors:
+    - A. T. Evan:
+    - R. Bennartz:
+    - V. Bennington:
+    - H. Corrada Bravo: {me: }
+    - A. K. Heidinger:
+    - N. M. Mahowald:
+    - C. S. Velde:
+    - G. Myhre:
+    - J. P. Kossin: 
+  year: 2008
+  title: Ocean temperature forcing by aerosols across the Atlantic tropical cyclone development region
+  cite: {journal: "Geochem, Geophys. Geosyst.", volume: "9:Q05V04", doi: "10.1029/2007GC001774"}
+  status: published
+-
+  authors:
+    - H. Corrada Bravo: {me:, role: lead}
+    - R.A. Irizarry: {role: corresponding}
+  year: 2009
+  title: Model-based quality assessment and base-calling for second-generation sequencing data
+  cite: {journal: Biometrics, volume: "66(3):665-74",  doi: "10.1111/j.1541-0420.2009.01353.x"}
+  status: published
+-
+  authors:
+    - H. Corrada Bravo: {me:, role: lead}
+    - K.E. Lee:
+    - B.E.K. Klein:
+    - R. Klein:
+    - S.K. Iyengar:
+    - G. Wahba: {role: corresponding}
+  year: 2009
+  title: "Examining the relative influence of familial, genetic and environmental covariate information in flexible risk models"
+  cite: {journal: "Proceedings of the National Academy of Science", volume: "106 (20): 8128-8133"}
+  status: published
+-
+  authors:
+    - K. H. Eng: {role: lead}
+    - H. Corrada Bravo: {me:, role: lead} 
+    - S. Keles: {role: corresponding}
+  year: 2009
+  title: "A phylogenetic mixture model for the evolution of gene expression"
+  cite: {journal: "Molecular Biology and Evolution", volume: "26 (10):2363-2372"} 
+  status: published
+-
+  authors:
+    - M. Acevedo: {role: lead}
+    - T.M. Aide: {role: corresponding}
+    - L. J. Villanueva-Rivera:
+    - H. Corrada Bravo: {me:, role: lead}
+    - C. J. Corrada-Bravo: {role: corresponding} 
+  year: 2009
+  title: "Automated classification of bird and amphibian calls using machine learning: a comparison of methods"
+  cite: {journal: "Ecological Informatics", volue:"4 (4):206-214"}
+  status: published
+-
+  authors:
+    - H. Wu: 
+    - R.A. Irizarry: {role: corresponding}
+    - H. Corrada Bravo: {me:, role: lead} 
+  year: 2010
+  title: "Intensity normalization improves color calling in SOLiD sequencing"
+  cite: {journal: "Nature Methods", volume: "7:336-337"}
+  status: published
+-
+  authors:
+    - J.T. Leek: {role: lead}
+    - R. Scharpf:
+    - H. Corrada Bravo: {me: }
+    - D. Simcha:
+    - B. Langmead:
+    - W.E. Johnson:
+    - D. Geman:
+    - K. Baggerly:
+    - R.A. Irizarry: {role: corresponding}
+  year: 2010
+  title: "Tackling the widespread and critical impact of batch effects in high-throughput data"
+  cite: {journal: "Nature Reviews Genetics", volume: "11 (10):733-739"}
+  status: published
+-
+  authors:
+    - L. Shan: {role: lead}
+    - H.C. Yang:
+    - S.A. Rabi:
+    - H. Corrada Bravo: {me: }
+    - J.D. Siliciano:
+    - R.A. Irizarry:
+    - H. Zhang:
+    - J. Margolick:
+    - R.F. Siliciano: {role: corresponding} 
+  year: 2011
+  title: "Influence of host gene transcription level and orientation on HIV-1 latency in a primary cell model"
+  cite: {journal: "Journal of Virology", volume: "85 (11):5384-93"}
+  status: published
+-
+  authors:
+    - A. Rivas: {role: lead}
+    - K. Bohane:
+    - H. Corrada Bravo: {me:, role: lead}
+    - M. Tan
+    - R. Tamargo
+    - H.W. Francis
+  year: 2011
+  title: "A model for early prediction of facial nerve recovery after vestibular schwannoma surgery"
+  cite: {journal: "Otology & Neurotology", volume: "32 (5):826-33"}
+  status: published
+-
+  authors:
+    - K. Hansen: {role: lead}
+    - W. Timp: {role: lead}
+    - H. Corrada Bravo: {me:, role: lead}
+    - S. Sabunciyan: {role: lead}
+    - B. Langmead: {role: lead}
+    - O.G. McDonald:
+    - B. Wen:
+    - H. Wu:
+    - D. Diep:
+    - E. Briem:
+    - K. Zhang:
+    - R.A. Irizarry: {role: corresponding}
+    - A.P. Feinberg: {role: corresponding} 
+  year: 2011
+  title: "Increased methylation variation in epigenetic domains across cancer types"
+  cite: {journal: "Nature Genetics", volume: "43 (8):768-75"}
+  status: published
+-
+  authors:
+    - T.S. Niranjan: {role: lead}
+    - A. Adamczyk: {role: lead}
+    - H. Corrada Bravo: {me:, role: lead}
+    - M. Taub:
+    - S.J. Wheelan:
+    - R.A. Irizarry:
+    - T. Wang: {role: corresponding}
+  year: 2011
+  title: "Effective detection of rare variants in pooled DNA samples using Srfim and cross-pool tail-curve analysis"
+  cite: {journal: "Genome Biology", volume: "12 (9):R93"}
+  status: published
+-
+  authors:
+    - W. Shi: {role: lead}
+    - G. Wahba:
+    - R.A. Irizarry:
+    - H. Corrada Bravo: {me: }
+    - S.J. Wright: {role: corresponding}
+  year: 2012
+  title: "The Partitioned LASSO-Patternsearch Algorithm with Application to Gene Expression Data"
+  cite: {journal: "BMC Bioinformatics", volume: "13:98", doi: "10.1186/1471-2105-13-98"}
+  status: published
+-
+  authors:
+    - H. Corrada Bravo: {me:,role: lead}
+    - V. Pihur:
+    - M. McCall:
+    - R.A. Irizarry:
+    - J.T. Leek: {role: corresponding}
+  year: 2012
+  title: "Gene expression anti-profiles as a basis for cancer diagnostics"
+  cite: {journal: "BMC Bioinformatics", volume: "13:272", doi: "10.1186/1471-2105-13-272"
+  note: "Highly accessed"
+  status: published
+
+S. Boca, H. Corrada Bravo, B. Caffo, J.T. Leek, G. Parmigiani (2013). A decision-theory approach to interpretable set analysis for high-dimensional data. Biometrics 69(3), 614-23. doi: 10.1111/biom.12060. 
+
+M.L. Nickerson, K.M. Im, K.J. Misner, W. Tan, H. Lou, B. Gold, D.W. Wells, H. Corrada Bravo, K.M. Fredrikson, T.T. Harkins, P. Milos, B. Zbar, W.M. Linehan, M. Yeager, T. Andresson, M. Dean, G.S. Bova (2013). Somatic alterations contributing to metastasis of a castration-resistant prostate cancer. Human Mutation 34 (9): 1231-41, epub ahead of print. doi: 10.1002/humu.22346.
+
+X. He, R. Chatterjee, S. John, H. Corrada Bravo, B.K. Sathyanarayana, S.C. Biddle, P.C. Fitzgerald, J.A. Stamatoyannopoulos, G.L. Hager, C. Vinson (2013). Contribution of nucleosome binding preferences and co-occurring DNA sequences to transcription factor binding. BMC Genomics, 14:428.
+
+J. Paulson §, O.C. Stein, H. Corrada Bravo†, M. Pop. Differential abundance analysis for microbial marker-gene surveys (2013). Nature Methods, 10 (12):1200-1202. epub ahead of print. doi:10.1038/nmeth.2658.
+
+N. Akula, J. Barb, X. Jiang, J. Wendland, K. Choi, S. Sen, L. Hou, D. Chen, G. Laje, K. Johnson, B. Lipska, J. Kleinman, H. Corrada Bravo, S. Detera-Wadleigh, P.J. Munson, F.J. McMahon. RNA-sequencing of brain transcriptome implicates dysregulation of neuroplasticity, circadian rhythms and GTPase binding in bipolar disorder (2014). Molecular Psychiatry, (online before print) doi:10.1038/mp.2013.170.
+
+E. Alemu, J.W. Carl, H. Corrada Bravo†, S. Hannenhalli. Determinants of expression variability (2014). Nucleic Acids Research, 42 (6), 3503-14.
+
+C. Ye §, C. Hsiao§, H. Corrada Bravo†. BlindCall: ultra-fast base-calling of second-generation sequencing by blind deconvolution (2014). Bioinformatics, 30 (9), 1214-9.
+
+M. Aryee, A. Jaffe, H. Corrada Bravo, C. Ladd-Acosta, A. Feinberg, K. Hansen, RA. Irizarry (2014). Minfi: a flexible and comprehensive Bioconductor package for the analysis of Infinium DNA Methylation microarrays. Bioinformatics,  30 (10), 1363-9.
+
+Pop, M., Walker, A.W., Paulson, J.§, Lindsey, B., Antonio, M., Hossain, M.A., Oundo, J., Tamboura, B., Mai, V., Astrovskaya, I., Corrada Bravo, H., Rance, R., Stares, M., Levine, M.M., Panchalingam, S., Kotloff, K., Ikumapayi, U.N., Ebruke, C., Adeyemi, D., Ahmed, F., Alam, M.T., Amin, R., Siddiqui, S., Ochieng, J.B., Ouma, E., Juma, J., Mailu, E., Omore, R., Morris, J.G., Breiman, R.F., Saha, D., Parkhill, J., Stine, O.C., Nataro, J.P., (2014). Diarrhea in young children from low-income countries leads to large-scale alterations in intestinal microbiota composition. Genome Biology 15, R76. 
+
+F. Chelaru§, L. Smith, N. Goldstein, H. Corrada Bravo† (2014). Epiviz: interactive visual analytics for epigenomics data. Nature Methods, [epub ahead of print] doi:10.1038/nmeth.3038.
+
+W. Timp*, H. Corrada Bravo*, O.G. McDonald, M. Goggins, C. Umbricht, M. Zeiger, A.P. Feinberg, R.A. Irizarry (2014). Large hypomethylated blocks related to large heterochromatin regions as a universal defining epigenetic alteration in human solid tumors. Genome Medicine, 6 (61) doi:10.1186/s13073-014-0061-y.
+
+H.S. Parker, H. Corrada Bravo, J.T. Leek. Removing batch effects for prediction problems with frozen surrogate variable analysis. PeerJ, in press.
+
+Submitted for Review:
+
+H. Talukder§, J. Paulson§, H. Corrada Bravo†. Finding regions of interest in high throughput genomics data using smoothing splines. BMC Bioinformatics, under submission.
+
+K. Okrah §, H. Corrada Bravo†. Shape analysis for high-throughput transcriptomics experiment data. Biostatistics, under submission.
+
+W. Huber, V. Carey, R. Gentleman, M. Carlson, B.S. Carvalho, H. Corrada Bravo, S. Davis, L. Gatto, T. Girke, R. Gottardo, F. Hahne, K. Hansen, R.A. Irizarry, M. Lawrence, M.I. Love, J. MacDonald, V. Obenchain, A.K. Olés, H. Pagés, P. Shannon, G. Smyth, D. Tenenbaum, L. Waldron, M. Morgan. Orchestrating high-throughput genomic analysis with Bioconductor. Nature Methods, under submission.
+
+H. Talukder§, H. Corrada Bravo, Z. Dezman, B. Golden, S. Mankad. Does health insurance matter? Establishing insurance states as a risk factor for mortality rate. Journal of Trauma and Acute Care Surgery, under submission.
+
+Manuscripts in Preparation:
+
+W. Dinalankara§, H. Corrada Bravo†. Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles.
+
+J. Hsiao §, H. Corrada Bravo†. Filtering and trimming Illumina second-generation sequences using intensity data. Expected submission to Bioinformatics, October 2014.
+
+M. Sharmin, S. Hannenhalli, H. Corrada Bravo. Gene expression network anti-profiles. Expected submission to Cancer Informatics, July 2014.
+
+R.A. Irizarry, H. Corrada Bravo* (2009). Model-based quality assessment and base-calling for second-generation sequencing data”. Johns Hopkins University, Dept. of Biostatistics Working Papers. Working paper 184. http://biostats.bepress.com/jhubiostat/paper184.
+
+S. Boca, H. Corrada Bravo, B. Caffo, J.T. Leek, G. Parmigiani (2010). A decision-theory approach to interpretable set analysis for high-dimensional data. Johns Hopkins University, Dept. of Biostatistics Working Papers. Working paper 211. http://biostats.bepress.com/jhubiostat/paper211.
+
+H.S. Parker, H. Corrada Bravo, J.T. Leek. Removing batch effects for prediction problems with frozen surrogate variable analysis (2013). arXiv:1031.3947 [stat.ME].
+
+W. Dinalankara, H. Corrada Bravo. Anomaly classification with the anti-profile support vector machine (2013). arXiv:1301.3514 [stat.ML].
+
+M. Taub, H. Corrada Bravo, R.A. Irizarry (2010). Overcoming bias and systematic errors in next generation sequencing data. Genome Medicine 2(12):87.
+
+H. Corrada Bravo, D. Page, R. Ramakrishnan, J. Shavlik, V. Santos Costa (2005). A framework for set-oriented computation in inductive logic programming and its application in generalizing inverse entailment. Proc. of the 15th ILP Conf. 69:86. 
+
+H. Corrada Bravo, R. Ramakrishnan (2007). Optimizing MPF queries: decision support and probabilistic inference. Proc. of the 26th ACM SIGMOD Intl. Conf. on Management of Data 701:712.
+
+H. Corrada Bravo, K. Eng, S. Keles, G. Wahba and S. Wright (2009). Estimating tree-structured covariance matrices via mixed integer programming. Proceedings of the Twelfth International Conference on Artificial Intelligence and Statistics (AISTATS ’09); Journal of Machine Learning Research Workshop and Conference Proceedings, 5, 33:40.
