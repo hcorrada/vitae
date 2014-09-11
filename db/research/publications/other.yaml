@@ -1,2 +1,11 @@
-M. Taub, H. Corrada Bravo, R.A. Irizarry (2010). Overcoming bias and systematic errors in next generation sequencing data. Genome Medicine 2(12):87.
+-
+  authors:
+    - M. Taub: {lead: }
+    - H. Corrada Bravo: {me: }
+    - R.A. Irizarry: {corresponding: }
+  year: 2010
+  title: "Overcoming bias and systematic errors in next generation sequencing data"
+  cite: {journal: "Genome Medicine", volume: "2 (12):87"}
+  published:
+
 

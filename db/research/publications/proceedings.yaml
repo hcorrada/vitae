@@ -1,5 +1,30 @@
-H. Corrada Bravo, D. Page, R. Ramakrishnan, J. Shavlik, V. Santos Costa (2005). A framework for set-oriented computation in inductive logic programming and its application in generalizing inverse entailment. Proc. of the 15th ILP Conf. 69:86. 
+-
+  authors:
+    - H. Corrada Bravo: {me:, lead: }
+    - D. Page:
+    - R. Ramakrishnan: 
+    - J. Shavlik:
+    - V. Santos Costa:
+  year: 2005
+  title: "A framework for set-oriented computation in inductive logic programming and its application in generalizing inverse entailment" 
+  cite: {conference: "15th ILP Conf.", pages: "69:86"}
+  published:
+-
+  authors:
+    - H. Corrada Bravo: {me:, lead: }
+    - R. Ramakrishnan: 
+  year: 2007
+  title: "Optimizing MPF queries: decision support and probabilistic inference" 
+  cite: {conference: "26th ACM SIGMOD Intl. Conf. on Management of Data", pages: "701:712"}
+-
+  authors:
+    - H. Corrada Bravo: {me:, lead: }
+    - K. Eng:
+    - S. Keles: 
+    - G. Wahba: 
+    - S. Wright: 
+  year: 2009
+  title: "Estimating tree-structured covariance matrices via mixed integer programming"
+  cite: {conference: "Twelfth International Conference on Artificial Intelligence and Statistics (AISTATS ’09); Journal of Machine Learning Research Workshop and Conference Proceedings, 5", pages: "33:40"}
+  published:
 
-H. Corrada Bravo, R. Ramakrishnan (2007). Optimizing MPF queries: decision support and probabilistic inference. Proc. of the 26th ACM SIGMOD Intl. Conf. on Management of Data 701:712.
-
-H. Corrada Bravo, K. Eng, S. Keles, G. Wahba and S. Wright (2009). Estimating tree-structured covariance matrices via mixed integer programming. Proceedings of the Twelfth International Conference on Artificial Intelligence and Statistics (AISTATS ’09); Journal of Machine Learning Research Workshop and Conference Proceedings, 5, 33:40.
