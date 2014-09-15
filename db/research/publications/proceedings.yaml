@@ -1,6 +1,6 @@
 -
   authors:
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - D. Page:
     - R. Ramakrishnan: 
     - J. Shavlik:
@@ -11,14 +11,14 @@
   published:
 -
   authors:
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - R. Ramakrishnan: 
   year: 2007
   title: "Optimizing MPF queries: decision support and probabilistic inference" 
   cite: {conference: "26th ACM SIGMOD Intl. Conf. on Management of Data", pages: "701:712"}
 -
   authors:
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - K. Eng:
     - S. Keles: 
     - G. Wahba: 

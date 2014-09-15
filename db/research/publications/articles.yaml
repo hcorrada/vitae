@@ -29,15 +29,15 @@
   published:
 -
   authors:
-    - H. Corrada Bravo: {me:, lead: }
-    - R.A. Irizarry: {role: corresponding}
+    - H. Corrada Bravo: {me: , lead: }
+    - R.A. Irizarry: {corresponding: }
   year: 2009
   title: Model-based quality assessment and base-calling for second-generation sequencing data
   cite: {journal: Biometrics, volume: "66(3):665-74",  doi: "10.1111/j.1541-0420.2009.01353.x"}
   published:
 -
   authors:
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - K.E. Lee:
     - B.E.K. Klein:
     - R. Klein:
@@ -50,7 +50,7 @@
 -
   authors:
     - K. H. Eng: {lead: }
-    - H. Corrada Bravo: {me:, lead: } 
+    - H. Corrada Bravo: {me: , lead: } 
     - S. Keles: {corresponding: }
   year: 2009
   title: "A phylogenetic mixture model for the evolution of gene expression"
@@ -61,7 +61,7 @@
     - M. Acevedo: {lead: }
     - T.M. Aide: {corresponding: }
     - L. J. Villanueva-Rivera:
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - C. J. Corrada-Bravo: {corresponding: } 
   year: 2009
   title: "Automated classification of bird and amphibian calls using machine learning: a comparison of methods"
@@ -71,7 +71,7 @@
   authors:
     - H. Wu: 
     - R.A. Irizarry: {corresponding: }
-    - H. Corrada Bravo: {me:, lead: } 
+    - H. Corrada Bravo: {me: , lead: } 
   year: 2010
   title: "Intensity normalization improves color calling in SOLiD sequencing"
   cite: {journal: "Nature Methods", volume: "7:336-337"}
@@ -110,7 +110,7 @@
   authors:
     - A. Rivas: {lead: }
     - K. Bohane:
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - M. Tan
     - R. Tamargo
     - H.W. Francis
@@ -122,7 +122,7 @@
   authors:
     - K. Hansen: {lead: }
     - W. Timp: {lead: }
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - S. Sabunciyan: {lead: }
     - B. Langmead: {lead: }
     - O.G. McDonald:
@@ -141,7 +141,7 @@
   authors:
     - T.S. Niranjan: {lead: }
     - A. Adamczyk: {lead: }
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - M. Taub:
     - S.J. Wheelan:
     - R.A. Irizarry:
@@ -163,7 +163,7 @@
   published:
 -
   authors:
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - V. Pihur:
     - M. McCall:
     - R.A. Irizarry:
@@ -227,7 +227,7 @@
   authors:
     - J. Paulson: {advised: }
     - O.C. Stein:
-    - H. Corrada Bravo: {me:, corresponding: }
+    - H. Corrada Bravo: {me: , corresponding: }
     - M. Pop: {corresponding: }
   year: 2013
   title: "Differential abundance analysis for microbial marker-gene surveys"
@@ -259,7 +259,7 @@
   authors:
     - E. Alemu: {lead: }
     - J.W. Carl:
-    - H. Corrada Bravo: {me:, corresponding: }
+    - H. Corrada Bravo: {me: , corresponding: }
     - S. Hannenhalli: {corresponding: }
   title: "Determinants of expression variability"
   year: 2014
@@ -267,9 +267,9 @@
   published:
 -
   authors:
-    - C. Ye: {lead:, advised: }
+    - C. Ye: {lead: , advised: }
     - C. Hsiao: {advised: }
-    - H. Corrada Bravo: {me:, corresponding: }
+    - H. Corrada Bravo: {me: , corresponding: }
   title: "BlindCall: ultra-fast base-calling of second-generation sequencing by blind deconvolution"
   year: 2014
   cite: {journal: "Bioinformatics", volume: "30 (9):1214-9"}
@@ -329,10 +329,10 @@
   published:
 -
   authors:
-    - F. Chelaru: {advised:, lead: }
+    - F. Chelaru: {advised: , lead: }
     - L. Smith: {advised: }
     - N. Goldstein: {advised: }
-    - H. Corrada Bravo: {me:, corresponding: }
+    - H. Corrada Bravo: {me: , corresponding: }
   year: 2014
   title: "Epiviz: interactive visual analytics for epigenomics data"
   cite: {journal: "Nature Methods", epub: , doi: "10.1038/nmeth.3038"}
@@ -340,7 +340,7 @@
 -
   authors:
     - W. Timp: {lead: }
-    - H. Corrada Bravo: {me:, lead: }
+    - H. Corrada Bravo: {me: , lead: }
     - O.G. McDonald:
     - M. Goggins:
     - C. Umbricht:
@@ -362,16 +362,16 @@
   inpress:
 -
   authors:
-    - H. Talukder: {lead:, advised: }
+    - H. Talukder: {lead: , advised: }
     - J. Paulson: {advised: }
-    - H. Corrada Bravo: {me:, corresponding: }
+    - H. Corrada Bravo: {me: , corresponding: }
   title: "Finding regions of interest in high throughput genomics data using smoothing splines"
   cite: {journal: "BMC Bioinformatics"}
   submitted:
 -
   authors:
-    - K. Okrah: {lead:, advised: }
-    - H. Corrada Bravo: {me:, corresponding: }
+    - K. Okrah: {lead: , advised: }
+    - H. Corrada Bravo: {me: , corresponding: }
   title: "Shape analysis for high-throughput transcriptomics experiment data"
   cite: {journal: "Biostatistics"}
   inrevision:
@@ -406,7 +406,7 @@
   submitted:
 -
   authors:
-    - H. Talukder: {lead:, advised: }
+    - H. Talukder: {lead: , advised: }
     - H. Corrada Bravo: {me: }
     - Z. Dezman: {corresponding: }
     - B. Golden:
@@ -416,7 +416,7 @@
   inprep:
 -
   authors:
-    - W. Dinalankara: {lead:, advised: }
-    - H. Corrada Bravo: {me:, corresponding: }
+    - W. Dinalankara: {lead: , advised: }
+    - H. Corrada Bravo: {me: , corresponding: }
   title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
   inprep:

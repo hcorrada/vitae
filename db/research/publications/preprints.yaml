@@ -1,15 +1,15 @@
 -
   authors:
      - R.A. Irizarry:
-     - H. Corrada Bravo: {me:, lead: }
+     - H. Corrada Bravo: {me: , lead: }
   year: 2009
-  title: "Model-based quality assessment and base-calling for second-generation sequencing data”
+  title: Model-based quality assessment and base-calling for second-generation sequencing data
   cite: {archive: "Johns Hopkins University, Dept. of Biostatistics Working Papers", number: "Working paper 184", url: "http://biostats.bepress.com/jhubiostat/paper184"}
   published:
 -
   authors:
     - S. Boca: {lead: }
-    - H. Corrada Bravo: {me:, }
+    - H. Corrada Bravo: {me: }
     - B. Caffo:
     - J.T. Leek:
     - G. Parmigiani:
@@ -28,7 +28,7 @@
   published:
 -
   authors:
-    - W. Dinalankara: {advised:, lead: }
+    - W. Dinalankara: {advised: , lead: }
     - H. Corrada Bravo: {me: }
   title: "Anomaly classification with the anti-profile support vector machine"
   year: 2013
