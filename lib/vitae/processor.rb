@@ -1,7 +1,7 @@
 module Vitae
   class Processor
     def initialize(sections, template_dir='templates', template_extension='.markdown')
-      @sections = sections || {contact_info: {template: 'contact', filter: 'contact'}}
+      @sections = sections || {"contact_info" => {"template" => 'contact', "filter" => 'contact'}}
       @template_dir = template_dir 
       @template_extension = template_extension
     end
@@ -15,10 +15,8 @@ module Vitae
       renderer = Vitae::Renderer.new
       section_content = {}
       @sections.each_pair do |key, section|
-                 template = self.load_template section[:template]
-                 context = self.send(section[:filter], db) rescue {}
-                 pp template                                            
-                 pp context                                                             
+                 template = self.load_template section['template']
+                 context = self.send(section['filter'], db) rescue {}
                  section_content[key] = renderer.run(template, context)
                end
       pp section_content
