@@ -29,8 +29,11 @@ module Vitae
     end
 
     def run()
+      processor = Vitae::Processor.new(@config['sections'])
+      content_sections = processor.run(@db.data)
+      
       renderer = Vitae::Renderer.new
-      output = renderer.run(@content, @db.data)
+      output = renderer.run(@content, content_sections)
       
       @config['outfile'] ||= 'out.pdf'
       @config['tmpdir'] ||= './tmp'
