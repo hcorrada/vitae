@@ -1,5 +1,6 @@
 require 'safe_yaml'
 require 'pp'
+require 'open3'
 
 module Vitae
   class Application
@@ -35,18 +36,27 @@ module Vitae
       renderer = Vitae::Renderer.new
       output = renderer.run(@content, content_sections)
       
-      @config['outfile'] ||= 'out.pdf'
-      @config['tmpdir'] ||= './tmp'
-      @config['pandoc'] ||= {command: 'pandoc'}
-      write(output, @config['outfile'], @config['tmpdir'], @config['pandoc'])
+      @config['outfile'] ||= File.basename(@inputfile, File.extname(@inputfile)) + ".pdf"
+      @config['outdir'] ||= 'output'
+      @config['pandoc'] ||= {"command" => 'pandoc'}
+      @config['pandoc']['command'] ||= 'pandoc'
+      @config['pandoc']['title'] = @config['title'] || "Curriculum Vitae"
+      write(output, File.join(@config['outdir'], @config['outfile']), @config['pandoc'])
     end
 
-    def render(str)
-      return str
-    end
+    def write(str, outfile, pandoc_config)
+      command = pandoc_config['command'] ||= 'pandoc'
+      pandoc_config.delete 'command'
+      content = pandoc_config.to_yaml + "---\n" + str
+      puts content
 
-    def write(str, outfile, tmpdir, pandoc_config)
-      puts str
+      command += " -o #{outfile}"
+      puts command
+      Open3::popen3(command) do |stdin, stdout, stderr|
+        stdin.puts content
+        stdin.close
+        STDERR.print stderr.read
+      end
     end
   end
 end  

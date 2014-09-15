@@ -5,21 +5,24 @@ sections:
   umd_academic_appointments: { template: appointments, filter: umd_appointments }
   notumd_academic_appointments: { template: appointments, filter: notumd_appointments }
   other_employment: { template: appointments, filter: other_employment }
+pandoc:
+  geometry: margin=1in
+  fontsize: 10pt
 ---
 
-##Personal Information
+#Personal Information
 
-###UID, Last Name, First Name, Middle Name, Contact Information
+##UID, Last Name, First Name, Middle Name, Contact Information
 
 {{ contact_info }}
 
-###Academic Appointments at UMD
+##Academic Appointments at UMD
 
 {{ umd_academic_appointments }}
 
-###Administrative Appointments at UMD
+##Administrative Appointments at UMD
 
-###Other Employment
+##Other Employment
 
 {{ notumd_academic_appointments }}
 {{ other_employment }}

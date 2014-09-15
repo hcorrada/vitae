@@ -23,7 +23,9 @@ module Vitae
     end
 
     def contact(db)
-      return db.select "personal/contact"
+      out = db.select "personal/contact"
+      out['academic_address'] = out['academic_address'].gsub "\n", "  \n"
+      return out
     end
   end
 end
