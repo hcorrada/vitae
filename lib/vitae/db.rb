@@ -31,5 +31,15 @@ module Vitae
                end
              end
     end
+
+    def select(query)
+      res = @data
+      path_array = query.split "/"
+      path_array.each do |key|
+                  return {} if not res.has_key? key
+                  res = res[key] 
+                end
+      return res
+    end
   end
 end

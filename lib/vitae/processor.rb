@@ -19,12 +19,11 @@ module Vitae
                  context = self.send(section['filter'], db) rescue {}
                  section_content[key] = renderer.run(template, context)
                end
-      pp section_content
       return section_content
     end
 
     def contact(db)
-      return db['personal']['contact']
+      return db.select "personal/contact"
     end
   end
 end

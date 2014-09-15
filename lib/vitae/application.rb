@@ -30,7 +30,7 @@ module Vitae
 
     def run()
       processor = Vitae::Processor.new(@config['sections'])
-      content_sections = processor.run(@db.data)
+      content_sections = processor.run(@db)
       
       renderer = Vitae::Renderer.new
       output = renderer.run(@content, content_sections)
