@@ -1,4 +1,7 @@
+require 'bundler/setup'
 require 'pp'
+
+Bundler.require
 
 require_relative 'vitae/application'
 require_relative 'vitae/db'
