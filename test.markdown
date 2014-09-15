@@ -6,11 +6,7 @@ title: Curriculum Vitae
 
 ###UID, Last Name, First Name, Middle Name, Contact Information
 
-{{ me.last_name }}, {{ me.first_name }}  
-{{ me.academic_address }}  
-{{ me.academic_email }}  
-{{ me.url }}  
-UID: {{ me.uid }}  
+{{ contact_info }}
 
 ###Academic Appointments at UMD
 {% for appt in me.academic_appointments %}{% if appt.institution == "University of Maryland" %}
