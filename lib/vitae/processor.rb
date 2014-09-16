@@ -1,6 +1,6 @@
 module Vitae
   class Processor
-    def initialize(sections, template_dir='templates', template_extension='.markdown')
+    def initialize(sections, template_dir='templates', template_extension='.md')
       @sections = sections || {"contact_info" => {"template" => 'contact', "filter" => 'contact'}}
       @template_dir = template_dir 
       @template_extension = template_extension
