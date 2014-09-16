@@ -1,13 +1,28 @@
-education:
-  -  
-    degree: Ph.D., Computer Science
-    institution: University of Wisconsin
-    location: Madison, WI
-    date: August 2008
-    dissertation: Graph-based data analysis
-    advisor:
-      - Grace Wahba
-      - Raghu Ramakrishnan
-      
+-  
+  degree: Ph.D., Computer Science
+  institution: University of Wisconsin
+  location: Madison, WI
+  dates: "September 2003 - August 2008"
+  dissertation: "Graph-based data analysis"
+  advisor:
+    - Grace Wahba
+    - Raghu Ramakrishnan
+-
+  degree: D.M.A.
+  institution: Indiana University School of Music
+  location: Bloomington, IN
+  dates: "September 2000 - August 2003"
+  note: "(ABD)"
+-
+  degree: M.M.
+  institution: Peabody Institute of Music
+  location: Baltimore, MD
+  dates: "September 1997 - May 1999"
+-
+  degree: B.M.
+  institution: Peabody Institute of Music
+  location: Baltimore, MD
+  dates: "September 1993 - May 1997"
+
       
       
