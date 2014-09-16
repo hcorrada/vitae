@@ -7,6 +7,8 @@ sections:
   notumd_academic_appointments: { template: appointments, filter: notumd_appointments }
   other_employment: { template: appointments, filter: other_employment }
   educational_background: { template: degrees, filter: degrees }
+  articles_inpress: { template: annotated_articles, filter: articles_inpress }
+  articles_published: { template: annotated_articles, filter: articles_published }
 pandoc:
   geometry: margin=1in
   fontsize: 10pt
@@ -34,3 +36,15 @@ pandoc:
 ##Educational Background
 
 {{ educational_background }}
+
+##Professional Certifications and Licenses
+
+#Research, Scholarly and Creative Activites
+
+##Books
+##Chapters
+##Articles in Refereed Journals
+
+{{ articles_inpress }}
+
+{{ articles_published }}

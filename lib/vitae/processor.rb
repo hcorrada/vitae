@@ -33,18 +33,17 @@ module Vitae
         return a
       end
 
-      return "#{a[0...-1].join(",")} and #{a.last}"
+      return "#{a[0...-1].join(", ")} and #{a.last}"
     end
 
     def degrees(db)
       out = db.select "personal/education"
-      out.map! do |item|
+      out = out.map do |item|
            if item.has_key? 'advisor' 
              item['advisor'] = english_list item['advisor']
            end
            item
          end
-      pp out
       return { "degrees" => out }
     end
   end

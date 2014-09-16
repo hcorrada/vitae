@@ -1,4 +1,5 @@
 require 'safe_yaml'
+require 'pp'
 
 module Vitae
   class DB
@@ -33,13 +34,32 @@ module Vitae
     end
 
     def select(query)
-      res = @data
-      path_array = query.split "/"
+      puts query
+
+      select = /^(\S+)/.match(query)[1] rescue nil
+      filter = /:(\S+)/.match(query)[1] rescue nil
+      sort = /\+(\S+)/.match(query)[1] rescue nil
+
+      pp select
+      pp filter
+      pp sort
+
+      return {} if select.nil?
+      
+      items = @data
+      path_array = select.split "/"
       path_array.each do |key|
-                  return {} if not res.has_key? key
-                  res = res[key] 
+                  items = items.has_key?(key) ? items[key] : {}
                 end
-      return res
+      if not filter.nil?
+        items = items.select { |x| x.has_key? filter }
+      end
+
+      if not sort.nil?
+        items = items.sort { |x,y| y[sort] <=> x[sort] }
+      end
+
+      return items
     end
   end
 end
