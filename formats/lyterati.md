@@ -10,6 +10,8 @@ sections:
   articles_inpress: { template: annotated_articles, filter: articles_inpress }
   articles_published: { template: annotated_articles, filter: articles_published }
   refereed_proceedings: { template: annotated_articles, filter:  refereed_proceedings }
+  invited_talks: { template: conference, filter: invited_talks }
+  refereed_presentations: { template: conference, filter: refereed_presentations }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -60,4 +62,16 @@ pandoc:
 {{ refereed_proceedings }}
 
 ## Conferences, Workshops and Talks ##
+
+\stepcounter{subsubsection}
+
+### Invited Talks ###
+
+{{ invited_talks }}
+
+### Refereed Presentations ###
+
+{{ refereed_presentations }}
+
+
 

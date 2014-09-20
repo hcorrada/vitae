@@ -16,7 +16,7 @@ module Vitae
 
     def read_data_to(path, data)
       return unless File.directory?(path)
-      
+
       entries = Dir.chdir(path) do
                   Dir['*.{yaml, yml, json}'] + Dir['*'].select { |fn| File.directory?(fn) }
                 end
@@ -24,15 +24,16 @@ module Vitae
       entries.each do |entry|
                entry_path = File.join(path, entry)
                key = File.basename(entry_path, File.extname(entry_path))
+               next if key =~ /^\./
 
                if File.directory?(entry_path)
                  read_data_to(entry_path, data[key] = {})
                else
-                 data[key] = SafeYAML.load_file(entry_path)
+                 data[key] = SafeYAML.load_file(entry_path) 
                end
              end
     end
-
+      
     def select(query)
       select = /^(\S+)/.match(query)[1] rescue nil
       filter = /:(\S+)/.match(query)[1] rescue nil

@@ -1,3 +1,3 @@
 {{# articles }}
-#. {{ authors }} ({{ year }}). {{ title }}. {{ cite }}.
+#. {{ authors }} ({{ year }}). {{ title }}. {{{ cite }}}.  
 {{/ articles }}
