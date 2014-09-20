@@ -32,7 +32,7 @@ pandoc:
 
 {{ umd_academic_appointments }}
 
-##Administrative Appointments at UMD
+\stepcounter{subsection}
 
 ##Other Employment
 
@@ -43,12 +43,10 @@ pandoc:
 
 {{ educational_background }}
 
-##Professional Certifications and Licenses
-
 #Research, Scholarly and Creative Activites
 
-##Books
-##Chapters
+\setcounter{subsection}{2}
+
 ##Articles in Refereed Journals
 
 {{ articles_inpress }}

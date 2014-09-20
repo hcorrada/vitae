@@ -42,7 +42,6 @@ module Vitae
       @config['pandoc']['command'] ||= 'pandoc'
       @config['pandoc']['title'] = @config['title'] || "Curriculum Vitae"
 
-      pp @config['pandoc']
       write(output, File.join(@config['outdir'], @config['outfile']), @config['pandoc'])
     end
 
