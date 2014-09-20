@@ -47,11 +47,16 @@ module Vitae
                   items = items.has_key?(key) ? items[key] : {}
                 end
       if not filter.nil?
-        items = items.select { |x| x.has_key? filter }
+          items = items.select { |x| x.has_key? filter }
       end
 
       if not sort.nil?
-        items = items.sort { |x,y| y[sort] <=> x[sort] }
+        if sort == "date"
+          items = items.sort_by { |s| Date.parse s['date'] }
+          items = items.reverse
+        else
+          items = items.sort { |x,y| y[sort] <=> x[sort] }
+        end
       end
 
       return items
