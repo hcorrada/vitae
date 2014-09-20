@@ -41,16 +41,22 @@ module Vitae
       @config['pandoc'] ||= {"command" => 'pandoc'}
       @config['pandoc']['command'] ||= 'pandoc'
       @config['pandoc']['title'] = @config['title'] || "Curriculum Vitae"
+
+      pp @config['pandoc']
       write(output, File.join(@config['outdir'], @config['outfile']), @config['pandoc'])
     end
 
     def write(str, outfile, pandoc_config)
       command = pandoc_config['command'] ||= 'pandoc'
       pandoc_config.delete 'command'
-      content = pandoc_config.to_yaml + "---\n" + str
-      puts content
 
-      command += " -o #{outfile}"
+      options = pandoc_config['options'] ||= ""
+      pandoc_config.delete 'options'
+
+      content = pandoc_config.to_yaml + "---\n" + str
+#      puts content
+
+      command += " #{options} -o #{outfile}"
       puts command
       Open3::popen3(command) do |stdin, stdout, stderr|
         stdin.puts content

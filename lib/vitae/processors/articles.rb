@@ -49,7 +49,7 @@ module Vitae
       cite = x['cite']
       citation = "*#{cite['conference']}*"
       if x.has_key? 'published'
-        citation += "#{cite['conference']} #{cite['pages']}"
+        citation += "#{cite['pages']}"
       end
 
       return citation

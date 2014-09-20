@@ -11,8 +11,13 @@ sections:
   articles_published: { template: annotated_articles, filter: articles_published }
   refereed_proceedings: { template: annotated_articles, filter:  refereed_proceedings }
 pandoc:
-  geometry: margin=1in
+  options: -s --number-sections
+  geometry: margin=.75in
   fontsize: 10pt
+  fontfamily: utopia
+  header-includes:
+    - \renewcommand{\thesection}{\Roman{section}}
+    - \renewcommand{\thesubsection}{\thesection.\Alph{subsection}}
 ---
 
 {{{ notarization }}}
@@ -51,8 +56,10 @@ pandoc:
 {{ articles_published }}
 
 ## Published Conference Proceedings ##
-
+	
 ### Refereed Conference Proceedings ###
 
 {{ refereed_proceedings }}
+
+## Conferences, Workshops and Talks ##
 
