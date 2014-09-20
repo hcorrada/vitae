@@ -16,6 +16,9 @@ module Vitae
       section_content = {}
       @sections.each_pair do |key, section|
                  template = self.load_template section['template']
+                 if not self.respond_to? section['filter']
+                   puts "Method #{section['filter']} not defined"
+                 end
                  context = self.send(section['filter'], db) rescue {}
                  section_content[key] = renderer.run(template, context)
                end

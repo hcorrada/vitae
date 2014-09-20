@@ -16,6 +16,7 @@
   year: 2007
   title: "Optimizing MPF queries: decision support and probabilistic inference" 
   cite: {conference: "26th ACM SIGMOD Intl. Conf. on Management of Data", pages: "701:712"}
+  published: 
 -
   authors:
     - H. Corrada Bravo: {me: , lead: }

@@ -9,6 +9,7 @@ sections:
   educational_background: { template: degrees, filter: degrees }
   articles_inpress: { template: annotated_articles, filter: articles_inpress }
   articles_published: { template: annotated_articles, filter: articles_published }
+  refereed_proceedings: { template: annotated_articles, filter:  refereed_proceedings }
 pandoc:
   geometry: margin=1in
   fontsize: 10pt
@@ -48,3 +49,10 @@ pandoc:
 {{ articles_inpress }}
 
 {{ articles_published }}
+
+## Published Conference Proceedings ##
+
+### Refereed Conference Proceedings ###
+
+{{ refereed_proceedings }}
+

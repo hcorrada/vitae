@@ -34,15 +34,9 @@ module Vitae
     end
 
     def select(query)
-      puts query
-
       select = /^(\S+)/.match(query)[1] rescue nil
       filter = /:(\S+)/.match(query)[1] rescue nil
       sort = /\+(\S+)/.match(query)[1] rescue nil
-
-      pp select
-      pp filter
-      pp sort
 
       return {} if select.nil?
       

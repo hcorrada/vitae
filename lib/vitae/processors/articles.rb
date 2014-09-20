@@ -1,3 +1,5 @@
+require 'pp'
+
 module Vitae
   class Processor
     def decorate_author(x)
@@ -28,18 +30,35 @@ module Vitae
     end
 
     def build_citation(x)
-      citation = "*#{x['cite']['journal']}*"
+      cite = x['cite']
+      citation = "*#{cite['journal']}*"
       if x.has_key? 'published'
-        citation += " #{x['cite']['volume']}"
+        citation += " #{cite['volume']}"
       elsif x.has_key? 'inpress'
         citation += ", *in press*"
       end
 
-      if x['cite'].has_key? 'doi'
-        citation += ", doi:#{x['cite']['doi']}"
+      if cite.has_key? 'doi'
+        citation += ", doi:#{cite['doi']}"
       end
 
       return citation
+    end
+
+    def build_proceeding_cite(x)
+      cite = x['cite']
+      citation = "*#{cite['conference']}*"
+      if x.has_key? 'published'
+        citation += "#{cite['conference']} #{cite['pages']}"
+      end
+
+      return citation
+    end
+
+    def decorate_proceeding(x)
+      x['authors'] = (x['authors'].map { |x| decorate_author x }).join(", ")
+      x['cite'] = build_proceeding_cite x
+      return x
     end
 
     def decorate_article(x)
@@ -57,6 +76,12 @@ module Vitae
     def articles_inpress(db)
       arts = db.select "research/publications/articles :inpress +year"
       arts = arts.map { |x| decorate_article x }
+      return { "articles" => arts }
+    end
+
+    def refereed_proceedings(db)
+      arts = db.select "research/publications/proceedings :published +year"
+      arts = arts.map { |x| decorate_proceeding x }
       return { "articles" => arts }
     end
   end
