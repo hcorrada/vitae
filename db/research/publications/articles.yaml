@@ -358,8 +358,8 @@
     - J.T. Leek: {corresponding: }
   title: "Removing batch effects for prediction problems with frozen surrogate variable analysis"
   year: 2014
-  cite: {journal: "PeerJ"}
-  inpress:
+  cite: {journal: "PeerJ", volume: "2:e561", doi: "10.7717/peerj.561"}
+  published:
 -
   authors:
     - H. Talukder: {lead: , advised: }
@@ -419,4 +419,5 @@
     - W. Dinalankara: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
-  inprep:
+  cite: {journal: "Bioinformatics"}
+  submitted:
