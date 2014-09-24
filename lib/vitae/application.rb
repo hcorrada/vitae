@@ -63,5 +63,10 @@ module Vitae
         STDERR.print stderr.read
       end
     end
+
+    def query(str)
+      records = @db.select str rescue nil
+      pp records
+    end
   end
 end  
