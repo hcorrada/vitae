@@ -15,6 +15,7 @@ sections:
   nonrefereed_presentations: { template: presentations, query: "research/presentations/conferences :nonrefereed +date" }
   symposia: { template: presentations, query: "research/presentations/symposia +date" }
   workshops: { template: presentations, query: "research/presentations/symposia +date" }
+  preprints: { template: annotated_articles, filter: preprints }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -91,3 +92,13 @@ pandoc:
 ### Workshops ###
 
 {{ workshops }}
+
+## Professional Publications ##
+
+\stepcounter{subsubsection}
+
+### Pre-print/Working Paper (Not Work in Progress) ###
+
+{{ preprints }}
+
+

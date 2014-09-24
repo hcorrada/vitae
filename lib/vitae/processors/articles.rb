@@ -84,5 +84,29 @@ module Vitae
       arts = arts.map { |x| decorate_proceeding x }
       return { "articles" => arts }
     end
+
+    def build_preprint_cite(x)
+      cite = x['cite']
+      citation = "*#{cite['archive']}*"
+      if x.has_key? 'published'
+        citation += " #{cite['number']}"
+      end
+      if cite.has_key? 'url'
+        citation += ". #{cite['url']}"
+      end
+      return citation
+    end
+
+    def decorate_preprint(x)
+      x['authors'] = (x['authors'].map { |x| decorate_author x }).join(", ")
+      x['cite'] = build_preprint_cite x
+      return x
+    end
+
+    def preprints(db)
+      records = db.select "research/publications/preprints :published +year"
+      records = records.map { |x| decorate_preprint x }
+      return { "articles" => records }
+    end
   end
 end

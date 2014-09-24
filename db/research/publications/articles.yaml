@@ -421,3 +421,14 @@
   title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
   cite: {journal: "Bioinformatics"}
   submitted:
+-
+  authors:
+    - M. Taub: {lead: }
+    - H. Corrada Bravo: {me: }
+    - R.A. Irizarry: {corresponding: }
+  year: 2010
+  title: "Overcoming bias and systematic errors in next generation sequencing data"
+  cite: {journal: "Genome Medicine", volume: "2 (12):87"}
+  published:
+
+
