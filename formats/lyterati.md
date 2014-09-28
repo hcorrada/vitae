@@ -16,6 +16,7 @@ sections:
   symposia: { template: presentations, query: "research/presentations/symposia +date" }
   workshops: { template: presentations, query: "research/presentations/symposia +date" }
   preprints: { template: annotated_articles, filter: preprints }
+  software: { template: software, query: "research/works/software :released +date" }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -100,5 +101,61 @@ pandoc:
 ### Pre-print/Working Paper (Not Work in Progress) ###
 
 {{ preprints }}
+
+\stepcounter{subsection}
+
+## Completed Creative Works ##
+
+\stepcounter{subsubsection}
+
+\setcounter{subsubsection}{7}
+
+### Software and Applications ###
+
+{{ software }}
+
+### Websites ###
+
+Websites go here
+
+\stepcounter{subsection}
+
+## Sponsored Research ##
+
+### Grants ###
+
+Grants go here
+
+### Contracts ###
+
+Contracts go here
+
+## Fellowships, Gifts and Other Funded Research ##
+
+### Fellowships ###
+
+Fellowshpis go here
+
+## Submissions and Works in Progress ##
+
+### Current Grant Applications ###
+
+Current Grant Applications here
+
+### Manuscripts in Preparation ###
+
+Manuscripts in prep
+
+### Manuscripts under Review ###
+
+under review
+
+### Working papers in Preparation ###
+
+papers in preparation
+
+### Designs in preparation ###
+
+software in prep
 
 
