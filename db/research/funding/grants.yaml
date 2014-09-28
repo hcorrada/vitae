@@ -1,0 +1,104 @@
+-
+  title: "R01: Analysis tools and software for second generation sequencing"
+  agency: "NIH"
+  recipient: "Johns Hopkins University, Rafael A. Irizarry (PI)"
+  amount: "$380,400 subcontracted to UMCP ($1,230,000 total awarded by NIH )"
+  dates: "August 2010-May 2013"
+  role: "PI"
+  funded: 
+-
+  title: "R01: Alignment software for second generation sequencing"
+  agency: "NIH"
+  recipient: "Johns Hopkins University, Steven Salzberg (PI)"
+  amount: "$432,259.00 subcontracted to UMCP ($3,585,436 total awarded by NIH)"
+  dates: "May 2011-April 2014"
+  role: PI 
+  funded: 
+-
+  title: "R01: Analysis tools and software for second generation sequencing"
+  agency: "NIH"
+  recipient: "Dana Farber Cancer Institute, Rafael A. Irizarry (PI)"
+  amount: "$397,903 subcontracted to UMCP"
+  dates: "September 2014-August 2018"
+  role: PI
+  submitted: 
+-
+  title: "R01: Integrative visual and computational exploratory analysis of genomics data"
+  agency: NIH
+  recipient: "University of Maryland, College Park"
+  amount: "$1,222,398"
+  dates: "April 2015-March 2018"
+  role: PI 
+  submitted: 
+-
+  title: "NRT-DESE; Network biology: from data to information to insights"
+  agency: NSF
+  recipient: "University of Maryland, College Park"
+  amount: "$2,997,748"
+  dates: "September 2015-August 2020"
+  role: "co-PI"
+  submitted: 
+-
+  title: "A meta-mechanism for causal systems integration (Meta-MeCS)"
+  agency: DARPA
+  recipient: "University of Maryland, College Park"
+  amount: "$3,750,000"
+  dates: "July 2014-December 2017"
+  role: "co-PI"
+  declined: 
+-
+  title: "R21: Tools for interactive visualization of high-throughput functional genomics data"
+  agency: NIH
+  recipient: "University of Maryland, College Park"
+  amount: "$399,035"
+  dates: "April 2014-March, 2016"
+  role: PI
+  declined: 
+-
+  title: "MPOWER: Host, Pathogen and Microbiome Interactions: Determinants of Disease Outcome"
+  agency: NIH
+  recipient: "University of Maryland, Baltimore, Owen White (PI)"
+  amount: "$533,840 subcontracted to UMCP"
+  dates: "April 2014-March, 2019"
+  role: PI
+  declined: 
+-
+  title: "From genomics data integration to understanding animal health at the molecular level"
+  agency: Department of Agriculture
+  recipient: "University of Maryland, College Park"
+  amount: "$499,477"
+  dates: "September, 2013-August, 2018"
+  role: PI
+  declined: 
+-
+  title: Functional genomics of nitrogen cycling in the bioenergy crops miscanthus and switch
+  agency: Department of Energy
+  recipient: "University of Maryland, College Park"
+  amount: "$1,283,596"
+  dates: "August 2012-July 2015"
+  role: "co-PI"
+  declined: 
+-
+  title: "Models of disease risk sensitivity to health-information propagation in social networks"
+  agency: NIH
+  recipient: "University of Maryland, College Park"
+  amount: "$345,496"
+  dates: "May 2011-July 2014"
+  role: PI
+  declined: 
+-
+  title: "A functional genomics approach towards understanding nitrogen cycling in Switchgrass and Miscanthus"
+  agency: DOE
+  recipient: "University of Maryland, College Park"
+  amount: "$1,443,135"
+  dates: "February 2011-January 2014"
+  role: PI
+  declined: 
+-
+  title: "CISE-SHB: Large: Collaborative Research: Personalizing Cancer Therapy via Machine Learning"
+  agency: NSF
+  recipient: "Rutgers University, Michael Littman (PI)"
+  amount: "$477,983 subcontracted to UMCP"
+  dates: "November 2010-October 2014"
+  role: PI
+  declined: 

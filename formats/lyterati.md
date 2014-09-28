@@ -18,6 +18,7 @@ sections:
   preprints: { template: annotated_articles, filter: preprints }
   software: { template: software, query: "research/works/software :released +date" }
   websites: { template: software, query: "research/works/websites :released +date" }
+  grants: { template: grants, query: "research/funding/grants :funded" } 
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -125,7 +126,7 @@ pandoc:
 
 ### Grants ###
 
-Grants go here
+{{ grants }}
 
 ### Contracts ###
 
