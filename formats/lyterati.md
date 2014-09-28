@@ -17,6 +17,7 @@ sections:
   workshops: { template: presentations, query: "research/presentations/symposia +date" }
   preprints: { template: annotated_articles, filter: preprints }
   software: { template: software, query: "research/works/software :released +date" }
+  websites: { template: software, query: "research/works/websites :released +date" }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -116,7 +117,7 @@ pandoc:
 
 ### Websites ###
 
-Websites go here
+ {{ websites }}
 
 \stepcounter{subsection}
 
