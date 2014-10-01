@@ -24,14 +24,16 @@ sections:
   articles_inprep: { template: unpublished_articles, filter: articles_inprep }
   articles_submitted: { template: unpublished_articles, filter: articles_submitted }
   articles_inrevision: { template: unpublished_articles, filter: articles_inrevision }
+  courses_taught: { template: courses_taught, filter: courses_taught }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
   fontsize: 10pt
   fontfamily: utopia
   header-includes:
-    - \renewcommand{\thesection}{\Roman{section}}
-    - \renewcommand{\thesubsection}{\thesection.\Alph{subsection}}
+    - \renewcommand{\thesection}{\Roman{section}.}
+    - \renewcommand{\thesubsection}{\thesection\Alph{subsection}.}
+    - \renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
 ---
 
 {{{ notarization }}}
@@ -155,5 +157,42 @@ pandoc:
 
 {{ articles_inrevision }}
 
+# Teaching, Mentoring and Advising #
+
+## Courses Taught ##
+
+{{ courses_taught }}
+
+## Teaching Innovations ##
+
+\setcounter{subsubsection}{4}
+
+### Course or Curriculum Development ###
+
+courses developed here
+
+## Advising ##
+
+### Undergraduate ###
+
+undergrad students here
+
+### Master's ###
+
+master's students here
+
+### Doctoral ###
+
+doctoral students
+
+\setcounter{subsection}{5}
+
+## Professional and Extension Education ##
+
+\setcounter{subsubsection}{2}
+
+### Workshops ###
+
+workshops here
 
 
