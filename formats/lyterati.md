@@ -26,6 +26,8 @@ sections:
   articles_inrevision: { template: unpublished_articles, filter: articles_inrevision }
   courses_taught: { template: courses_taught, filter: courses_taught }
   courses_developed: { template: courses_developed, filter: courses_developed }
+  advising_doctoral: { template: advising, filter: advising_doctoral }
+  advising_undergrad: { template: advising, filter: advising_undergrad }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -176,15 +178,13 @@ pandoc:
 
 ### Undergraduate ###
 
-undergrad students here
+{{ advising_undergrad }}
 
 ### Master's ###
 
-master's students here
-
 ### Doctoral ###
 
-doctoral students
+{{ advising_doctoral }}
 
 \setcounter{subsection}{5}
 

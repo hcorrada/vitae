@@ -1,0 +1,96 @@
+Faezeh Dorri: 
+  department: CS
+  level: { doctoral: 'pre-candidacy' }
+  role: advisor
+Florin Chelaru:
+  department: CS
+  level: { doctoral: 'candidacy' }
+  role: advisor
+Chengxi Ye:
+  department: CS
+  level: { doctoral: 'pre-candidacy'}
+  role: 'co-advisor'
+Chiao-Wen Hsiao:
+  department: AMSC
+  level: { doctoral: 'candidacy' }
+  role: advisor
+Kwame Okrah:
+  department: AMSC
+  level: { doctoral:  'candidacy' }
+  role: advisor
+Wikum Dinalankara:
+  department: CS
+  level: { doctoral: 'candidacy' }
+  role: advisor
+Hisham Talukder:
+  department: AMSC
+  level: { doctoral: 'completed', placement: 'Data Scientist, Dow Jones' }
+  role: advisor
+Joseph Paulson:
+  department: AMSC
+  level: { doctoral: candidacy }
+  role: co-advisor
+Mahfuza Sharmin:
+  department: CS
+  level: { doctoral: 'pre-candidacy' }
+  role: co-advisor
+David Kelley:
+  department: CS
+  level: { doctoral: 'completed', placement: 'Postdoc, Broad Institute' }
+  role: committee member
+Guillaume Marcais:
+  department: CS
+  level: { doctoral: 'completed', placement: 'Research Scientist, University of Maryland' }
+  role: committee member
+Bhargav Kanagal:
+  department: CS
+  level: { doctoral: 'completed' }
+  role: committee member
+Yuan Li:
+  department: CBMG
+  level: { doctoral: candidacy }
+  role: committee member
+Mohammadreza Ghodsi:
+  department: CS
+  level: { doctoral: completed, placement: 'Software Engineer, Facebook' }
+Ginger Houston-Ludlam:
+  department: CBMG
+  level: { doctoral: candidacy }
+  role: committee member
+Louis Licamele:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+Benjamin Langmead:
+  department: CS
+  level: { doctoral: completed, placement: 'Assistant Professor, Johns Hopkins University' }
+  role: committee member
+Rob Partro:
+  department: CS
+  level: { doctoral: completed, placement: 'Postdoc, Carnegie Mellon University' }
+  role: committee member
+Bo Liu:
+  department: CS
+  level: { doctoral: completed, placement: 'Software Engineer, Google' }
+  role: committee member
+Charles Dawkins:
+  department: CBMG
+  level: { doctoral: pre-candidacy }
+  role: committee member
+Daehwan Kim:
+  department: CS
+  level: { doctoral: completed, placement: 'Postdoc, Johns Hopkins University' }
+  role: committee member
+Laura Dillon:
+  department: CBMG
+  level: { doctoral: candidacy }
+  role: committee member
+Shane Squires:
+  department: Physics
+  level: { doctoral: completed }
+  role: committee member
+Daniel Konecki:
+  department: CS
+  level: { undergrad: completed, placement: 'Baylor College of Medicine' }
+  role: advisor
+
