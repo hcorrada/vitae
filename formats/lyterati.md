@@ -25,6 +25,7 @@ sections:
   articles_submitted: { template: unpublished_articles, filter: articles_submitted }
   articles_inrevision: { template: unpublished_articles, filter: articles_inrevision }
   courses_taught: { template: courses_taught, filter: courses_taught }
+  courses_developed: { template: courses_developed, filter: courses_developed }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -169,7 +170,7 @@ pandoc:
 
 ### Course or Curriculum Development ###
 
-courses developed here
+{{ courses_developed }}
 
 ## Advising ##
 

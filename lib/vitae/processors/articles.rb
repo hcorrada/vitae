@@ -87,7 +87,7 @@ module Vitae
       return { "articles" => arts }
     end
 
-    def articles(db)
+    def articles_inprep(db)
       arts = db.select "research/publications/articles :inprep"
       arts = arts.map { |x| decorate_article x }
       return { "unpublished_articles" => arts }

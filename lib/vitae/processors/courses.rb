@@ -37,5 +37,16 @@ module Vitae
       courses = courses.map { |x| decorate_course x }
       return { "courses" => courses }
     end
+
+    def decorate_development(x)
+      x['description'] = x['description'].gsub "\n", " "
+      return x
+    end
+
+    def courses_developed(db)
+      courses = db.select "teaching/development"
+      courses = courses.map { |x| decorate_development x }
+      return { "courses" => courses }
+    end
   end
 end

@@ -1,0 +1,26 @@
+-
+  title: "CMSC 498 - Introduction to Data Science II, Exploring, Modeling and Communicating with Data"
+  description: |
+    This is the second of two new courses covering the practice of data science. This course focuses on 
+    exploratory and statistical data analysis, data and information visualization, and the presentation and 
+    communication of analysis results. It is heavily assignment-based and draws extensively from applications.
+-
+  title: "CMSC 702 - Computational Systems Biology and Functional Genomics"
+  description: |
+    Developed this new advanced graduate-level course concentrating on the use of Statistical Learning 
+    methods and algorithms in the analysis of large high-throughput biomedical assays. Core course in the 
+    Computational Biology concentration area.
+-
+  title: "CMSC 858P - Computational Methods for High-Throughput Analysis of Biological Systems"
+  description: |
+    Developed this new advanced graduate-level course concentrating on the use of Statistical Learning methods and 
+    algorithms in the analysis of large high-throughput biomedical assays. First offering attracted 21 students, including 
+    students from ECE, AMSC and BISI. This course was merged with other content to become CMSC 702 (Computational Systems
+    Biology) to be offered as a regular course in the CS department starting in Spring 2012.
+-
+  title: "140.644 - Practical Machine Learning"
+  description: |
+    Developed this new advanced graduate-level course as postdoc at the Johns Hopkins University
+    School of Public Health. The course provided students from a variety of backgrounds with 
+    practical knowledge of Machine Learning models and applications.
+
