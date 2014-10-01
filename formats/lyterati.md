@@ -28,6 +28,7 @@ sections:
   courses_developed: { template: courses_developed, filter: courses_developed }
   advising_doctoral: { template: advising, filter: advising_doctoral }
   advising_undergrad: { template: advising, filter: advising_undergrad }
+  teaching_workshops: { template: presentations, query: "teaching/workshops" }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -194,6 +195,7 @@ pandoc:
 
 ### Workshops ###
 
-workshops here
+{{ teaching_workshops }}
+
 
 
