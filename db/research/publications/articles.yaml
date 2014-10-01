@@ -374,7 +374,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Shape analysis for high-throughput transcriptomics experiment data"
   cite: {journal: "Biostatistics"}
-  inrevision:
+  inrevision: 
 -
   authors:
     - W. Huber: {lead: }

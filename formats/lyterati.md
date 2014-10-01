@@ -19,6 +19,11 @@ sections:
   software: { template: software, query: "research/works/software :released +date" }
   websites: { template: software, query: "research/works/websites :released +date" }
   grants: { template: grants, query: "research/funding/grants :funded" } 
+  fellowships: { template: fellowships, query: research/funding/fellowships }
+  grants_submitted: { template: grants_submitted, query: "research/funding/grants :submitted" }
+  articles_inprep: { template: unpublished_articles, filter: articles_inprep }
+  articles_submitted: { template: unpublished_articles, filter: articles_submitted }
+  articles_inrevision: { template: unpublished_articles, filter: articles_inrevision }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -128,36 +133,27 @@ pandoc:
 
 {{ grants }}
 
-### Contracts ###
-
-Contracts go here
-
 ## Fellowships, Gifts and Other Funded Research ##
 
 ### Fellowships ###
 
-Fellowshpis go here
+{{ fellowships }}
 
 ## Submissions and Works in Progress ##
 
 ### Current Grant Applications ###
 
-Current Grant Applications here
+{{ grants_submitted }}
 
 ### Manuscripts in Preparation ###
 
-Manuscripts in prep
+{{ articles_inprep }}
 
 ### Manuscripts under Review ###
 
-under review
+{{ articles_submitted }}
 
-### Working papers in Preparation ###
+{{ articles_inrevision }}
 
-papers in preparation
-
-### Designs in preparation ###
-
-software in prep
 
 

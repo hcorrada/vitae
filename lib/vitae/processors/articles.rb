@@ -31,11 +31,19 @@ module Vitae
 
     def build_citation(x)
       cite = x['cite']
+      if x.has_key? 'inprep'
+        return "*In preparation*"
+      end
+
       citation = "*#{cite['journal']}*"
       if x.has_key? 'published'
         citation += " #{cite['volume']}"
       elsif x.has_key? 'inpress'
         citation += ", *in press*"
+      elsif x.has_key? 'submitted'
+        citation += ", *submitted*"
+      elsif x.has_key? 'inrevision'
+        citation += ", *revising to resubmit"
       end
 
       if cite.has_key? 'doi'
@@ -77,6 +85,24 @@ module Vitae
       arts = db.select "research/publications/articles :inpress +year"
       arts = arts.map { |x| decorate_article x }
       return { "articles" => arts }
+    end
+
+    def articles(db)
+      arts = db.select "research/publications/articles :inprep"
+      arts = arts.map { |x| decorate_article x }
+      return { "unpublished_articles" => arts }
+    end
+
+    def articles_submitted(db)
+      arts = db.select "research/publications/articles :submitted"
+      arts = arts.map { |x| decorate_article x }
+      return { "unpublished_articles" => arts }
+    end
+
+    def articles_inrevision(db)
+      arts = db.select "research/publications/articles :inrevision"
+      arts = arts.map { |x| decorate_article x }
+      return { "unpublished_articles" => arts }
     end
 
     def refereed_proceedings(db)
