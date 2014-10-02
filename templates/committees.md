@@ -1,0 +1,3 @@
+{{# committees }}
+- {{ name }}. {{ dates }}  
+{{/ committees }}

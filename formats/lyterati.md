@@ -33,6 +33,10 @@ sections:
   journal_reviews: { template: reviews, filter: journal_reviews }
   panel_reviews: { template: reviews, filter: panel_reviews }
   conference_reviews: { template: reviews, filter: conference_reviews }
+  dept_service: { template: committees, query: "service/committees :department" }
+  college_service: { template: committees, query: "service/committees :college" }
+  community_service: { template: committees, query: "service/committees :community" }
+  consulting: { template: consulting, query: "service/consulting" }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -227,23 +231,24 @@ pandoc:
 
 ### Campus Service - Department ###
 
-dept service here
+{{ dept_service }}
 
 ### Campus Service - College ###
 
-college service here
+{{ college_service }}
 
 ## External Service and Consulting ##
 
 ### Community Engagements, Local, State, National, International ###
 
-community here
+{{ community_service }}
 
 \setcounter{subsubsection}{4}
 
 ### Consultancies ###
 
-consultancy here
+{{ consulting }}
+
 
 
 
