@@ -29,6 +29,10 @@ sections:
   advising_doctoral: { template: advising, filter: advising_doctoral }
   advising_undergrad: { template: advising, filter: advising_undergrad }
   teaching_workshops: { template: presentations, query: "teaching/workshops" }
+  editorships: { template: editorships, query: "service/review/editor" }
+  journal_reviews: { template: reviews, filter: journal_reviews }
+  panel_reviews: { template: reviews, filter: panel_reviews }
+  conference_reviews: { template: reviews, filter: conference_reviews }
 pandoc:
   options: -s --number-sections
   geometry: margin=.75in
@@ -196,6 +200,50 @@ pandoc:
 ### Workshops ###
 
 {{ teaching_workshops }}
+
+# Service and Outreach #
+
+## Editorships, Editorial Boards, and Reviewing Activities ##
+
+### Editorships ###
+
+{{ editorships }}
+
+\stepcounter{subsubsection}
+
+### Reviewing Activities for Journals and Presses ###
+
+{{ journal_reviews }}
+
+### Reviewing Activities for Agencies and Foundations ###
+
+{{ panel_reviews }}
+
+### Reviewing Activities for Conferences ###
+
+{{ conference_reviews }}
+
+## Committees, Professional and Campus Service ##
+
+### Campus Service - Department ###
+
+dept service here
+
+### Campus Service - College ###
+
+college service here
+
+## External Service and Consulting ##
+
+### Community Engagements, Local, State, National, International ###
+
+community here
+
+\setcounter{subsubsection}{4}
+
+### Consultancies ###
+
+consultancy here
 
 
 
