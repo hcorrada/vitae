@@ -34,6 +34,22 @@ Mahfuza Sharmin:
   department: CS
   level: { doctoral: 'pre-candidacy' }
   role: co-advisor
+Justin Malin:
+  department: CBMG
+  level: { doctoral: 'candidacy' }
+  role: committee member
+Ted Gibbons:
+  department: CBMG
+  level: { doctoral: 'candidacy' }
+  role: committee member
+Steven Smith:
+  department: CBMG
+  level: { doctoral: 'candidacy' }
+  role: committee member
+Cody Buntain:
+  department: CS
+  level: { doctoral: 'pre-candidacy' }
+  role: committee member
 David Kelley:
   department: CS
   level: { doctoral: 'completed', placement: 'Postdoc, Broad Institute' }
