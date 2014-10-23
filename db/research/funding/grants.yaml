@@ -5,7 +5,7 @@
   amount: "$634,198"
   dates: "June 2015-May 2020"
   role: "PI"
-  submitted: 
+  declined: 
 -
   title: "R01: Analysis tools and software for second generation sequencing"
   agency: "NIH"
@@ -37,7 +37,7 @@
   amount: "$1,222,398"
   dates: "April 2015-March 2018"
   role: PI 
-  submitted: 
+  declined: 
 -
   title: "NRT-DESE; Network biology: from data to information to insights"
   agency: NSF
