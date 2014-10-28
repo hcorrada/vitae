@@ -366,8 +366,7 @@
     - J. Paulson: {advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Finding regions of interest in high throughput genomics data using smoothing splines"
-  cite: {journal: "BMC Bioinformatics"}
-  submitted:
+  inprep:
 -
   authors:
     - K. Okrah: {lead: , advised: }
@@ -430,5 +429,10 @@
   title: "Overcoming bias and systematic errors in next generation sequencing data"
   cite: {journal: "Genome Medicine", volume: "2 (12):87"}
   published:
-
-
+-
+  authors:
+    - F. Chelaru: {lead:, advised:, corresponding: }
+    - H. Corrada Bravo: {me:, corresponding: }
+  title: "Epiviz: Design Principles for Interactive Visualization of Large Complex Data"
+  cite: {journal: "IEEE Transactions on Visualization and Computer Graphics"
+  submitted:
