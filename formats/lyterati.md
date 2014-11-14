@@ -31,6 +31,7 @@ sections:
   teaching_workshops: { template: presentations, query: "teaching/workshops" }
   editorships: { template: editorships, query: "service/review/editor" }
   journal_reviews: { template: reviews, filter: journal_reviews }
+  press_reviews: { template: reviews, filter: press_reviews }
   panel_reviews: { template: reviews, filter: panel_reviews }
   conference_reviews: { template: reviews, filter: conference_reviews }
   dept_service: { template: committees, query: "service/committees :department" }
@@ -217,7 +218,9 @@ pandoc:
 
 ### Reviewing Activities for Journals and Presses ###
 
-{{ journal_reviews }}
+{{ journal_reviews }}  
+
+{{ press_reviews }}
 
 ### Reviewing Activities for Agencies and Foundations ###
 

@@ -402,7 +402,7 @@
     - M. Morgan: {corresponding: }
   title: "Orchestrating high-throughput genomic analysis with Bioconductor"
   cite: {journal: "Nature Methods"}
-  submitted:
+  inrevision:
 -
   authors:
     - H. Talukder: {lead: , advised: }
@@ -411,15 +411,13 @@
     - B. Golden:
     - S. Mankad: {lead: }
   title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
-  cite: {journal: "Injury"}
-  submitted:
+  inprep:
 -
   authors:
     - W. Dinalankara: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
-  cite: {journal: "Bioinformatics"}
-  submitted:
+  inprep:
 -
   authors:
     - M. Taub: {lead: }
@@ -431,8 +429,8 @@
   published:
 -
   authors:
-    - F. Chelaru: {lead:, advised:, corresponding: }
-    - H. Corrada Bravo: {me:, corresponding: }
+    - F. Chelaru: {lead: , advised: , corresponding: }
+    - H. Corrada Bravo: {me: , corresponding: }
   title: "Epiviz: Design Principles for Interactive Visualization of Large Complex Data"
-  cite: {journal: "IEEE Transactions on Visualization and Computer Graphics"
+  cite: {journal: "IEEE Transactions on Visualization and Computer Graphics"}
   submitted:

@@ -17,5 +17,11 @@ module Vitae
       entries = entries.map { |x| {"entry" => x['conference'] }}
       return { "reviews" => entries }
     end
+
+    def press_reviews(db)
+      entries = db.select "service/review/reviewer :press"
+      entries = entries.map { |x| {"entry" => x['press'] }}
+      return { "reviews" => entries }
+    end
   end
 end
