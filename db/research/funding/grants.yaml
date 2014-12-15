@@ -42,10 +42,10 @@
   title: "R01: Integrative visual and computational exploratory analysis of genomics data"
   agency: NIH
   recipient: "University of Maryland, College Park"
-  amount: "$1,222,398"
-  dates: "April 2015-March 2018"
+  amount: "$2,094,663"
+  dates: "July 2015-June 2019"
   role: PI 
-  declined: 
+  submitted: 
 -
   title: "NRT-DESE; Network biology: from data to information to insights"
   agency: NSF
@@ -53,7 +53,15 @@
   amount: "$2,997,748"
   dates: "September 2015-August 2020"
   role: "co-PI"
-  submitted: 
+  submitted:
+-
+  title: "Data Coordination & Integration Center (DCIC) for the Four-Dimensional Nucleome Network"
+  agency: NIH
+  recipient: "University of Maryland, Baltimore, Owen White (PI)"
+  amount: "$629,085 subcontracted to UMCP"
+  dates: "July 2015-June 2020"
+  role: "PI"
+  submitted:
 -
   title: "A meta-mechanism for causal systems integration (Meta-MeCS)"
   agency: DARPA

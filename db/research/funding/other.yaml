@@ -1,14 +1,23 @@
 -
-  Title: "Identification of robust, variance-based tumor signatures using RNA sequencing"
-  Funding Agency: "NCI-UMD Partership for Cancer Technology"
-  Recipient Institution: "University of Maryland, College Park"
-  Amount Requested: "$70,000"
-  Dates: August 2014-July 2015
-  Role: PI
+  title: "Seed Grant: Impact of BMI on the neonatal epigenome using umbilical cord tissue"
+  agency: "Department of OB/Gyn"
+  amount: "$9,000 subcontracted to UMCP"
+  dates: "October 2014-September 2015"
+  role: "co-Investigator"
+  funded:
 -
-  Title: "Characterizing the epigenome of infants born large for gestational age"
-  Funding Agency: "University of Maryland, UMD & UMB Seed grant program"
-  Amount Requested: "$66,530"
-  Dates: "September 2014-August 2013"
-  Role: PI
+  title: "Identification of robust, variance-based tumor signatures using RNA sequencing"
+  agency: "NCI-UMD Partership for Cancer Technology"
+  recipient: "University of Maryland, College Park"
+  amount: "$70,000"
+  dates: "August 2014-July 2015"
+  role: PI
+  declined:
+-
+  title: "Characterizing the epigenome of infants born large for gestational age"
+  agency: "University of Maryland, UMD & UMB Seed grant program"
+  amount: "$66,530"
+  dates: "September 2014-August 2013"
+  role: PI
+  declined:
 

@@ -402,7 +402,7 @@
     - M. Morgan: {corresponding: }
   title: "Orchestrating high-throughput genomic analysis with Bioconductor"
   cite: {journal: "Nature Methods"}
-  inrevision:
+  inpress:
 -
   authors:
     - H. Talukder: {lead: , advised: }
@@ -417,7 +417,8 @@
     - W. Dinalankara: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
-  inprep:
+  cite: {journal: "Genome Medicine" }
+  submitted:
 -
   authors:
     - M. Taub: {lead: }
@@ -434,3 +435,13 @@
   title: "Epiviz: Design Principles for Interactive Visualization of Large Complex Data"
   cite: {journal: "IEEE Transactions on Visualization and Computer Graphics"}
   submitted:
+-
+  authors:
+    - S. Braid: {lead: }
+    - K. Okrah: {advised: }
+    - A. Shetty:
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
+  cite: {journal: "International Journal of Epidemiology" }
+  inprep:
+ 
