@@ -401,6 +401,7 @@
     - L. Waldron:
     - M. Morgan: {corresponding: }
   title: "Orchestrating high-throughput genomic analysis with Bioconductor"
+  year: 2014
   cite: {journal: "Nature Methods"}
   inpress:
 -
