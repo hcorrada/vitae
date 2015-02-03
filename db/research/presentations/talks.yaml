@@ -112,3 +112,21 @@
   location: "Pittsburgh, PA"
   date: "April 2014"
   invited: 
+-
+  title: "Exploring tumor epigenetic heterogeneity by cell-specific methylation pattern reconstruction"
+  venue: "Department of Biostatistics and Computational Biology, Johns Hopkins Cancer Center"
+  location: "Baltimore, MD"
+  date: "November 2014"
+  invited:
+-
+  title: "Interactive and exploratory visualization of epigenome-wide data"
+  venue: "Epigenomics in Disease, Molecular Medicine Tri-Con"
+  location: "San Francisco, CA"
+  date: "February 2015"
+  invited:
+-
+  title: "Interactive and exploratory visualization of epigenome-wide data"
+  venue: "BioIT World Conference"
+  location: "Boston, MA"
+  date: "April 2015"
+  invited:

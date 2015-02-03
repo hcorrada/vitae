@@ -9,7 +9,7 @@ Florin Chelaru:
 Chengxi Ye:
   department: CS
   level: { doctoral: 'pre-candidacy'}
-  role: 'co-advisor'
+  role: 'committee member'
 Chiao-Wen Hsiao:
   department: AMSC
   level: { doctoral: 'candidacy' }
@@ -34,6 +34,10 @@ Mahfuza Sharmin:
   department: CS
   level: { doctoral: 'pre-candidacy' }
   role: co-advisor
+Viet-An Nguyen:
+  department: CS
+  level: { doctoral: 'candidacy' }
+  role: "committee member"
 Justin Malin:
   department: CBMG
   level: { doctoral: 'candidacy' }
@@ -109,4 +113,11 @@ Daniel Konecki:
   department: CS
   level: { undergrad: completed, placement: 'Baylor College of Medicine' }
   role: advisor
-
+Srutii Surda:
+  department: CBMG
+  level: { doctoral: pre-candidacy }
+  role: committee member
+Kun Wang:
+  department: CBMG
+  level: { doctoral: pre-candidacy }
+  role: committee member

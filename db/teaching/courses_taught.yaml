@@ -1,4 +1,10 @@
 -
+  course: "CMSC 498T"
+  date: {term: Spring, year: 2015}
+  enrollment: 32
+  description: "Introduction to Data Science II"
+  classroom:
+-
   course: "AMSC 760"
   date: {term: Fall, year: 2014}
   enrollment: 1
@@ -29,8 +35,20 @@
   description: "Pre-candidacy research"
   individual: 
 -
+  course: "CMSC 898"
+  date: {term: Spring, year: 2015}
+  enrollment: 1
+  description: "Pre-candidacy research"
+  individual: 
+-
   course: "CMSC 899"
   date: {term: Fall, year: 2014}
+  enrollment: 2
+  description: "Doctoral dissertation research"
+  individual:
+-
+  course: "CMSC 899"
+  date: {term: Spring, year: 2015}
   enrollment: 2
   description: "Doctoral dissertation research"
   individual: 
@@ -44,6 +62,12 @@
   course: "AMSC 899"
   date: {term: Spring, year: 2014}
   enrollment: 3
+  description: "Doctoral dissertation research"
+  individual:
+-
+  course: "AMSC 899"
+  date: {term: Spring, year: 2015}
+  enrollment: 2
   description: "Doctoral dissertation research"
   individual: 
 -

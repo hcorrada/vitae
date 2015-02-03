@@ -34,7 +34,7 @@
   title: "R01: Host-microbiome consortium in periodontal disease"
   agency: "NIH"
   recipient: "University of Maryland, Mihai Pop (PI)"
-  amount: "4,036,599"
+  amount: "$4,036,599"
   dates: "July 2015-June 2020"
   role: co-Investigator
   submitted: 
@@ -53,9 +53,9 @@
   amount: "$2,997,748"
   dates: "September 2015-August 2020"
   role: "co-PI"
-  submitted:
+  declined:
 -
-  title: "Data Coordination & Integration Center (DCIC) for the Four-Dimensional Nucleome Network"
+  title: "Data Coordination and Integration Center (DCIC) for the Four-Dimensional Nucleome Network"
   agency: NIH
   recipient: "University of Maryland, Baltimore, Owen White (PI)"
   amount: "$629,085 subcontracted to UMCP"

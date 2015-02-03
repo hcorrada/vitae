@@ -82,3 +82,9 @@
   location: "San Francisco, CA"
   date: "Novermber 2014"
   nonrefereed:
+-
+  title: "Addressing reproducibility in genomic signatures by characterizing variance and estimation stability"
+  venue: "Joint Statistics Meetings"
+  location: "Seattle, WA"
+  date: "July 2015"
+  refereed:

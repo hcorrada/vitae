@@ -401,8 +401,8 @@
     - L. Waldron:
     - M. Morgan: {corresponding: }
   title: "Orchestrating high-throughput genomic analysis with Bioconductor"
-  year: 2014
-  cite: {journal: "Nature Methods"}
+  year: 2015
+  cite: {journal: "Nature Methods", volume: "12 115-121", doi: "10.1038/nmeth.3252"}
   inpress:
 -
   authors:
@@ -435,7 +435,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Epiviz: Design Principles for Interactive Visualization of Large Complex Data"
   cite: {journal: "IEEE Transactions on Visualization and Computer Graphics"}
-  submitted:
+  inprep:
 -
   authors:
     - S. Braid: {lead: }
