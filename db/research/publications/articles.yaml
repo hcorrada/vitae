@@ -418,7 +418,7 @@
     - W. Dinalankara: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
-  cite: {journal: "Genome Medicine" }
+  cite: {journal: "Cancer Informatics" }
   submitted:
 -
   authors:
@@ -444,5 +444,13 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
   cite: {journal: "International Journal of Epidemiology" }
-  submitted:
+  inprep:
+-
+  authors:
+    - F. Dorri: {lead: , advised: }
+    - L. Mendelowitz:
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
+  inprep:
+
  
