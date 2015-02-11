@@ -373,7 +373,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Shape analysis for high-throughput transcriptomics experiment data"
   cite: {journal: "Biostatistics"}
-  inrevision: 
+  submitted: 
 -
   authors:
     - W. Huber: {lead: }
@@ -418,8 +418,9 @@
     - W. Dinalankara: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
+  year: 2015
   cite: {journal: "Cancer Informatics" }
-  submitted:
+  inpress:
 -
   authors:
     - M. Taub: {lead: }
@@ -452,5 +453,20 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
   inprep:
+-
+  authors:
+    - L. Dillon: {lead: }
+    - K. Okrah: {lead: , advised: }
+    - V. Hughitt:
+    - R. Suresh:
+    - Y. Li:
+    - A. Belew:
+    - H. Corrada Bravo: {me: }
+    - D. Mosser:
+    - N. El-Sayed: {corresponding: }
+  title: "Transcriptomic profiling of the human pathogen Leishmania major reveals elements associated with differentiation into the infective form"
+  cite: {journal: PNAS}
+  inprep:
 
+        
  
