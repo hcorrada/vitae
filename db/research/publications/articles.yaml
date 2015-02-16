@@ -467,6 +467,20 @@
   title: "Transcriptomic profiling of the human pathogen Leishmania major reveals elements associated with differentiation into the infective form"
   cite: {journal: PNAS}
   inprep:
-
-        
- 
+-
+  authors:
+    - Y. Li: {lead: }
+    - K.L. Caradonna: {lead: }
+    - K. Okrah: {lead: , advised: }
+    - J. Choi:
+    - P. Padmanabhan:
+    - D.M. Ndegwa:
+    - S. Shah-Simpson:
+    - M.R. Temanni:
+    - H. Corrada Bravo: {me: }
+    - N. El-Sayed:
+    - B.A. Burleigh:
+  title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
+  cite: {journal: PLOS Pathogens}
+  submitted:
+    
