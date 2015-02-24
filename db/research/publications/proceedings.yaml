@@ -35,3 +35,13 @@
   title: "Epiviz: a view inside the design of an integrated visual analysis software for genomics"
   cite: {conference: "BioVis 2015"}
   submitted:
+-
+  authors:
+    - J. Wagner: {lead: , advised: }
+    - J. Paulson: {advised: }
+    - X.S. Wang:
+    - H. Corrada Bravo: {me: , corresponding: }
+    - B. Bhattacharjee: {corresponding: }
+  title: "Privacy preserving human microbiome analysis using secure computation"
+  cite: {conference: "USENIX Security 2015"}
+  submitted:
