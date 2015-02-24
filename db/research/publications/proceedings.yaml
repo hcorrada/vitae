@@ -28,4 +28,10 @@
   title: "Estimating tree-structured covariance matrices via mixed integer programming"
   cite: {conference: "Twelfth International Conference on Artificial Intelligence and Statistics (AISTATS ’09); Journal of Machine Learning Research Workshop and Conference Proceedings, 5", pages: "33:40"}
   published:
-
+-
+  authors:
+    - F. Chelaru: {lead: , advised: , corresponding: }
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "Epiviz: a view inside the design of an integrated visual analysis software for genomics"
+  cite: {conference: "BioVis 2015"}
+  submitted:

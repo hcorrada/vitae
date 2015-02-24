@@ -412,7 +412,8 @@
     - B. Golden:
     - S. Mankad: {lead: }
   title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
-  inprep:
+  cite: {journal: "Academic Emergency Medicine"}
+  submitted:
 -
   authors:
     - W. Dinalankara: {lead: , advised: }
@@ -430,13 +431,6 @@
   title: "Overcoming bias and systematic errors in next generation sequencing data"
   cite: {journal: "Genome Medicine", volume: "2 (12):87"}
   published:
--
-  authors:
-    - F. Chelaru: {lead: , advised: , corresponding: }
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "Epiviz: Design Principles for Interactive Visualization of Large Complex Data"
-  cite: {journal: "IEEE Transactions on Visualization and Computer Graphics"}
-  inprep:
 -
   authors:
     - S. Braid: {lead: }
