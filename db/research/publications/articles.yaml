@@ -335,7 +335,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   year: 2014
   title: "Epiviz: interactive visual analytics for epigenomics data"
-  cite: {journal: "Nature Methods", epub: , doi: "10.1038/nmeth.3038"}
+  cite: {journal: "Nature Methods", volume: "11 938-940", doi: "10.1038/nmeth.3038"}
   published:
 -
   authors:
@@ -459,7 +459,7 @@
     - D. Mosser:
     - N. El-Sayed: {corresponding: }
   title: "Transcriptomic profiling of the human pathogen Leishmania major reveals elements associated with differentiation into the infective form"
-  cite: {journal: PNAS}
+  cite: {journal: Nucleic Acids Research}
   inprep:
 -
   authors:

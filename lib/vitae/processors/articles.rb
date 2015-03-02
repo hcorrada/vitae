@@ -114,7 +114,7 @@ module Vitae
     def proceedings_submitted(db)
       args = db.select "research/publications/proceedings :submitted"
       arts = arts.map { |x| decorate_proceeding x}
-      return { "articles" => arts }
+      return { "unpublished_articles" => arts }
     end
     
     def build_preprint_cite(x)
