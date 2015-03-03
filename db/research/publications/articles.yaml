@@ -472,9 +472,16 @@
     - S. Shah-Simpson:
     - M.R. Temanni:
     - H. Corrada Bravo: {me: }
-    - N. El-Sayed:
-    - B.A. Burleigh:
+    - N. El-Sayed: {corresponding: }
+    - B.A. Burleigh: {corresponding: }
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
   cite: {journal: PLOS Pathogens}
   submitted:
-    
+-
+  authors:
+    - M. Sharmin: {lead: }
+    - H. Corrada Bravo: {me: , corresponding: }
+    - S. Hannenhalli: {corresponding: }
+  title: "Characterizing the regulatory landscape of large hypomethylated blocks in colon cancer"
+  cite: {journal: BMC Cancer}
+  submitted:
