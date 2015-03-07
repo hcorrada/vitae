@@ -37,6 +37,7 @@ module Vitae
     def select(query)
       select = /^(\S+)/.match(query)[1] rescue nil
       filter = /:(\S+)/.match(query)[1] rescue nil
+      filter_out = /-(\S+)/.match(query)[1] rescue nil
       sort = /\+(\S+)/.match(query)[1] rescue nil
 
       return {} if select.nil?
@@ -45,9 +46,12 @@ module Vitae
       path_array = select.split "/"
       path_array.each do |key|
                   items = items.has_key?(key) ? items[key] : {}
-                end
+      end
+      
       if not filter.nil?
-          items = items.select { |x| x.has_key? filter }
+        items = items.select { |x| x.has_key? filter }
+      elsif not filter_out.nil?
+        items = items.select { |x| not x.has_key? filter_out }
       end
 
       if not sort.nil?

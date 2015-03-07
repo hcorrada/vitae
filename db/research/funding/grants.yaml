@@ -5,6 +5,7 @@
   amount: "$634,198"
   dates: "June 2015-May 2020"
   role: "PI"
+  month_effort: 2
   declined: 
 -
   title: "R01: Analysis tools and software for second generation sequencing"
@@ -13,6 +14,7 @@
   amount: "$380,400 subcontracted to UMCP ($1,230,000 total awarded by NIH )"
   dates: "August 2010-May 2013"
   role: "PI"
+  month_effort: 2.4
   funded: 
 -
   title: "R01: Alignment software for second generation sequencing"
@@ -20,7 +22,8 @@
   recipient: "Johns Hopkins University, Steven Salzberg (PI)"
   amount: "$432,259.00 subcontracted to UMCP ($3,585,436 total awarded by NIH)"
   dates: "May 2011-April 2014"
-  role: PI 
+  role: PI
+  month_effort: 2.4
   funded: 
 -
   title: "R01: Analysis tools and software for second generation sequencing"
@@ -29,6 +32,7 @@
   amount: "$397,903 subcontracted to UMCP"
   dates: "September 2014-August 2018"
   role: PI
+  month_effort: 2.4
   submitted: 
 -
   title: "R01: Host-microbiome consortium in periodontal disease"
@@ -37,6 +41,7 @@
   amount: "$4,036,599"
   dates: "July 2015-June 2020"
   role: co-Investigator
+  month_effort: 1.2
   submitted: 
 -
   title: "R01: Integrative visual and computational exploratory analysis of genomics data"
@@ -44,7 +49,8 @@
   recipient: "University of Maryland, College Park"
   amount: "$2,094,663"
   dates: "July 2015-June 2019"
-  role: PI 
+  role: PI
+  month_effort: 2.4
   submitted: 
 -
   title: "NRT-DESE; Network biology: from data to information to insights"
@@ -61,6 +67,7 @@
   amount: "$629,085 subcontracted to UMCP"
   dates: "July 2015-June 2020"
   role: "PI"
+  month_effort: 1.2
   submitted:
 -
   title: "A meta-mechanism for causal systems integration (Meta-MeCS)"
