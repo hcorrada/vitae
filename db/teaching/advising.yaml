@@ -36,7 +36,7 @@ Mahfuza Sharmin:
   role: co-advisor
 Viet-An Nguyen:
   department: CS
-  level: { doctoral: 'candidacy' }
+  level: { doctoral: 'completed', placement: "Facebook" }
   role: "committee member"
 Justin Malin:
   department: CBMG
@@ -52,7 +52,7 @@ Steven Smith:
   role: committee member
 Cody Buntain:
   department: CS
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'candidacy' }
   role: committee member
 David Kelley:
   department: CS
@@ -68,7 +68,7 @@ Bhargav Kanagal:
   role: committee member
 Yuan Li:
   department: CBMG
-  level: { doctoral: candidacy }
+  level: { doctoral: completed }
   role: committee member
 Mohammadreza Ghodsi:
   department: CS
@@ -121,3 +121,8 @@ Kun Wang:
   department: CBMG
   level: { doctoral: pre-candidacy }
   role: committee member
+Vahid Liaghat:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+  
