@@ -5,8 +5,7 @@ sections:
   umd_academic_appointments: { template: appointments, filter: "umd_appointments" }
   notumd_academic_appointments: { template: appointments, filter: notumd_appointments }
   educational_background: { template: degrees, filter: degrees }
-  articles_inpress: { template: annotated_articles, filter: articles_inpress }
-  articles_published: { template: annotated_articles, filter: articles_published }
+  selected_articles: { template: annotated_articles, filter:  selected_articles, args: "limit=15" }
   refereed_proceedings: { template: annotated_articles, filter:  refereed_proceedings }
   invited_talks: { template: presentations, query: "research/presentations/talks :invited +date" }
   refereed_presentations: { template: presentations, query: "research/presentations/conferences :refereed +date" }

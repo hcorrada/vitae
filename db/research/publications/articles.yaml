@@ -12,6 +12,7 @@
   title: A system for operational aerosol optical depth data assimilation over global oceans
   cite: {journal: J. Geophys. Res, volume: "113(D10):D10208"}
   published:
+  rank: 3
 -
   authors:
     - A. T. Evan:
@@ -27,6 +28,7 @@
   title: Ocean temperature forcing by aerosols across the Atlantic tropical cyclone development region
   cite: {journal: "Geochem, Geophys. Geosyst.", volume: "9:Q05V04", doi: "10.1029/2007GC001774"}
   published:
+  rank: 3
 -
   authors:
     - H. Corrada Bravo: {me: , lead: }
@@ -35,6 +37,7 @@
   title: Model-based quality assessment and base-calling for second-generation sequencing data
   cite: {journal: Biometrics, volume: "66(3):665-74",  doi: "10.1111/j.1541-0420.2009.01353.x"}
   published:
+  rank: 1
 -
   authors:
     - H. Corrada Bravo: {me: , lead: }
@@ -47,6 +50,7 @@
   title: "Examining the relative influence of familial, genetic and environmental covariate information in flexible risk models"
   cite: {journal: "Proceedings of the National Academy of Science", volume: "106 (20): 8128-8133"}
   published:
+  rank: 1
 -
   authors:
     - K. H. Eng: {lead: }
@@ -56,6 +60,7 @@
   title: "A phylogenetic mixture model for the evolution of gene expression"
   cite: {journal: "Molecular Biology and Evolution", volume: "26 (10):2363-2372"} 
   published:
+  rank: 2
 -
   authors:
     - M. Acevedo: {lead: }
@@ -67,6 +72,7 @@
   title: "Automated classification of bird and amphibian calls using machine learning: a comparison of methods"
   cite: {journal: "Ecological Informatics", volume: "4 (4):206-214"}
   published:
+  rank: 2
 -
   authors:
     - H. Wu: 
@@ -76,6 +82,7 @@
   title: "Intensity normalization improves color calling in SOLiD sequencing"
   cite: {journal: "Nature Methods", volume: "7:336-337"}
   published:
+  rank: 1
 -
   authors:
     - J.T. Leek: {lead: }
@@ -91,6 +98,7 @@
   title: "Tackling the widespread and critical impact of batch effects in high-throughput data"
   cite: {journal: "Nature Reviews Genetics", volume: "11 (10):733-739"}
   published:
+  rank: 1
 -
   authors:
     - L. Shan: {lead: }
@@ -106,6 +114,7 @@
   title: "Influence of host gene transcription level and orientation on HIV-1 latency in a primary cell model"
   cite: {journal: "Journal of Virology", volume: "85 (11):5384-93"}
   published:
+  rank: 2
 -
   authors:
     - A. Rivas: {lead: }
@@ -118,6 +127,7 @@
   title: "A model for early prediction of facial nerve recovery after vestibular schwannoma surgery"
   cite: {journal: "Otology & Neurotology", volume: "32 (5):826-33"}
   published:
+  rank: 3
 -
   authors:
     - K. Hansen: {lead: }
@@ -137,6 +147,7 @@
   title: "Increased methylation variation in epigenetic domains across cancer types"
   cite: {journal: "Nature Genetics", volume: "43 (8):768-75"}
   published:
+  rank: 1
 -
   authors:
     - T.S. Niranjan: {lead: }
@@ -150,6 +161,7 @@
   title: "Effective detection of rare variants in pooled DNA samples using Srfim and cross-pool tail-curve analysis"
   cite: {journal: "Genome Biology", volume: "12 (9):R93"}
   published:
+  rank: 2
 -
   authors:
     - W. Shi: {lead: }
@@ -161,6 +173,7 @@
   title: "The Partitioned LASSO-Patternsearch Algorithm with Application to Gene Expression Data"
   cite: {journal: "BMC Bioinformatics", volume: "13:98", doi: "10.1186/1471-2105-13-98"}
   published:
+  rank: 2
 -
   authors:
     - H. Corrada Bravo: {me: , lead: }
@@ -173,6 +186,7 @@
   cite: {journal: "BMC Bioinformatics", volume: "13:272", doi: "10.1186/1471-2105-13-272"}
   note: "Highly accessed"
   published:
+  rank: 1
 -
   authors:
     - S. Boca: {lead: }
@@ -184,6 +198,7 @@
   title: "A decision-theory approach to interpretable set analysis for high-dimensional data"
   cite: {journal: "Biometrics", volume: "69 (3):614-23", doi: "10.1111/biom.12060"}
   published:
+  rank: 2
 -
   authors:
     - M.L. Nickerson: {lead: }
@@ -207,6 +222,7 @@
   title: "Somatic alterations contributing to metastasis of a castration-resistant prostate cancer"
   cite: {journal: "Human Mutation", volume: "34 (9): 1231-41", doi: "10.1002/humu.22346"}
   published:
+  rank: 3
 -
   authors:
     - X. He: {lead: }
@@ -223,6 +239,7 @@
   title: "Contribution of nucleosome binding preferences and co-occurring DNA sequences to transcription factor binding"
   cite: {journal: "BMC Genomics", volume: "14 (428)"}
   published:
+  rank: 3
 -
   authors:
     - J. Paulson: {advised: }
@@ -233,6 +250,7 @@
   title: "Differential abundance analysis for microbial marker-gene surveys"
   cite: {journal: "Nature Methods", volume: "10 (12):1200-1202", doi: "10.1038/nmeth.2658"}
   published:
+  rank: 1
 -
   authors:
     - N. Akula: {lead: }
@@ -255,6 +273,7 @@
   year: 2014
   cite: {journal: "Molecular Psychiatry", epub: , doi: "10.1038/mp.2013.170"}
   published:
+  rank: 2
 -
   authors:
     - E. Alemu: {lead: }
@@ -265,6 +284,7 @@
   year: 2014
   cite: {journal: "Nucleic Acids Research", volume: "42 (6), 3503-14"}
   published:
+  rank: 2
 -
   authors:
     - C. Ye: {lead: , advised: }
@@ -274,6 +294,7 @@
   year: 2014
   cite: {journal: "Bioinformatics", volume: "30 (9):1214-9"}
   published:
+  rank: 1
 -
   authors:
     - M. Aryee: {lead: }
@@ -287,6 +308,7 @@
   title: "Minfi: a flexible and comprehensive Bioconductor package for the analysis of Infinium DNA Methylation microarrays"
   cite: {journal: "Bioinformatics", volume: "30 (10):1363-9"}
   published:
+  rank: 1
 -
   authors:
     - Pop, M.: {lead: }
@@ -327,6 +349,7 @@
   title: "Diarrhea in young children from low-income countries leads to large-scale alterations in intestinal microbiota composition"
   cite: {journal: "Genome Biology", volume: "15, R76"}
   published:
+  rank: 1
 -
   authors:
     - F. Chelaru: {advised: , lead: }
@@ -337,6 +360,7 @@
   title: "Epiviz: interactive visual analytics for epigenomics data"
   cite: {journal: "Nature Methods", volume: "11 938-940", doi: "10.1038/nmeth.3038"}
   published:
+  rank: 1
 -
   authors:
     - W. Timp: {lead: }
@@ -351,6 +375,7 @@
   title: "Large hypomethylated blocks related to large heterochromatin regions as a universal defining epigenetic alteration in human solid tumors"
   cite: {journal: "Genome Medicine", volume: "6 (61)",  doi: "10.1186/s13073-014-0061-y"}
   published:
+  rank: 1
 -
   authors:
     - H.S. Parker: {lead: }
@@ -360,6 +385,7 @@
   year: 2014
   cite: {journal: "PeerJ", volume: "2:e561", doi: "10.7717/peerj.561"}
   published:
+  rank: 2
 -
   authors:
     - H. Talukder: {lead: , advised: }
@@ -367,13 +393,15 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Finding regions of interest in high throughput genomics data using smoothing splines"
   inprep:
+  rank: 2
 -
   authors:
     - K. Okrah: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Shape analysis for high-throughput transcriptomics experiment data"
   cite: {journal: "Biostatistics"}
-  submitted: 
+  submitted:
+  rank: 2
 -
   authors:
     - W. Huber: {lead: }
@@ -403,7 +431,8 @@
   title: "Orchestrating high-throughput genomic analysis with Bioconductor"
   year: 2015
   cite: {journal: "Nature Methods", volume: "12 115-121", doi: "10.1038/nmeth.3252"}
-  inpress:
+  published:
+  rank: 1
 -
   authors:
     - H. Talukder: {lead: , advised: }
@@ -414,6 +443,7 @@
   title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
   cite: {journal: "Academic Emergency Medicine"}
   submitted:
+  rank: 3
 -
   authors:
     - W. Dinalankara: {lead: , advised: }
@@ -422,6 +452,7 @@
   year: 2015
   cite: {journal: "Cancer Informatics" }
   inpress:
+  rank: 1
 -
   authors:
     - M. Taub: {lead: }
@@ -431,6 +462,7 @@
   title: "Overcoming bias and systematic errors in next generation sequencing data"
   cite: {journal: "Genome Medicine", volume: "2 (12):87"}
   published:
+  rank: 2
 -
   authors:
     - S. Braid: {lead: }
@@ -440,6 +472,7 @@
   title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
   cite: {journal: "International Journal of Epidemiology" }
   inprep:
+  rank: 2
 -
   authors:
     - F. Dorri: {lead: , advised: }
@@ -447,6 +480,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
   inprep:
+  rank: 1
 -
   authors:
     - L. Dillon: {lead: }
@@ -461,6 +495,7 @@
   title: "Transcriptomic profiling of the human pathogen Leishmania major reveals elements associated with differentiation into the infective form"
   cite: {journal: Nucleic Acids Research}
   inprep:
+  rank: 2
 -
   authors:
     - Y. Li: {lead: }
@@ -477,6 +512,7 @@
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
   cite: {journal: PLOS Pathogens}
   submitted:
+  rank: 2
 -
   authors:
     - M. Sharmin: {lead: }
@@ -485,3 +521,5 @@
   title: "Characterizing the regulatory landscape of large hypomethylated blocks in colon cancer"
   cite: {journal: BMC Cancer}
   submitted:
+  rank: 2
+  
