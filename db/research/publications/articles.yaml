@@ -399,8 +399,9 @@
     - K. Okrah: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Shape analysis for high-throughput transcriptomics experiment data"
+  year: 2015
   cite: {journal: "Biostatistics"}
-  submitted:
+  inpress:
   rank: 2
 -
   authors:
@@ -442,7 +443,7 @@
     - S. Mankad: {lead: }
   title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
   cite: {journal: "Academic Emergency Medicine"}
-  submitted:
+  inprep:
   rank: 3
 -
   authors:
@@ -479,7 +480,7 @@
     - L. Mendelowitz:
     - H. Corrada Bravo: {me: , corresponding: }
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
-  inprep:
+  submitted:
   rank: 1
 -
   authors:
@@ -494,7 +495,7 @@
     - N. El-Sayed: {corresponding: }
   title: "Transcriptomic profiling of the human pathogen Leishmania major reveals elements associated with differentiation into the infective form"
   cite: {journal: Nucleic Acids Research}
-  inprep:
+  submitted:
   rank: 2
 -
   authors:
@@ -511,7 +512,7 @@
     - B.A. Burleigh: {corresponding: }
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
   cite: {journal: PLOS Pathogens}
-  submitted:
+  inrevision:
   rank: 2
 -
   authors:
