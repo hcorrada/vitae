@@ -4,7 +4,7 @@ Faezeh Dorri:
   role: advisor
 Florin Chelaru:
   department: CS
-  level: { doctoral: 'candidacy' }
+  level: { doctoral: 'completed', placement: "Postdoc, MIT Broad Institute"}
   role: advisor
 Chengxi Ye:
   department: CS
