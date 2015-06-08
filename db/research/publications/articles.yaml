@@ -400,8 +400,8 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Shape analysis for high-throughput transcriptomics experiment data"
   year: 2015
-  cite: {journal: "Biostatistics"}
-  inpress:
+  cite: {journal: "Biostatistics", doi: "10.1093/biostatistics/kxv018"}
+  published:
   rank: 2
 -
   authors:
@@ -449,7 +449,7 @@
   authors:
     - W. Dinalankara: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
-  title: "Reproducible tumor diagnosis and prognosis signatures via gene expression anti-profiles"
+  title: "Gene expression signatures based on variability can robustly predict tumor progression and prognosis"
   year: 2015
   cite: {journal: "Cancer Informatics" }
   inpress:
@@ -472,16 +472,8 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
   cite: {journal: "Clinical Epigenetics" }
-  submitted:
+  inrevision:
   rank: 2
--
-  authors:
-    - F. Dorri: {lead: , advised: }
-    - L. Mendelowitz:
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
-  submitted:
-  rank: 1
 -
   authors:
     - L. Dillon: {lead: }
@@ -493,7 +485,7 @@
     - H. Corrada Bravo: {me: }
     - D. Mosser:
     - N. El-Sayed: {corresponding: }
-  title: "Transcriptomic profiling of the human pathogen Leishmania major reveals elements associated with differentiation into the infective form"
+  title: "Transcriptomic profiling of gene expression and RNA processing during <i>Leishmania major</i> differentiation"
   cite: {journal: Nucleic Acids Research}
   submitted:
   rank: 2
@@ -523,4 +515,14 @@
   cite: {journal: BMC Cancer}
   submitted:
   rank: 2
+-
+  authors:
+    - J. Wagner: {lead: , advised: }
+    - J. Paulson: {advised: }
+    - X.S. Wang:
+    - B. Bhattacharjee: 
+    - H. Corrada Bravo: {me: , corresponding: }      
+  title: "Privacy preserving human microbiome analysis using secure computation"
+  cite: {journal: "Bioinformatics"}
+  inprep:
   

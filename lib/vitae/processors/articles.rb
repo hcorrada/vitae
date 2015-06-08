@@ -58,6 +58,8 @@ module Vitae
       citation = "*#{cite['conference']}*"
       if x.has_key? 'published'
         citation += "#{cite['pages']}"
+      elsif x.has_key? 'inpress'
+        citation += ", *in press*"
       end
 
       return citation
@@ -111,6 +113,12 @@ module Vitae
       return { "articles" => arts }
     end
 
+    def inpress_proceedings(db)
+      arts = db.select "research/publications/proceedings :inpress"
+      arts = arts.map { |x| decorate_proceeding x }
+      return { "articles" => arts }
+    end
+    
     def proceedings_submitted(db)
       args = db.select "research/publications/proceedings :submitted"
       arts = arts.map { |x| decorate_proceeding x}

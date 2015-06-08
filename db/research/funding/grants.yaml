@@ -15,7 +15,7 @@
   dates: "August 2010-May 2013"
   role: "PI"
   month_effort: 2.4
-  funded: 
+  funded:
 -
   title: "R01: Alignment software for second generation sequencing"
   agency: "NIH"
@@ -26,11 +26,11 @@
   month_effort: 2.4
   funded: 
 -
-  title: "R01: Analysis tools and software for second generation sequencing"
+  title: "R01: Overcoming bias and unwanted variability in next generation sequencing"
   agency: "NIH"
   recipient: "Dana Farber Cancer Institute, Rafael A. Irizarry (PI)"
   amount: "$397,903 subcontracted to UMCP"
-  dates: "September 2014-August 2018"
+  dates: "March 2015-February 2019"
   role: PI
   month_effort: 2.4
   submitted: 

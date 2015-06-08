@@ -9,6 +9,7 @@ sections:
   educational_background: { template: degrees, filter: degrees }
   articles_inpress: { template: annotated_articles, filter: articles_inpress }
   articles_published: { template: annotated_articles, filter: articles_published }
+  inpress_proceedings: { template: annotated_articles, filter:  inpress_proceedings }
   refereed_proceedings: { template: annotated_articles, filter:  refereed_proceedings }
   invited_talks: { template: presentations, query: "research/presentations/talks :invited +date" }
   refereed_presentations: { template: presentations, query: "research/presentations/conferences :refereed +date" }
@@ -73,7 +74,7 @@ pandoc:
 
 {{ educational_background }}
 
-#Research, Scholarly and Creative Activites
+#Research, Scholarly, Creative and Professional Activites
 
 \setcounter{subsection}{2}
 
@@ -87,6 +88,7 @@ pandoc:
 	
 ### Refereed Conference Proceedings ###
 
+{{ inpress_proceedings }}
 {{ refereed_proceedings }}
 
 ## Conferences, Workshops and Talks ##
@@ -173,7 +175,7 @@ pandoc:
 
 {{ articles_inrevision }}
 
-# Teaching, Mentoring and Advising #
+# Teaching, Advising and Mentoring #
 
 ## Courses Taught ##
 
