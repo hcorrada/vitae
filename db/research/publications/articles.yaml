@@ -451,7 +451,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Gene expression signatures based on variability can robustly predict tumor progression and prognosis"
   year: 2015
-  cite: {journal: "Cancer Informatics", volume "14:71-81" }
+  cite: {journal: "Cancer Informatics", volume: "14:71-81" }
   published:
   rank: 1
 -
