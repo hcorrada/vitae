@@ -6,7 +6,7 @@
   dates: "June 2015-May 2020"
   role: "PI"
   month_effort: 2
-  declined: 
+  declined:
 -
   title: "R01: Analysis tools and software for second generation sequencing"
   agency: "NIH"
@@ -24,7 +24,7 @@
   dates: "May 2011-April 2014"
   role: PI
   month_effort: 2.4
-  funded: 
+  funded:
 -
   title: "R01: Overcoming bias and unwanted variability in next generation sequencing"
   agency: "NIH"
@@ -33,7 +33,7 @@
   dates: "March 2015-February 2019"
   role: PI
   month_effort: 2.4
-  submitted: 
+  funded:
 -
   title: "R01: Host-microbiome consortium in periodontal disease"
   agency: "NIH"
@@ -42,7 +42,7 @@
   dates: "July 2015-June 2020"
   role: co-Investigator
   month_effort: 1.2
-  submitted: 
+  submitted:
 -
   title: "R01: Integrative visual and computational exploratory analysis of genomics data"
   agency: NIH
@@ -51,15 +51,15 @@
   dates: "July 2015-June 2019"
   role: PI
   month_effort: 2.4
-  submitted: 
+  submitted:
 -
   title: "NRT-DESE; Network biology: from data to information to insights"
   agency: NSF
   recipient: "University of Maryland, College Park"
   amount: "$2,997,748"
-  dates: "September 2015-August 2020"
+  dates: "September 2016-August 2021"
   role: "co-PI"
-  declined:
+  submitted:
 -
   title: "Data Coordination and Integration Center (DCIC) for the Four-Dimensional Nucleome Network"
   agency: NIH
@@ -76,7 +76,7 @@
   amount: "$3,750,000"
   dates: "July 2014-December 2017"
   role: "co-PI"
-  declined: 
+  declined:
 -
   title: "R21: Tools for interactive visualization of high-throughput functional genomics data"
   agency: NIH
@@ -84,7 +84,7 @@
   amount: "$399,035"
   dates: "April 2014-March, 2016"
   role: PI
-  declined: 
+  declined:
 -
   title: "MPOWER: Host, Pathogen and Microbiome Interactions: Determinants of Disease Outcome"
   agency: NIH
@@ -92,7 +92,7 @@
   amount: "$533,840 subcontracted to UMCP"
   dates: "April 2014-March, 2019"
   role: PI
-  declined: 
+  declined:
 -
   title: "From genomics data integration to understanding animal health at the molecular level"
   agency: Department of Agriculture
@@ -100,7 +100,7 @@
   amount: "$499,477"
   dates: "September, 2013-August, 2018"
   role: PI
-  declined: 
+  declined:
 -
   title: Functional genomics of nitrogen cycling in the bioenergy crops miscanthus and switch
   agency: Department of Energy
@@ -108,7 +108,7 @@
   amount: "$1,283,596"
   dates: "August 2012-July 2015"
   role: "co-PI"
-  declined: 
+  declined:
 -
   title: "Models of disease risk sensitivity to health-information propagation in social networks"
   agency: NIH
@@ -116,7 +116,7 @@
   amount: "$345,496"
   dates: "May 2011-July 2014"
   role: PI
-  declined: 
+  declined:
 -
   title: "A functional genomics approach towards understanding nitrogen cycling in Switchgrass and Miscanthus"
   agency: DOE
@@ -124,7 +124,7 @@
   amount: "$1,443,135"
   dates: "February 2011-January 2014"
   role: PI
-  declined: 
+  declined:
 -
   title: "CISE-SHB: Large: Collaborative Research: Personalizing Cancer Therapy via Machine Learning"
   agency: NSF
@@ -132,4 +132,4 @@
   amount: "$477,983 subcontracted to UMCP"
   dates: "November 2010-October 2014"
   role: PI
-  declined: 
+  declined:

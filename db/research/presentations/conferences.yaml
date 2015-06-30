@@ -1,90 +1,108 @@
 -
   title: "A framework for set-oriented computation in inductive logic programming and its application in generalizing inverse entailment."
-  venue: "15th ILP Conf." 
+  venue: "15th ILP Conf."
   location: "Bonn, Germany"
   date: "August 2005"
-  refereed: 
+  refereed:
 -
   title: "Optimizing MPF queries: decision support and probabilistic inference"
   venue: "26th ACM SIGMOD Intl. Conf. on Management of Data"
   location: "Beijing, China"
   date: "June 2007"
-  refereed: 
+  refereed:
 -
   title: "Tuning regularized kernel estimation parameters for prediction"
   venue: "SIAM Conference on Optimization"
   location: "Boston, MA"
   date: "May 2008"
-  refereed: 
+  refereed:
 -
   title: "Model-based quality assessment and base-calling for second-generation sequencing data"
   venue: "WNAR/IMS annual meeting"
   location: "Portland, OR"
   date: "June 2009"
-  refereed: 
+  refereed:
 -
   title: "Model-based quality assessment and base-calling for second-generation sequencing data"
   venue: "Conference on Next-Generation Sequencing"
   location: "Barcelona, Spain"
   date: "October 2009"
-  nonrefereed: 
+  nonrefereed:
 -
   title: "Statistical and computational methods for the analysis of pooled, targeted, second-generation re-sequencing data"
   venue: "8th International Chinese Statistical Association (ICSA) International Conference"
   location: "Guangzhou, China"
   date: "December 2010"
-  nonrefereed: 
+  nonrefereed:
 -
   title: "Statistical and computational methods for the analysis of pooled, targeted, second-generation re-sequencing data"
   venue: "2011 Joint Statistical Meetings"
   location: "Miami Beach, FL."
   date: "August 2011"
-  refereed: 
+  refereed:
 -
   title: "Increased methylation variation in epigenetic domains across cancer types"
   venue: "16th Annual International Conference on Research in Computational Molecular Biology (RECOMB)"
   location: "Barcelona, Spain"
   date: "April 2012"
-  refereed: 
+  refereed:
 -
   title: "Gene expression anti-profiles as a basis for accurate universal cancer signatures"
   venue: "ISMB ’13"
   location: "Berlin, Germany"
   date: "July 2013"
-  refereed: 
-- 
+  refereed:
+-
   title: "Interactive, Exploratory Visualization and Statistical Analysis of Genome-Scale Data"
   venue: "International Biomteric Society ENAR Meeting"
   location: "Baltimore, MD"
   date: "March 2014"
-  refereed: 
+  refereed:
 -
   title: "Interactive and exploratory visualization of epigenome-wide data"
   venue: "Joint Statistics Meetings"
   location: "Boston, MA"
   date: "July 2014"
-  refereed: 
+  refereed:
 -
   title: "Epiviz(r): turning a genome browser into a display device"
   venue: "Bioconductor conference"
   location: "Boston, MA"
   date: "July 2014"
-  nonrefereed: 
+  nonrefereed:
 -
   title: "Srfim2: using basecalling model parameter estimates to understand sequencing bias"
   venue: "2012 Joint Statistical Meetings"
   location: "San Diego, CA"
   date: "August 2012"
-  refereed: 
+  refereed:
 -
   title: "Does Healthcare Insurance Matter? Establishing Insurance Status as a Risk Factor for Trauma Mortality"
   venue: "INFORMS 2014"
   location: "San Francisco, CA"
-  date: "Novermber 2014"
+  date: "November 2014"
   nonrefereed:
 -
   title: "Addressing reproducibility in genomic signatures by characterizing variance and estimation stability"
   venue: "Joint Statistics Meetings"
   location: "Seattle, WA"
+  date: "August 2015"
+  refereed:
+-
+  title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
+  venue: "HiTSeq"
+  location: "Dublin, Ireland"
+  date: "July 2015"
+  refereed:
+-
+  title: "Epiviz: a view inside the design of an integrated visual analysis software for genomics"
+  venue: "BioVis"
+  location: "Dublin, Ireland"
+  date: "July 2015"
+  refereed:
+-
+  title: "Interactive and exploratory visual analytics of epigenome-wide data"
+  venue: "ISMB"
+  location: "Dubline, Ireland"
   date: "July 2015"
   refereed:
