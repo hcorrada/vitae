@@ -7,7 +7,7 @@
     - S.H. Lee:
     - L.H. Young:
     - D.R. Benson:
-    - et al.: 
+    - et al.:
   year: 2007
   title: A system for operational aerosol optical depth data assimilation over global oceans
   cite: {journal: J. Geophys. Res, volume: "113(D10):D10208"}
@@ -23,7 +23,7 @@
     - N. M. Mahowald:
     - C. S. Velde:
     - G. Myhre:
-    - J. P. Kossin: 
+    - J. P. Kossin:
   year: 2008
   title: Ocean temperature forcing by aerosols across the Atlantic tropical cyclone development region
   cite: {journal: "Geochem, Geophys. Geosyst.", volume: "9:Q05V04", doi: "10.1029/2007GC001774"}
@@ -54,11 +54,11 @@
 -
   authors:
     - K. H. Eng: {lead: }
-    - H. Corrada Bravo: {me: , lead: } 
+    - H. Corrada Bravo: {me: , lead: }
     - S. Keles: {corresponding: }
   year: 2009
   title: "A phylogenetic mixture model for the evolution of gene expression"
-  cite: {journal: "Molecular Biology and Evolution", volume: "26 (10):2363-2372"} 
+  cite: {journal: "Molecular Biology and Evolution", volume: "26 (10):2363-2372"}
   published:
   rank: 2
 -
@@ -67,7 +67,7 @@
     - T.M. Aide: {corresponding: }
     - L. J. Villanueva-Rivera:
     - H. Corrada Bravo: {me: , lead: }
-    - C. J. Corrada-Bravo: {corresponding: } 
+    - C. J. Corrada-Bravo: {corresponding: }
   year: 2009
   title: "Automated classification of bird and amphibian calls using machine learning: a comparison of methods"
   cite: {journal: "Ecological Informatics", volume: "4 (4):206-214"}
@@ -75,9 +75,9 @@
   rank: 2
 -
   authors:
-    - H. Wu: 
+    - H. Wu:
     - R.A. Irizarry: {corresponding: }
-    - H. Corrada Bravo: {me: , lead: } 
+    - H. Corrada Bravo: {me: , lead: }
   year: 2010
   title: "Intensity normalization improves color calling in SOLiD sequencing"
   cite: {journal: "Nature Methods", volume: "7:336-337"}
@@ -109,7 +109,7 @@
     - R.A. Irizarry:
     - H. Zhang:
     - J. Margolick:
-    - R.F. Siliciano: {corresponding: } 
+    - R.F. Siliciano: {corresponding: }
   year: 2011
   title: "Influence of host gene transcription level and orientation on HIV-1 latency in a primary cell model"
   cite: {journal: "Journal of Virology", volume: "85 (11):5384-93"}
@@ -142,7 +142,7 @@
     - E. Briem:
     - K. Zhang:
     - R.A. Irizarry: {corresponding: }
-    - A.P. Feinberg: {corresponding: } 
+    - A.P. Feinberg: {corresponding: }
   year: 2011
   title: "Increased methylation variation in epigenetic domains across cancer types"
   cite: {journal: "Nature Genetics", volume: "43 (8):768-75"}
@@ -217,7 +217,7 @@
     - M. Yeager:
     - T. Andresson:
     - M. Dean: {corresponding: }
-    - G.S. Bova: {corresponding: } 
+    - G.S. Bova: {corresponding: }
   year: 2013
   title: "Somatic alterations contributing to metastasis of a castration-resistant prostate cancer"
   cite: {journal: "Human Mutation", volume: "34 (9): 1231-41", doi: "10.1002/humu.22346"}
@@ -260,10 +260,10 @@
     - K. Choi:
     - S. Sen:
     - L. Hou:
-    - D. Chen: 
-    - G. Laje: 
+    - D. Chen:
+    - G. Laje:
     - K. Johnson:
-    - B. Lipska: 
+    - B. Lipska:
     - J. Kleinman:
     - H. Corrada Bravo: {me: }
     - S. Detera-Wadleigh:
@@ -316,12 +316,12 @@
     - Paulson, J.: {advised: }
     - Lindsey, B.:
     - Antonio, M.:
-    - Hossain, M.A.: 
+    - Hossain, M.A.:
     - Oundo, J.:
     - Tamboura, B.:
     - Mai, V.:
     - Astrovskaya, I.:
-    - Corrada Bravo, H.: {me: } 
+    - Corrada Bravo, H.: {me: }
     - Rance, R.:
     - Stares, M.:
     - Levine, M.M.:
@@ -451,8 +451,8 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Gene expression signatures based on variability can robustly predict tumor progression and prognosis"
   year: 2015
-  cite: {journal: "Cancer Informatics" }
-  inpress:
+  cite: {journal: "Cancer Informatics", volume "14:71-81" }
+  published:
   rank: 1
 -
   authors:
@@ -486,6 +486,7 @@
     - D. Mosser:
     - N. El-Sayed: {corresponding: }
   title: "Transcriptomic profiling of gene expression and RNA processing during <i>Leishmania major</i> differentiation"
+  year: 2015
   cite: {journal: Nucleic Acids Research}
   inpress:
   rank: 2
@@ -520,9 +521,8 @@
     - J. Wagner: {lead: , advised: }
     - J. Paulson: {advised: }
     - X.S. Wang:
-    - B. Bhattacharjee: 
-    - H. Corrada Bravo: {me: , corresponding: }      
+    - B. Bhattacharjee:
+    - H. Corrada Bravo: {me: , corresponding: }
   title: "Privacy preserving human microbiome analysis using secure computation"
   cite: {journal: "Bioinformatics"}
   inprep:
-  
