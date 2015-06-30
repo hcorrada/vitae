@@ -2,6 +2,22 @@ Faezeh Dorri:
   department: CS
   level: { doctoral: 'pre-candidacy' }
   role: advisor
+Justin Wagner:
+  department: CS
+  level: { doctoral: 'pre-candidacy' }
+  role: advisor
+Senthil Muthiah:
+  department: CBMG
+  level: { doctoral: 'pre-candidacy' }
+  role: co-advisor
+Mohammed Gunady:
+  department: CS
+  level: { doctoral: 'pre-candidacy' }
+  role: advisor
+Mahfuza Sharmin:
+  department: CS
+  level: { doctoral: 'pre-candidacy' }
+  role: co-advisor
 Florin Chelaru:
   department: CS
   level: { doctoral: 'completed', placement: "Postdoc, MIT Broad Institute"}
@@ -12,15 +28,15 @@ Chengxi Ye:
   role: 'committee member'
 Chiao-Wen Hsiao:
   department: AMSC
-  level: { doctoral: 'candidacy' }
+  level: { doctoral: 'completed', placement: "Postdoc, University of Chicago"}
   role: advisor
 Kwame Okrah:
   department: AMSC
-  level: { doctoral:  'candidacy' }
+  level: { doctoral:  'completed', placement: "Biostatistician, Genentech Inc." }
   role: advisor
 Wikum Dinalankara:
   department: CS
-  level: { doctoral: 'candidacy' }
+  level: { doctoral: 'completed', placement: "Postdoc, Johns Hopkins University Medicine" }
   role: advisor
 Hisham Talukder:
   department: AMSC
@@ -28,15 +44,11 @@ Hisham Talukder:
   role: advisor
 Joseph Paulson:
   department: AMSC
-  level: { doctoral: candidacy }
-  role: co-advisor
-Mahfuza Sharmin:
-  department: CS
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'completed', placement: "Postdoc, Harvard/Dana-Farber Cancer Center" }
   role: co-advisor
 Viet-An Nguyen:
   department: CS
-  level: { doctoral: 'completed', placement: "Facebook" }
+  level: { doctoral: 'completed', placement: "Data Scientist, Facebook" }
   role: "committee member"
 Justin Malin:
   department: CBMG
@@ -115,11 +127,11 @@ Daniel Konecki:
   role: advisor
 Srutii Surda:
   department: CBMG
-  level: { doctoral: pre-candidacy }
+  level: { doctoral: candidacy }
   role: committee member
 Kun Wang:
   department: CBMG
-  level: { doctoral: pre-candidacy }
+  level: { doctoral: candidacy }
   role: committee member
 Vahid Liaghat:
   department: CS
@@ -132,5 +144,17 @@ Adam Bazinet:
 Sameh Khamis:
   department: CS
   level: { doctoral: completed }
+  role: committee member
+Snighda Chaturvedi:
+  department: CS
+  level: { doctoral: candidacy }
+  role: committee member
+Alex Malozemoff:
+  department: CS
+  level: { doctoral: candidacy }
+  role: committee member
+Chris Hill:
+  department: CS
+  level: { doctoral: candidacy }
   role: committee member
   

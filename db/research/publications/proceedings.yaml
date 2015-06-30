@@ -34,7 +34,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   year: 2015
   title: "Epiviz: a view inside the design of an integrated visual analysis software for genomics"
-  cite: {conference: "BioVis 2015"}
+  cite: {conference: "BioVis 2015; BMC Bioinformatics"}
   inpress:
 -
   authors:
@@ -43,6 +43,6 @@
     - H. Corrada Bravo: {me: , corresponding: }
   year: 2015
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
-  cite: {conference: "HitSEQ 2015"}
-  inpress:
+  cite: {conference: "HitSEQ 2015; Bioinformatics"}
+  inrevision:
 
