@@ -10,6 +10,7 @@
 -
   title: "R01: Analysis tools and software for second generation sequencing"
   agency: "NIH"
+  number: "HG005220"
   recipient: "Johns Hopkins University, Rafael A. Irizarry (PI)"
   amount: "$380,400 subcontracted to UMCP ($1,230,000 total awarded by NIH )"
   dates: "August 2010-May 2013"
@@ -19,6 +20,7 @@
 -
   title: "R01: Alignment software for second generation sequencing"
   agency: "NIH"
+  number: "HG006102"
   recipient: "Johns Hopkins University, Steven Salzberg (PI)"
   amount: "$432,259.00 subcontracted to UMCP ($3,585,436 total awarded by NIH)"
   dates: "May 2011-April 2014"
@@ -28,6 +30,7 @@
 -
   title: "R01: Overcoming bias and unwanted variability in next generation sequencing"
   agency: "NIH"
+  number: "HG005220"
   recipient: "Dana Farber Cancer Institute, Rafael A. Irizarry (PI)"
   amount: "$397,903 subcontracted to UMCP"
   dates: "March 2015-February 2019"
