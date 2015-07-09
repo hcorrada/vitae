@@ -19,7 +19,7 @@ sections:
   preprints: { template: annotated_articles, filter: preprints }
   software: { template: software, query: "research/works/software :released +date" }
   websites: { template: software, query: "research/works/websites :released +date" }
-  grants: { template: grants, query: "research/funding/grants :funded" } 
+  grants: { template: grants, query: "research/funding/grants :funded" }
   fellowships: { template: fellowships, query: research/funding/fellowships }
   grants_submitted: { template: grants_submitted, query: "research/funding/grants :submitted" }
   articles_inprep: { template: unpublished_articles, filter: articles_inprep }
@@ -41,7 +41,7 @@ sections:
   community_service: { template: committees, query: "service/committees :community" }
   consulting: { template: consulting, query: "service/consulting" }
 pandoc:
-  options: -s --number-sections
+  options: -s --number-sections -V graphics
   geometry: margin=.75in
   fontsize: 10pt
   fontfamily: utopia
@@ -85,7 +85,7 @@ pandoc:
 {{ articles_published }}
 
 ## Published Conference Proceedings ##
-	
+
 ### Refereed Conference Proceedings ###
 
 {{ inpress_proceedings }}
@@ -256,7 +256,3 @@ pandoc:
 ### Consultancies ###
 
 {{ consulting }}
-
-
-
-
