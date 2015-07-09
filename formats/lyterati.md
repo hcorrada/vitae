@@ -40,6 +40,7 @@ sections:
   college_service: { template: committees, query: "service/committees :college" }
   community_service: { template: committees, query: "service/committees :community" }
   consulting: { template: consulting, query: "service/consulting" }
+  media_recognition: { template: media_recognition, query: "awards/media" }
 pandoc:
   options: -s --number-sections -V graphics
   geometry: margin=.75in
@@ -256,3 +257,11 @@ pandoc:
 ### Consultancies ###
 
 {{ consulting }}
+
+# Awards, Honors and Recognition #
+
+\setcounter{subsection}{3}
+
+## Recognition in Media ##
+
+{{ media_recognition }}
