@@ -373,7 +373,7 @@
     - R.A. Irizarry: {corresponding: }
   year: 2014
   title: "Large hypomethylated blocks related to large heterochromatin regions as a universal defining epigenetic alteration in human solid tumors"
-  cite: {journal: "Genome Medicine", volume: "6 (61)",  doi: "10.1186/s13073-014-0061-y"}
+  cite: {journal: "Genome Medicine", volume: "6:61",  doi: "10.1186/s13073-014-0061-y"}
   published:
   rank: 1
 -
@@ -489,8 +489,8 @@
     - N. El-Sayed: {corresponding: }
   title: "Transcriptomic profiling of gene expression and RNA processing during <i>Leishmania major</i> differentiation"
   year: 2015
-  cite: {journal: Nucleic Acids Research}
-  inpress:
+  cite: {journal: "Nucleic Acids Research", volume: "43 (14): 6799-6813", doi: "10.1093/nar/gkv656" }
+  published:
   rank: 2
 -
   authors:
@@ -507,7 +507,7 @@
     - B.A. Burleigh: {corresponding: }
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
   cite: {journal: PLOS Pathogens}
-  inrevision:
+  submitted:
   rank: 2
 -
   authors:
@@ -527,4 +527,15 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Privacy preserving human microbiome analysis using secure computation"
   cite: {journal: "Bioinformatics"}
+  submitted:
+-
+  authors:
+    - L.A. Dillon: { lead: }
+    - R. Suresh:
+    - K. Okrah: { advised: }
+    - H. Corrada Bravo: { me: }
+    - D.M. Mosser:
+    - N.M. El-Sayed: { corresponding: }
+  title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
+  cite: { journal: BMC Genomics }
   submitted:

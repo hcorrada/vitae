@@ -2,28 +2,28 @@
   authors:
     - H. Corrada Bravo: {me: , lead: }
     - D. Page:
-    - R. Ramakrishnan: 
+    - R. Ramakrishnan:
     - J. Shavlik:
     - V. Santos Costa:
   year: 2005
-  title: "A framework for set-oriented computation in inductive logic programming and its application in generalizing inverse entailment" 
+  title: "A framework for set-oriented computation in inductive logic programming and its application in generalizing inverse entailment"
   cite: {conference: "15th ILP Conf.", pages: "69:86"}
   published:
 -
   authors:
     - H. Corrada Bravo: {me: , lead: }
-    - R. Ramakrishnan: 
+    - R. Ramakrishnan:
   year: 2007
-  title: "Optimizing MPF queries: decision support and probabilistic inference" 
+  title: "Optimizing MPF queries: decision support and probabilistic inference"
   cite: {conference: "26th ACM SIGMOD Intl. Conf. on Management of Data", pages: "701:712"}
-  published: 
+  published:
 -
   authors:
     - H. Corrada Bravo: {me: , lead: }
     - K. Eng:
-    - S. Keles: 
-    - G. Wahba: 
-    - S. Wright: 
+    - S. Keles:
+    - G. Wahba:
+    - S. Wright:
   year: 2009
   title: "Estimating tree-structured covariance matrices via mixed integer programming"
   cite: {conference: "Twelfth International Conference on Artificial Intelligence and Statistics (AISTATS ’09); Journal of Machine Learning Research Workshop and Conference Proceedings, 5", pages: "33:40"}
@@ -34,7 +34,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   year: 2015
   title: "Epiviz: a view inside the design of an integrated visual analysis software for genomics"
-  cite: {conference: "BioVis 2015; BMC Bioinformatics"}
+  cite: {conference: "BioVis 2015; BMC Bioinformatics 16(Supl 11):S4"}
   inpress:
 -
   authors:
@@ -45,4 +45,3 @@
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
   cite: {conference: "HitSEQ 2015; Bioinformatics"}
   inrevision:
-
