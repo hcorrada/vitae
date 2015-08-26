@@ -386,14 +386,7 @@
   cite: {journal: "PeerJ", volume: "2:e561", doi: "10.7717/peerj.561"}
   published:
   rank: 2
--
-  authors:
-    - H. Talukder: {lead: , advised: }
-    - J. Paulson: {advised: }
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "Finding regions of interest in high throughput genomics data using smoothing splines"
-  inprep:
-  rank: 2
+
 -
   authors:
     - K. Okrah: {lead: , advised: }
@@ -437,17 +430,6 @@
   rank: 1
 -
   authors:
-    - H. Talukder: {lead: , advised: }
-    - H. Corrada Bravo: {me: }
-    - Z. Dezman: {corresponding: }
-    - B. Golden:
-    - S. Mankad: {lead: }
-  title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
-  cite: {journal: "Academic Emergency Medicine"}
-  inprep:
-  rank: 3
--
-  authors:
     - W. Dinalankara: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Gene expression signatures based on variability can robustly predict tumor progression and prognosis"
@@ -467,16 +449,6 @@
   rank: 2
 -
   authors:
-    - S. Braid: {lead: }
-    - K. Okrah: {advised: }
-    - A. Shetty:
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
-  cite: {journal: "Clinical Epigenetics" }
-  inrevision:
-  rank: 2
--
-  authors:
     - L. Dillon: {lead: }
     - K. Okrah: {lead: , advised: }
     - V. Hughitt:
@@ -491,6 +463,16 @@
   year: 2015
   cite: {journal: "Nucleic Acids Research", volume: "43 (14): 6799-6813", doi: "10.1093/nar/gkv656" }
   published:
+  rank: 2
+-
+  authors:
+    - S. Braid: {lead: }
+    - K. Okrah: {advised: }
+    - A. Shetty:
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
+  cite: {journal: "Clinical Epigenetics" }
+  inrevision:
   rank: 2
 -
   authors:
@@ -539,3 +521,30 @@
   title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
   cite: { journal: BMC Genomics }
   submitted:
+-
+  authors:
+    - H. Talukder: {lead: , advised: }
+    - J. Paulson: {advised: }
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "Finding regions of interest in high throughput genomics data using smoothing splines"
+  inprep:
+  rank: 2
+-
+  authors:
+    - H. Talukder: {lead: , advised: }
+    - H. Corrada Bravo: {me: }
+    - Z. Dezman: {corresponding: }
+    - B. Golden:
+    - S. Mankad: {lead: }
+  title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
+  cite: {journal: "Academic Emergency Medicine"}
+  inprep:
+  rank: 3
+-
+  authors:
+    - M. Sharmin: { lead: , advised: }
+    - H. Corrada bravo: { me: }
+    - S. Hannenhalli: { corresponding: }
+  title: "Heterogeneity of TF binding specificity models within and across cell lines"
+  inprep:
+    
