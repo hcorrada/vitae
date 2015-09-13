@@ -55,6 +55,7 @@
   role: PI
   month_effort: 2.4
   funded:
+  addendum:
 -
   title: "NRT-DESE; Network biology: from data to information to insights"
   agency: NSF
