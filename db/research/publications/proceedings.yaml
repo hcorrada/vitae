@@ -35,7 +35,7 @@
   year: 2015
   title: "Epiviz: a view inside the design of an integrated visual analysis software for genomics"
   cite: {conference: "BioVis 2015; BMC Bioinformatics 16(Supl 11):S4"}
-  inpress:
+  published:
 -
   authors:
     - F. Dorri: {lead: , advised: }
@@ -44,4 +44,4 @@
   year: 2015
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
   cite: {conference: "HitSEQ 2015; Bioinformatics"}
-  inrevision:
+  submitted:
