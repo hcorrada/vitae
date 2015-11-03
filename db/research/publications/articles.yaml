@@ -548,3 +548,15 @@
   title: "Heterogeneity of TF binding specificity models within and across cell lines"
   cite: {journal: "Genome Research"}
   submitted:
+-
+  authors:
+    - M.C. Fernandes: { lead: }
+    - L.A. Dillon: { lead: }
+    - A.T. Belew:
+    - H. Corrada Bravo: { me: }
+    - D.M. Mosser:
+    - N. El-Sayed: { corresponding: }
+  title: "Dual transcriptome profiling of Leishmania parasites and the human macrophage"
+  cite: { journal: "Cell Host & Microbe" }
+  submitted:
+    
