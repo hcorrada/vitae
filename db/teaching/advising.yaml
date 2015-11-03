@@ -1,4 +1,4 @@
-Faezeh Dorri: 
+Faezeh Dorri:
   department: CS
   level: { doctoral: 'pre-candidacy' }
   role: advisor
@@ -52,7 +52,7 @@ Viet-An Nguyen:
   role: "committee member"
 Justin Malin:
   department: CBMG
-  level: { doctoral: 'candidacy' }
+  level: { doctoral: 'completed', placement: 'Postdoc, National Institutes of Health' }
   role: committee member
 Ted Gibbons:
   department: CBMG
@@ -115,7 +115,7 @@ Daehwan Kim:
   role: committee member
 Laura Dillon:
   department: CBMG
-  level: { doctoral: candidacy }
+  level: { doctoral: completed }
   role: committee member
 Shane Squires:
   department: Physics
@@ -139,7 +139,7 @@ Vahid Liaghat:
   role: committee member
 Adam Bazinet:
   department: CS
-  level: { doctoral: candidacy }
+  level: { doctoral: completed, placement: 'Research Scientist, University of Maryland' }
   role: committee member
 Sameh Khamis:
   department: CS
@@ -155,6 +155,13 @@ Alex Malozemoff:
   role: committee member
 Chris Hill:
   department: CS
+  level: { doctoral: completed, placement: 'Postdoc, University of Washington' }
+  role: committee member
+Jose Carrillo:
+  department: ANSC
   level: { doctoral: candidacy }
   role: committee member
-  
+Stephen Xi Chen:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
