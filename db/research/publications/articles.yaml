@@ -459,7 +459,7 @@
     - H. Corrada Bravo: {me: }
     - D. Mosser:
     - N. El-Sayed: {corresponding: }
-  title: "Transcriptomic profiling of gene expression and RNA processing during <i>Leishmania major</i> differentiation"
+  title: "Transcriptomic profiling of gene expression and RNA processing during *Leishmania major* differentiation"
   year: 2015
   cite: {journal: "Nucleic Acids Research", volume: "43 (14): 6799-6813", doi: "10.1093/nar/gkv656" }
   published:
@@ -472,7 +472,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
   cite: {journal: "Clinical Epigenetics" }
-  revision_submitted:
+  inrevision:
   rank: 2
 -
   authors:
@@ -498,7 +498,7 @@
     - S. Hannenhalli: {corresponding: }
   title: "Characterizing the regulatory landscape of large hypomethylated blocks in colon cancer"
   cite: {journal: BMC Cancer}
-  revision_submitted:
+  inrevision:
   rank: 2
 -
   authors:
@@ -509,7 +509,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Privacy preserving human microbiome analysis using secure computation"
   cite: {journal: "Bioinformatics"}
-  inrevision:
+  submitted:
 -
   authors:
     - L.A. Dillon: { lead: }
@@ -520,7 +520,7 @@
     - N.M. El-Sayed: { corresponding: }
   title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
   cite: { journal: BMC Genomics }
-  revision_submitted:
+  submitted:
 -
   authors:
     - H. Talukder: {lead: , advised: }
@@ -546,16 +546,4 @@
     - H. Corrada bravo: { me: }
     - S. Hannenhalli: { corresponding: }
   title: "Heterogeneity of TF binding specificity models within and across cell lines"
-  cite: {journal: "Genome Research"}
-  submitted:
--
-  authors:
-    - M.C. Fernandes: { lead: }
-    - L.A. Dillon: { lead: }
-    - A.T. Belew:
-    - H. Corrada Bravo: { me: }
-    - D.M. Mosser:
-    - N. El-Sayed: { corresponding: }
-  title: "Dual transcriptome profiling of Leishmania parasites and the human macrophage"
-  cite: { journal: "Cell Host & Microbe" }
-  submitted:
+  inprep:

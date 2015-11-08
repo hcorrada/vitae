@@ -1,4 +1,4 @@
-{{ first_name }} {{ last_name }}  
+**{{ first_name }} {{ last_name }}**  
 {{ academic_address }}  
 {{ academic_email }}  
 {{ url }}  

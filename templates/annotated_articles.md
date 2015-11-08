@@ -1,3 +1,3 @@
-{{# articles }}
+{{# annotated_articles }}
 #. {{ authors }} ({{ year }}). {{ title }}. {{{ cite }}}.  
-{{/ articles }}
+{{/ annotated_articles }}

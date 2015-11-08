@@ -2,7 +2,7 @@ module Vitae
   class Processor
     def initialize(sections, template_dir='templates', template_extension='.md')
       @sections = sections || {"contact_info" => {"template" => 'contact', "filter" => 'contact'}}
-      @template_dir = template_dir 
+      @template_dir = template_dir
       @template_extension = template_extension
     end
 
@@ -23,6 +23,9 @@ module Vitae
                    context = self.send(section['filter'], db) rescue {}
                  elsif section.has_key? 'query'
                    records = db.select section['query']
+                   if section.has_key? 'decorator'
+                     records = records.map { |x| self.send(section['decorator'], x) }
+                   end
                    context = { section['template'] => records }
                  else
                    context = {}
@@ -49,7 +52,7 @@ module Vitae
     def degrees(db)
       out = db.select "personal/education"
       out = out.map do |item|
-           if item.has_key? 'advisor' 
+           if item.has_key? 'advisor'
              item['advisor'] = english_list item['advisor']
            end
            item

@@ -2,63 +2,63 @@
   name: "Minfi: Analyze Illumina's 450k methylation arrays"
   date: "Febraury 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/minfi.html"
-  released: 
+  released:
 -
   name: "Epivizr: interactive visualization of genomics data in R/Bioconductor"
   date: "June 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/epivizr.html"
-  released: 
+  released:
 -
   name: "methylFlow: cell-specific methylation pattern reconstruction"
   url: "http://github.com/hcorrada/methylFlow"
-  inprep: 
+  inprep:
 -
   name: "Epiviz: Interactive visualization for genomics data"
-  date: "June 2013" 
-  url: "http://epiviz.cbcb.umd.edu"
-  released: 
+  date: "June 2013"
+  url: "http://github.com/epiviz"
+  released:
 -
-  name: "Healthvis: Interactive visualization in health" 
+  name: "Healthvis: Interactive visualization in health"
   date: "April 2013"
   url: "http://healthvis.org"
-  released: 
+  released:
 -
   name: "antiProfiles: Gene expression anti-profiles as a basis for accurate universal cancer signatures"
   date: "April 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/antiProfiles.html"
-  released: 
+  released:
 -
   name: "metagenomeSeq: Statistical analysis for sparse high-throughput sequencing"
   date: "February 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/metagenomeSeq.html"
-  released: 
+  released:
 -
   name: "bumphunter: Tools for finding bumps in genomic data"
   date: "February 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/bumphunter.html"
-  released: 
+  released:
 -
   name: "Servic4e: Effective detection of rare variants in pooled DNA samples"
   date: "November 2011"
   url: "http://www.cbcb.umd.edu/~hcorrada/secgen"
-  released: 
+  released:
 -
   name: "Srfim: Model-based base-calling and quality assessment for second-generation sequencing"
   date: "April 2010"
   url: "http://www.cbcb.umd.edu/~hcorrada/secgen"
-  released: 
+  released:
 -
   name: "Rsolid: Intensity normalization for SOLiD sequencing"
   date: "April 2010"
   url: "http://www.cbcb.umd.edu/~hcorrada/secgen"
-  released: 
+  released:
 -
   name: "Rcplex: An interface to the CPLEX optimization engine for R"
   date: "Jan. 2008"
   url: "http://cran.r-project.org/web/packages/Rcplex/index.html"
-  released: 
+  released:
 -
   name: "Rcsdp: An interface to the CSDP semidefinite programming library for R"
   date: "Dec. 2008"
   url: "http://cran.r-project.org/web/packages/Rcsdp/index.html"
-  released: 
+  released:

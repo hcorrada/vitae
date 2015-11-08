@@ -1,22 +1,78 @@
 ---
-title: Recent publications and research funding
+title: Publications, Creative Works and Funding during Past Five Years
 sections:
-  notarization: { template: notarization, filter: dummy }
-  articles_inpress: { template: annotated_articles, filter: articles_inpress }
-  articles_published: { template: annotated_articles, filter: articles_published }
-  inpress_proceedings: { template: annotated_articles, filter: inpress_proceedings }
-  refereed_proceedings: { template: annotated_articles, filter: refereed_proceedings }
-  preprints: { template: annotated_articles, filter: preprints }
-  software: { template: software, query: "research/works/software :released +date <5" }
-  websites: { template: software, query: "research/works/software :released +date <5" }
-  grants: { template: grants, query: "research/funding/grants :funded" }
-  grants_submitted: { template: grants_submitted, query: "research/funded/grants :submitted" }
-  articles_submitted: { template: unpublished_articles, filter: articles_submitted }
-  articles_inrevision: { template: unpublished_articles, filter: articles_inrevision }
-  articles_revised: { template: unpublished_articles, filter: articles_revised }
-  proceedings_submitted: { template: unpublished_articles, filter: proceedings_submitted }
-  proceedings_inrevision: { template: unpublished_articles, filter: proceedings_inrevision }
-  proceedings_revised: { template: unpublished_articles, filter: proceedings_revised }
+  contact_info: { template: contact, filter: contact }
+  articles_inpress: {
+    template: annotated_articles,
+    query: "research/publications/articles :inpress +year",
+    decorator: decorate_article
+  }
+  articles_published: {
+    template: annotated_articles,
+    query: "research/publications/articles :published +year <5",
+    decorator: decorate_article
+  }  
+  proceedings_inpress: {
+    template: annotated_articles,
+    query: "research/publications/proceedings :inpress +year",
+    decorator: decorate_proceeding
+  }
+  proceedings_published: {
+    template: annotated_articles,
+    query: "research/publications/proceedings :published +year <5",
+    decorator: decorate_proceeding
+  }
+  preprints: {
+    template: annotated_articles,
+    query: "research/publications/preprints :published +year",
+    decorator: decorate_preprint
+  }
+  software: {
+    template: software,
+    query: "research/works/software :released +date <5"
+  }
+  websites: {
+    template: software,
+    query: "research/works/websites :released +date <5"
+  }
+  grants: {
+    template: grants,
+    query: "research/funding/grants :funded"
+  }
+  grants_submitted: {
+    template: grants_submitted,
+    query: "research/funding/grants :submitted"
+  }
+  articles_submitted: {
+    template: unpublished_articles,
+    query: "research/publications/articles :submitted",
+    decorator: decorate_article
+  }
+  articles_inrevision: {
+    template: unpublished_articles,
+    query: "research/publications/articles :inrevision",
+    decorator: decorate_article
+  }
+  articles_revised: {
+    template: unpublished_articles,
+    query: "research/publications/articles :revision_submitted",
+    decorator: decorate_article
+  }
+  proceedings_submitted: {
+    template: unpublished_articles,
+    query: "research/publications/proceedings :submitted",
+    decorator: decorate_proceeding
+  }
+  proceedings_inrevision: {
+    template: unpublished_articles,
+    query: "research/publications/proceedings :inrevision",
+    decorator: decorate_proceeding
+  }
+  proceedings_revised: {
+    template: unpublished_articles,
+    query: "research/publications/proceedings :revision_submitted",
+    decorator: decorate_proceeding
+  }
 pandoc:
   options: -s --number-sections -V graphics
   geometry: margin=.75in
@@ -24,11 +80,11 @@ pandoc:
   fontfamily: utopia
   header-includes:
     - \renewcommand{\thesection}{\Roman{section}.}
-    - \renewcommand{\thesubsection}{\thesection\Alph{subsection}.}
+    - \renewcommand{\thesubsection}{\arabic{subsection}.}
     - \renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
 ---
 
-#Selected Research, Scholarly, Creative and Professional Activities during Past Five Years
+{{ contact_info }}
 
 ##Articles in Refereed Journals
 
@@ -37,10 +93,8 @@ pandoc:
 
 ##Published Conference Proceedings
 
-###Refereed Conference Proceedings
-
-{{ inpress_proceedings }}
-{{ refereed_proceedings }}
+{{ proceedings_inpress }}
+{{ proceedings_published }}
 
 ##Completed Creative Works
 
@@ -52,9 +106,7 @@ pandoc:
 
 {{ websites }}
 
-##Sponsored Research
-
-###Grants
+##Sponsored Research, Grants
 
 {{ grants }}
 
