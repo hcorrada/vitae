@@ -7,8 +7,8 @@ sections:
   inpress_proceedings: { template: annotated_articles, filter: inpress_proceedings }
   refereed_proceedings: { template: annotated_articles, filter: refereed_proceedings }
   preprints: { template: annotated_articles, filter: preprints }
-  software: { template: software, query: "research/works/software :released +date" }
-  websites: { template: software, query: "research/works/software :released +date" }
+  software: { template: software, query: "research/works/software :released +date <5" }
+  websites: { template: software, query: "research/works/software :released +date <5" }
   grants: { template: grants, query: "research/funding/grants :funded" }
   grants_submitted: { template: grants_submitted, query: "research/funded/grants :submitted" }
   articles_submitted: { template: unpublished_articles, filter: articles_submitted }
