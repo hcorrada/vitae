@@ -139,6 +139,12 @@ module Vitae
       return { "unpublished_articles" => arts }
     end
 
+    def proceedings_inrevision(db)
+      arts = db.select "research/publications/proceedings :inrevision"
+      arts = arts.map { |x| decorate_proceeding x }
+      return { "unpublished_articles" => arts }
+    end
+
     def proceedings_revised(db)
       arts = db.select "research/publications/proceedings :revision_submitted"
       arts = arts.map { |x| decorate_proceeding x }

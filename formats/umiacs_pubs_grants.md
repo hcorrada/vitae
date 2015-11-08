@@ -57,3 +57,18 @@ pandoc:
 ###Grants
 
 {{ grants }}
+
+##Submissions and Works in Progress
+
+###Current Grant Applications
+
+{{ grants_submitted }}
+
+###Manuscripts under Review
+
+{{ articles_revised }}
+{{ articles_inrevision }}
+{{ articles_submitted }}
+{{ proceedings_revised }}
+{{ proceedings_inrevision }}
+{{ proceedings_submitted }}
