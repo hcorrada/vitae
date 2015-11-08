@@ -25,7 +25,9 @@ sections:
   articles_inprep: { template: unpublished_articles, filter: articles_inprep }
   articles_submitted: { template: unpublished_articles, filter: articles_submitted }
   articles_inrevision: { template: unpublished_articles, filter: articles_inrevision }
+  articles_revised: { template: unpublished_articles, filter: articles_revised }
   proceedings_submitted: { template: unpublished_articles, filter:  proceedings_submitted }
+  proceedings_revised: { template: unpublished_articles, filter: proceedings_revised }
   courses_taught: { template: courses_taught, filter: courses_taught }
   courses_developed: { template: courses_developed, filter: courses_developed }
   advising_doctoral: { template: advising, filter: advising_doctoral }
@@ -170,11 +172,17 @@ pandoc:
 
 ### Manuscripts under Review ###
 
-{{ articles_submitted }}
-
-{{ proceedings_submitted }}
+{{ articles_revised }}
 
 {{ articles_inrevision }}
+
+{{ articles_submitted }}
+
+{{ proceedings_revised }}
+
+{{ proceedings_inrevision }}
+
+{{ proceedings_submitted }}
 
 # Teaching, Advising and Mentoring #
 

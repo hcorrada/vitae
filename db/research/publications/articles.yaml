@@ -472,7 +472,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
   cite: {journal: "Clinical Epigenetics" }
-  inrevision:
+  revision_submitted:
   rank: 2
 -
   authors:
@@ -498,7 +498,7 @@
     - S. Hannenhalli: {corresponding: }
   title: "Characterizing the regulatory landscape of large hypomethylated blocks in colon cancer"
   cite: {journal: BMC Cancer}
-  submitted:
+  revision_submitted:
   rank: 2
 -
   authors:
@@ -520,7 +520,7 @@
     - N.M. El-Sayed: { corresponding: }
   title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
   cite: { journal: BMC Genomics }
-  inrevision:
+  revision_submitted:
 -
   authors:
     - H. Talukder: {lead: , advised: }
@@ -559,4 +559,3 @@
   title: "Dual transcriptome profiling of Leishmania parasites and the human macrophage"
   cite: { journal: "Cell Host & Microbe" }
   submitted:
-    

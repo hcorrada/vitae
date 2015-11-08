@@ -25,7 +25,7 @@ module Vitae
       if annotation.has_key? 'advised'
         name = "#{name}\\textsuperscript{\\#}"
       end
-      
+
       return name
     end
 
@@ -43,7 +43,9 @@ module Vitae
       elsif x.has_key? 'submitted'
         citation += ", *submitted*"
       elsif x.has_key? 'inrevision'
-        citation += ", *revising to resubmit"
+        citation += ", *revising to resubmit*"
+      elsif x.has_key? 'revision_submitted'
+        citation += ", *revision submitted*"
       end
 
       if cite.has_key? 'doi'
@@ -60,6 +62,12 @@ module Vitae
         citation += "#{cite['pages']}"
       elsif x.has_key? 'inpress'
         citation += ", *in press*"
+      elsif x.has_key? 'submitted'
+        citation += ", *under review*"
+      elsif x.has_key? 'inrevision'
+        citation += ", *in revision*"
+      elsif x.has_key? 'revision_submitted'
+        citation += ", *revision under review*"
       end
 
       return citation
@@ -107,6 +115,12 @@ module Vitae
       return { "unpublished_articles" => arts }
     end
 
+    def articles_revised(db)
+      arts = db.select "research/publications/articles :revision_submitted"
+      arts = arts.map { |x| decorate_article x }
+      return { "unpublished_articles" => arts }
+    end
+
     def refereed_proceedings(db)
       arts = db.select "research/publications/proceedings :published +year"
       arts = arts.map { |x| decorate_proceeding x }
@@ -118,13 +132,19 @@ module Vitae
       arts = arts.map { |x| decorate_proceeding x }
       return { "articles" => arts }
     end
-    
+
     def proceedings_submitted(db)
-      args = db.select "research/publications/proceedings :submitted"
-      arts = arts.map { |x| decorate_proceeding x}
+      arts = db.select "research/publications/proceedings :submitted"
+      arts = arts.map { |x| decorate_proceeding x }
       return { "unpublished_articles" => arts }
     end
-    
+
+    def proceedings_revised(db)
+      arts = db.select "research/publications/proceedings :revision_submitted"
+      arts = arts.map { |x| decorate_proceeding x }
+      return { "unpublished_articles" => arts }
+    end
+
     def build_preprint_cite(x)
       cite = x['cite']
       citation = "*#{cite['archive']}*"
