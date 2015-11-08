@@ -24,7 +24,7 @@ sections:
   }
   preprints: {
     template: annotated_articles,
-    query: "research/publications/preprints :published +year",
+    query: "research/publications/preprints :published +year <5",
     decorator: decorate_preprint
   }
   software: {
@@ -95,6 +95,10 @@ pandoc:
 
 {{ proceedings_inpress }}
 {{ proceedings_published }}
+
+##Pre-print/Working Paper (Not Work in Progress)
+
+{{ preprints }}
 
 ##Completed Creative Works
 
