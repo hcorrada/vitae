@@ -88,13 +88,13 @@ module Vitae
     def articles_published(db)
       arts = db.select "research/publications/articles :published +year"
       arts = arts.map { |x| decorate_article x }
-      return { "articles" => arts }
+      return { "annotated_articles" => arts }
     end
 
     def articles_inpress(db)
       arts = db.select "research/publications/articles :inpress +year"
       arts = arts.map { |x| decorate_article x }
-      return { "articles" => arts }
+      return { "annotated_articles" => arts }
     end
 
     def articles_inprep(db)
@@ -124,13 +124,13 @@ module Vitae
     def refereed_proceedings(db)
       arts = db.select "research/publications/proceedings :published +year"
       arts = arts.map { |x| decorate_proceeding x }
-      return { "articles" => arts }
+      return { "annotated_articles" => arts }
     end
 
     def inpress_proceedings(db)
       arts = db.select "research/publications/proceedings :inpress"
       arts = arts.map { |x| decorate_proceeding x }
-      return { "articles" => arts }
+      return { "annotated_articles" => arts }
     end
 
     def proceedings_submitted(db)
@@ -172,7 +172,7 @@ module Vitae
     def preprints(db)
       records = db.select "research/publications/preprints :published +year"
       records = records.map { |x| decorate_preprint x }
-      return { "articles" => records }
+      return { "annotated_articles" => records }
     end
   end
 end
