@@ -14,7 +14,7 @@
     - J.T. Leek:
     - G. Parmigiani:
   year: 2010
-  title: "A decision-theory approach to interpretable set analysis for high-dimensional data" 
+  title: "A decision-theory approach to interpretable set analysis for high-dimensional data"
   cite: {archive: "Johns Hopkins University, Dept. of Biostatistics Working Papers", number: "Working paper 211", url: "http://biostats.bepress.com/jhubiostat/paper211"}
   published:
 -
@@ -34,5 +34,32 @@
   year: 2013
   cite: {archive: "arXiv preprint server", number: "arXiv:1301.3514 [stat.ML]"}
   published:
-
-
+-
+  authors:
+    - M. Sharmin: {advised: , lead: }
+    - H. Corrada Bravo: {me: }
+    - S. Hannenhalli: {corresponding: }
+  title: "Heterogeneity of Transcription Factor binding specificity models within and across cell lines"
+  year: 2015
+  cite: {archive: "biorxiv", number: "http://dx.doi.org/10.1101/028787" }
+  published:
+-
+  authors:
+    - M. Sharmin: {advised: , lead: }
+    - H. Corrada Bravo: {me: , corresponding: }
+    - S. Hannenhalli: {corresponding: }
+  title: "Distinct genomic and epigenomic features demarcate hypomethylated blocks in colon cancer"
+  year: 2015
+  cite: {archive: "biorxiv", number: "http://dx.doi.org/10.1101/028803" }
+  published:
+-
+  authors:
+    - J. Wagner: {advised: , lead: }
+    - J.N. Paulson: {advised: }
+    - X.S. Wang:
+    - B. Bhattacharjee:
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "Privacy-Preserving Microbiome Analysis Using Secure Computation"
+  year: 2015
+  cite: {archive: "biorxiv", number: "http://dx.doi.org/10.1101/025999" }
+  published:
