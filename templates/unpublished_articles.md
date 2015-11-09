@@ -1,3 +1,3 @@
 {{# unpublished_articles }}
-#. {{ authors }}. {{ title }}. {{{ cite }}}.  
+#. {{ authors }}. {{ title }}. {{{ cite }}}.
 {{/ unpublished_articles }}

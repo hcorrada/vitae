@@ -1,3 +1,3 @@
 {{# reviews }}
-#. *{{ entry }}*  
+#. *{{ entry }}*
 {{/ reviews }}

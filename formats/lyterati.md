@@ -84,7 +84,6 @@ pandoc:
 ##Articles in Refereed Journals
 
 {{ articles_inpress }}
-
 {{ articles_published }}
 
 ## Published Conference Proceedings ##
@@ -173,15 +172,10 @@ pandoc:
 ### Manuscripts under Review ###
 
 {{ articles_revised }}
-
 {{ articles_inrevision }}
-
 {{ articles_submitted }}
-
 {{ proceedings_revised }}
-
 {{ proceedings_inrevision }}
-
 {{ proceedings_submitted }}
 
 # Teaching, Advising and Mentoring #
@@ -233,7 +227,6 @@ pandoc:
 ### Reviewing Activities for Journals and Presses ###
 
 {{ journal_reviews }}  
-
 {{ press_reviews }}
 
 ### Reviewing Activities for Agencies and Foundations ###
