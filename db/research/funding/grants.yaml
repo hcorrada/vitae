@@ -16,7 +16,7 @@
   dates: "August 2010-May 2013"
   role: "PI"
   month_effort: 2.4
-  funded:
+  completed:
 -
   title: "R01: Alignment software for second generation sequencing"
   agency: "NIH"
@@ -26,7 +26,7 @@
   dates: "May 2011-April 2014"
   role: PI
   month_effort: 2.4
-  funded:
+  completed:
 -
   title: "R01: Overcoming bias and unwanted variability in next generation sequencing"
   agency: "NIH"
@@ -45,7 +45,7 @@
   dates: "July 2015-June 2020"
   role: co-Investigator
   month_effort: 1.2
-  submitted:
+  declined:
 -
   title: "R01: Integrative visual and computational exploratory analysis of genomics data"
   agency: NIH
@@ -63,7 +63,7 @@
   amount: "$2,997,748"
   dates: "September 2016-August 2021"
   role: "co-PI"
-  submitted:
+  declined:
 -
   title: "Data Coordination and Integration Center (DCIC) for the Four-Dimensional Nucleome Network"
   agency: NIH
@@ -72,7 +72,7 @@
   dates: "July 2015-June 2020"
   role: "PI"
   month_effort: 1.2
-  submitted:
+  declined:
 -
   title: "A meta-mechanism for causal systems integration (Meta-MeCS)"
   agency: DARPA

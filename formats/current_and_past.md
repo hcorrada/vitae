@@ -1,5 +1,5 @@
 ---
-title: Current and Pending Support
+title: Current, Pending and Past Support
 sections:
   current_grants: {
     template: candp_grants,
@@ -9,6 +9,11 @@ sections:
   pending_grants: {
     template: candp_grants,
     query: "research/funding/grants :pending",
+    decorator: decorate_grant
+  }
+  completed_grants: {
+    template: candp_grants,
+    query: "research/funding/grants :completed",
     decorator: decorate_grant
   }
 pandoc:
@@ -22,3 +27,4 @@ Investigator: Héctor Corrada Bravo
 
 {{ current_grants}}
 {{ pending_grants }}
+{{ completed_grants }}
