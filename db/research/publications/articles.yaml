@@ -519,8 +519,9 @@
     - D.M. Mosser:
     - N.M. El-Sayed: { corresponding: }
   title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
+  year: 2015
   cite: { journal: BMC Genomics }
-  revision_submitted:
+  inpress:
 -
   authors:
     - H. Talukder: {lead: , advised: }
