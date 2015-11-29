@@ -528,7 +528,7 @@
     - J. Paulson: {advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Finding regions of interest in high throughput genomics data using smoothing splines"
-  inprep:
+  _inprep:
   rank: 2
 -
   authors:
@@ -539,7 +539,7 @@
     - S. Mankad: {lead: }
   title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
   cite: {journal: "Academic Emergency Medicine"}
-  inprep:
+  _inprep:
   rank: 3
 -
   authors:

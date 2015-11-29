@@ -135,4 +135,16 @@
   venue: "UMD Campus Visualization Partnership Lecture Series"
   location: "College Park, MD"
   date: "February 2015"
-  invited: 
+  invited:
+-
+  title: "Visualization, Statistical Modeling and Discovery in Computational Epigenomics"
+  venue: "Computer Science Colloquium Series"
+  location: "College Park, MD"
+  date: "September 2015"
+  invited:
+-
+  title: "What is Biomedical Data Science?"
+  venue: "Symposium of Health Informatics in Latin America and the Caribbean"
+  location: "San Juan, PR"
+  date: "November 2015"
+  invited:

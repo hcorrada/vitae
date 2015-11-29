@@ -89,6 +89,12 @@
   date: "August 2015"
   refereed:
 -
+  title: "Differential abundance analysis of metagenomic whole-genome sequencing"
+  venue: "Joint Statistics Meetings"
+  location: "Seattle, WA"
+  date: "August 2015"
+  refereed:
+-
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
   venue: "HiTSeq"
   location: "Dublin, Ireland"
@@ -103,6 +109,6 @@
 -
   title: "Interactive and exploratory visual analytics of epigenome-wide data"
   venue: "ISMB"
-  location: "Dubline, Ireland"
+  location: "Dublin, Ireland"
   date: "July 2015"
   refereed:
