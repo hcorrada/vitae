@@ -509,7 +509,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Privacy preserving human microbiome analysis using secure computation"
   cite: {journal: "Bioinformatics"}
-  inrevision:
+  revision_submitted:
 -
   authors:
     - L.A. Dillon: { lead: }

@@ -4,11 +4,11 @@ Faezeh Dorri:
   role: advisor
 Justin Wagner:
   department: CS
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'candidacy' }
   role: advisor
 Senthil Muthiah:
   department: CBMG
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'candidacy' }
   role: co-advisor
 Mohammed Gunady:
   department: CS
@@ -16,7 +16,7 @@ Mohammed Gunady:
   role: advisor
 Mahfuza Sharmin:
   department: CS
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'candidacy' }
   role: co-advisor
 Florin Chelaru:
   department: CS
@@ -46,6 +46,14 @@ Joseph Paulson:
   department: AMSC
   level: { doctoral: 'completed', placement: "Postdoc, Harvard/Dana-Farber Cancer Center" }
   role: co-advisor
+Daniel Konecki:
+  department: CS
+  level: { undergrad: completed, placement: 'Baylor College of Medicine' }
+  role: advisor
+Mihai Sirbu:
+  department: CS
+  level: { undergrad: }
+  role: advisor
 Viet-An Nguyen:
   department: CS
   level: { doctoral: 'completed', placement: "Data Scientist, Facebook" }
@@ -121,10 +129,6 @@ Shane Squires:
   department: Physics
   level: { doctoral: completed }
   role: committee member
-Daniel Konecki:
-  department: CS
-  level: { undergrad: completed, placement: 'Baylor College of Medicine' }
-  role: advisor
 Srutii Surda:
   department: CBMG
   level: { doctoral: candidacy }

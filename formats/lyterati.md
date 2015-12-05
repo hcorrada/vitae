@@ -41,6 +41,7 @@ sections:
   dept_service: { template: committees, query: "service/committees :department" }
   college_service: { template: committees, query: "service/committees :college" }
   community_service: { template: committees, query: "service/committees :community" }
+  conference_service: { template: committees, query: "service/committees :conference" }
   consulting: { template: consulting, query: "service/consulting" }
   media_recognition: { template: media_recognition, query: "awards/media" }
 pandoc:
@@ -246,6 +247,12 @@ pandoc:
 ### Campus Service - College ###
 
 {{ college_service }}
+
+\setcounter{subsubsection}{6}
+
+### Leadership Roles in Meetings and Conferences
+
+{{ conference_service }}
 
 ## External Service and Consulting ##
 
