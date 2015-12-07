@@ -80,6 +80,10 @@ pandoc:
 
 #Research, Scholarly, Creative and Professional Activites
 
+\footnotesize
+_Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\textsuperscript{\#}_
+\normalsize
+
 \setcounter{subsection}{2}
 
 ##Articles in Refereed Journals
