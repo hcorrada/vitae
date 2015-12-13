@@ -472,7 +472,7 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
   cite: {journal: "Clinical Epigenetics" }
-  revision_submitted:
+  _inprep:
   rank: 2
 -
   authors:
@@ -548,7 +548,7 @@
     - S. Hannenhalli: { corresponding: }
   title: "Heterogeneity of TF binding specificity models within and across cell lines"
   cite: { journal: "Genome Research" }
-  submitted:
+  inrevision:
 -
   authors:
     - M.C. Fernandes: { lead: }
@@ -558,5 +558,23 @@
     - D.M. Mosser:
     - N. El-Sayed: { corresponding: }
   title: "Dual transcriptome profiling of Leishmania parasites and the human macrophage"
-  cite: { journal: "Cell Host & Microbe" }
+  cite: { journal: "Nucleic Acids Research" }
+  _inprep:
+-
+  authors:
+    - M. Pop: { lead: }
+    - J.N. Paulson: { advised: }
+    - S. Chakraborty:
+    - I. Astrovskaya:
+    - B.R. Lindsay:
+    - S. Li:
+    - H. Corrada Bravo: { me: }
+    - C. Harro:
+    - J. Parkhill:
+    - A.W. Walker:
+    - R.I. Walker:
+    - D.A. Sack:
+    - O.C. Stine: { corresponding: }
+  title: "Individual-specific changes in the human gut microbiota after challenge with enterotoxigenic _Escherichia coli_ and subsequent ciprofloxacin treatment"
+  cite: { journal: "Gut" }
   submitted:
