@@ -557,9 +557,9 @@
     - H. Corrada Bravo: { me: }
     - D.M. Mosser:
     - N. El-Sayed: { corresponding: }
-  title: "Dual transcriptome profiling of Leishmania parasites and the human macrophage"
+  title: "Dual transcriptome profiling of human macrophages infected with _Leishmania_ parasites reveals transient reprogramming events followed by a generic phagocytic response"
   cite: { journal: "Nucleic Acids Research" }
-  _inprep:
+  submitted:
 -
   authors:
     - M. Pop: { lead: }
