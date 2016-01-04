@@ -466,6 +466,18 @@
   rank: 2
 -
   authors:
+    - L.A. Dillon: { lead: }
+    - R. Suresh:
+    - K. Okrah: { advised: }
+    - H. Corrada Bravo: { me: }
+    - D.M. Mosser:
+    - N.M. El-Sayed: { corresponding: }
+  title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
+  year: 2015
+  cite: { journal: BMC Genomics, volume: "16:1108, doi:10.1186/s12864-015-2237-2" }
+  published:
+-
+  authors:
     - S. Braid: {lead: }
     - K. Okrah: {advised: }
     - A. Shetty:
@@ -512,18 +524,6 @@
   revision_submitted:
 -
   authors:
-    - L.A. Dillon: { lead: }
-    - R. Suresh:
-    - K. Okrah: { advised: }
-    - H. Corrada Bravo: { me: }
-    - D.M. Mosser:
-    - N.M. El-Sayed: { corresponding: }
-  title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
-  year: 2015
-  cite: { journal: BMC Genomics }
-  inpress:
--
-  authors:
     - H. Talukder: {lead: , advised: }
     - J. Paulson: {advised: }
     - H. Corrada Bravo: {me: , corresponding: }
@@ -558,7 +558,7 @@
     - D.M. Mosser:
     - N. El-Sayed: { corresponding: }
   title: "Dual transcriptome profiling of human macrophages infected with _Leishmania_ parasites reveals transient reprogramming events followed by a generic phagocytic response"
-  cite: { journal: "Nucleic Acids Research" }
+  cite: { journal: "PLOS Pathogens" }
   submitted:
 -
   authors:
@@ -576,5 +576,5 @@
     - D.A. Sack:
     - O.C. Stine: { corresponding: }
   title: "Individual-specific changes in the human gut microbiota after challenge with enterotoxigenic _Escherichia coli_ and subsequent ciprofloxacin treatment"
-  cite: { journal: "Gut" }
+  cite: { journal: "BMC Biology" }
   submitted:

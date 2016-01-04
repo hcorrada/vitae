@@ -1,4 +1,10 @@
 -
+  course: "CMSC 423"
+  date: {term: Fall, year: 2014}
+  enrollment: 49
+  description: "Bioinformatics Databases, Tools and Algorithms"
+  classroom:
+-
   course: "CMSC 498T"
   date: {term: Spring, year: 2015}
   enrollment: 32
@@ -9,37 +15,37 @@
   date: {term: Fall, year: 2014}
   enrollment: 1
   description: "Applied Statistics Practicum"
-  individual: 
+  individual:
 -
   course: "AMSC 899"
   date: {term: Fall, year: 2014}
   enrollment: 2
   description: "Doctoral dissertation research"
-  individual: 
+  individual:
 -
   course: "CMSC 423"
   date: {term: Fall, year: 2014}
   enrollment: 35
   description: "Bioinformatics Databases, Tools and Algorithms"
-  classroom: 
+  classroom:
 -
   course: "CMSC 798"
   date: {term: Fall, year: 2014}
   enrollment: 1
   description: "Graduate seminar"
-  individual: 
+  individual:
 -
   course: "CMSC 898"
   date: {term: Fall, year: 2014}
   enrollment: 1
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   course: "CMSC 898"
   date: {term: Spring, year: 2015}
   enrollment: 1
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   course: "CMSC 899"
   date: {term: Fall, year: 2014}
@@ -51,13 +57,13 @@
   date: {term: Spring, year: 2015}
   enrollment: 2
   description: "Doctoral dissertation research"
-  individual: 
+  individual:
 -
   course: "CMSC 702"
   date: {term: Spring, year: 2014}
   enrollment: 30
   description: "Computational Systems Biology and Functional Genomics"
-  classroom: 
+  classroom:
 -
   course: "AMSC 899"
   date: {term: Spring, year: 2014}
@@ -69,103 +75,103 @@
   date: {term: Spring, year: 2015}
   enrollment: 2
   description: "Doctoral dissertation research"
-  individual: 
+  individual:
 -
   course: "CMSC 898"
   date: {term: Spring, year: 2014}
   enrollment: 3
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   course: "CMSC 899"
   date: {term: Spring, year: 2014}
   enrollment: 1
   description: "Doctoral dissertation research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2013}
   course: "CMSC 423"
   enrollment: 48
   description: "Bioinformatics Databases, Tools and Algorithms"
-  classroom: 
+  classroom:
 -
   date: {term: Fall, year: 2013}
   course: "AMSC 689"
   enrollment: 1
   description: "Research Interactions: Regularized Regression Methods"
-  classroom: 
+  classroom:
 -
   date: {term: Spring, year: 2013}
   course: "CMSC 702"
   enrollment: 35
   description: "Computational Systems Biology and Functional Genomics"
-  classroom: 
+  classroom:
 -
   date: {term: Fall, year: 2012}
   course: "CMSC 726"
   enrollment: 48
   description: "Machine Learning"
-  classroom: 
+  classroom:
 -
   date: {term: Fall, year: 2013}
   course: "CMSC 898"
   enrollment: 4
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2013}
   course: "AMSC 899"
   enrollment: 3
   description: "Doctoral dissertation research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2013}
   course: "AMSC 898"
   enrollment: 1
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Spring, year: 2013}
   course: "CMSC 898"
   enrollment: 2
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Spring, year: 2013}
   course: "CMSC 798"
   enrollment: 1
   description: "Graduate seminar"
-  individual: 
+  individual:
 -
   date: {term: Spring, year: 2013}
   course: "AMSC 899"
   enrollment: 1
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Spring, year: 2013}
   course: "AMSC 898"
   enrollment: 3
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2012}
   course: "CMSC 898"
   enrollment: 1
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2012}
   course: "AMSC 899"
   enrollment: 1
   description: "Doctoral dissertation research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2012}
   course: "AMSC 898"
   enrollment: 3
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Spring, year: 2012}
   course: "CMSC 351"
@@ -181,25 +187,25 @@
   course: "CMSC 898"
   enrollment: 1
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Spring, year: 2012}
   course: "AMSC 898"
   enrollment: 4
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2011}
   course: "AMSC 898"
   enrollment: 3
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2011}
   course: "CBMG 688P"
   enrollment: 12
   description: "Team-taught graduate 'Programming for Biologists' course"
-  classroom: 
+  classroom:
 -
   date: {term: Spring, year: 2011}
   course: "CMSC 858P"
@@ -207,25 +213,24 @@
   description: |
     Computational Methods for High-Throughput Analysis
     of Biological Systems
-  classroom: 
+  classroom:
 -
   date: {term: Spring, year: 2011}
   course: "AMSC 898"
   enrollment: 1
   description: "Pre-candidacy research"
-  individual: 
+  individual:
 -
   date: {term: Fall, year: 2010}
   course: "CBMG 688P"
   enrollment: 12
   description: "Team-taught graduate 'Programming for Biologists' course"
-  classroom: 
+  classroom:
 -
   date: {term: "3rd Term", year: 2010}
   course: "140.644"
   enrollment: 16
   description: |
-    Practical Machine Learning (Johns Hopkins University 
+    Practical Machine Learning (Johns Hopkins University
     School of Public Health, Department of Biostatistics)
-  classroom: 
-
+  classroom:

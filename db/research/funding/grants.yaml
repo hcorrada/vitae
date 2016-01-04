@@ -1,12 +1,33 @@
 -
-  title: "CAREER: Data Science in Genomics: visualizing and learning from inferred features"
-  agency: "NSF"
+  title: "R01: Overcoming bias and unwanted variability in next generation sequencing"
+  agency: "NIH"
+  number: "HG005220"
+  recipient: "Dana Farber Cancer Institute, Rafael A. Irizarry (PI)"
+  amount: "$397,903 subcontracted to UMCP"
+  dates: "March 2015-February 2019"
+  role: PI
+  month_effort: 2.4
+  funded:
+-
+  title: "R01: Integrative visual and computational exploratory analysis of genomics data"
+  agency: NIH
+  number: "GM114267"
   recipient: "University of Maryland, College Park"
-  amount: "$634,198"
-  dates: "June 2015-May 2020"
-  role: "PI"
-  month_effort: 2
-  declined:
+  amount: "$1,800,421"
+  dates: "September 2015-August 2019"
+  role: PI
+  month_effort: 2.4
+  funded:
+  addendum:
+-
+  title: "U54: Longitudinal multiomics microbial profiling in healthy and disease individuals"
+  agency: NIH
+  recipient: "Stanford University, Michael P. Snyder (PI)"
+  amount: "$100,702 subcontracted to UMCP"
+  dates: "September 2015-August 2016"
+  role: PI
+  month_effort: 1.2
+  funded:
 -
   title: "R01: Analysis tools and software for second generation sequencing"
   agency: "NIH"
@@ -28,16 +49,6 @@
   month_effort: 2.4
   completed:
 -
-  title: "R01: Overcoming bias and unwanted variability in next generation sequencing"
-  agency: "NIH"
-  number: "HG005220"
-  recipient: "Dana Farber Cancer Institute, Rafael A. Irizarry (PI)"
-  amount: "$397,903 subcontracted to UMCP"
-  dates: "March 2015-February 2019"
-  role: PI
-  month_effort: 2.4
-  funded:
--
   title: "R01: Host-microbiome consortium in periodontal disease"
   agency: "NIH"
   recipient: "University of Maryland, Mihai Pop (PI)"
@@ -47,15 +58,14 @@
   month_effort: 1.2
   declined:
 -
-  title: "R01: Integrative visual and computational exploratory analysis of genomics data"
-  agency: NIH
+  title: "CAREER: Data Science in Genomics: visualizing and learning from inferred features"
+  agency: "NSF"
   recipient: "University of Maryland, College Park"
-  amount: "$1,800,421"
-  dates: "September 2015-August 2019"
-  role: PI
-  month_effort: 2.4
-  funded:
-  addendum:
+  amount: "$634,198"
+  dates: "June 2015-May 2020"
+  role: "PI"
+  month_effort: 2
+  declined:
 -
   title: "NRT-DESE; Network biology: from data to information to insights"
   agency: NSF
