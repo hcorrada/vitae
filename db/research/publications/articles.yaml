@@ -242,7 +242,7 @@
   rank: 3
 -
   authors:
-    - J. Paulson: {advised: }
+    - J.N. Paulson: {advised: }
     - O.C. Stein:
     - H. Corrada Bravo: {me: , corresponding: }
     - M. Pop: {corresponding: }
@@ -311,40 +311,40 @@
   rank: 1
 -
   authors:
-    - Pop, M.: {lead: }
-    - Walker, A.W.:
-    - Paulson, J.: {advised: }
-    - Lindsey, B.:
-    - Antonio, M.:
-    - Hossain, M.A.:
-    - Oundo, J.:
-    - Tamboura, B.:
-    - Mai, V.:
-    - Astrovskaya, I.:
-    - Corrada Bravo, H.: {me: }
-    - Rance, R.:
-    - Stares, M.:
-    - Levine, M.M.:
-    - Panchalingam, S.:
-    - Kotloff, K.:
-    - Ikumapayi, U.N.:
-    - Ebruke, C.:
-    - Adeyemi, D.:
-    - Ahmed, F.:
-    - Alam, M.T.:
-    - Amin, R.:
-    - Siddiqui, S.:
-    - Ochieng, J.B.:
-    - Ouma, E.:
-    - Juma, J.:
-    - Mailu, E.:
-    - Omore, R.:
-    - Morris, J.G.:
-    - Breiman, R.F.:
-    - Saha, D.:
-    - Parkhill, J.:
-    - Stine, O.C.: {corresponding: }
-    - Nataro, J.P.: {corresponding: }
+    - M. Pop: {lead: }
+    - A.W. Walker: {lead: }
+    - J.N. Paulson: {lead: , advised: }
+    - B. Lindsey: {lead: }
+    - M. Antonio: {lead: }
+    - M.A. Hossain: {lead: }
+    - J. Oundo: {lead: }
+    - B. Tamboura:
+    - V. Mai:
+    - I. Astrovskaya:
+    - H. Corrada Bravo: {me: }
+    - R. Rance:
+    - M. Stares:
+    - M.M. Levine:
+    - S. Panchalingam:
+    - K. Kotloff:
+    - U.N. Ikumapayi:
+    - C. Ebruke:
+    - D. Adeyemi:
+    - F. Ahmed:
+    - M.T. Alam:
+    - R. Amin:
+    - S. Siddiqui:
+    - J.B. Ochieng:
+    - E. Ouma:
+    - J. Juma:
+    - E. Mailu:
+    - R. Omore:
+    - J.G. Morris:
+    - R.F. Breiman:
+    - D. Saha:
+    - J. Parkhill:
+    - O.C. Stine: {corresponding: }
+    - J.P. Nataro: {corresponding: }
   year: 2014
   title: "Diarrhea in young children from low-income countries leads to large-scale alterations in intestinal microbiota composition"
   cite: {journal: "Genome Biology", volume: "15, R76"}

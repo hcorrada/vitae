@@ -44,7 +44,7 @@ Hisham Talukder:
   role: advisor
 Joseph Paulson:
   department: AMSC
-  level: { doctoral: 'completed', placement: "Postdoc, Harvard/Dana-Farber Cancer Center" }
+  level: { doctoral: 'completed', placement: "Postdoc, Harvard/Dana-Farber Cancer Institute" }
   role: co-advisor
 Daniel Konecki:
   department: CS
@@ -168,4 +168,20 @@ Jose Carrillo:
 Stephen Xi Chen:
   department: CS
   level: { doctoral: completed }
+  role: committee member
+Yang Shen:
+  department: Chemical Physics
+  level: { doctoral: candidacy }
+  role: committee member
+Jay Pujara:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+Jayanta Mondal:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+Mossaab Bagdouri:
+  department: CS
+  level: { doctoral: candidacy }
   role: committee member

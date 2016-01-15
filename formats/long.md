@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitae
+title: "Curriculum Vitae, Héctor Corrada Bravo"
 sections:
   notarization: { template: notarization, filter: dummy }
   contact_info: { template: contact, filter: contact }
@@ -54,9 +54,13 @@ pandoc:
     - \renewcommand{\thesection}{\Roman{section}.}
     - \renewcommand{\thesubsection}{\thesection\Alph{subsection}.}
     - \renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyhf{}
+    - \fancyhead[LO,RE]{Héctor Corrada Bravo, CV}
+    - \fancyhead[LE,RO]{\today}
+    - \fancyfoot[LE,RO]{\thepage}
 ---
-
-{{{ notarization }}}
 
 #Personal Information
 
