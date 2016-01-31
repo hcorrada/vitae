@@ -521,7 +521,8 @@
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Privacy preserving human microbiome analysis using secure computation"
   cite: {journal: "Bioinformatics"}
-  revision_submitted:
+  year: 2016
+  inpress:
 -
   authors:
     - H. Talukder: {lead: , advised: }
