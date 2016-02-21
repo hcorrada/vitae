@@ -478,14 +478,15 @@
   published:
 -
   authors:
-    - S. Braid: {lead: }
-    - K. Okrah: {advised: }
-    - A. Shetty:
+    - J. Wagner: {lead: , advised: }
+    - J. Paulson: {advised: }
+    - X.S. Wang:
+    - B. Bhattacharjee:
     - H. Corrada Bravo: {me: , corresponding: }
-  title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
-  cite: {journal: "Clinical Epigenetics" }
-  _inprep:
-  rank: 2
+  title: "Privacy preserving human microbiome analysis using secure computation"
+  cite: {journal: "Bioinformatics", doi: "10.1093/bioinformatics/btw073"}
+  year: 2016
+  published:
 -
   authors:
     - Y. Li: {lead: }
@@ -501,7 +502,7 @@
     - B.A. Burleigh: {corresponding: }
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
   cite: {journal: PLOS Pathogens}
-  inrevision:
+  inpress:
   rank: 2
 -
   authors:
@@ -513,36 +514,6 @@
   year: 2016
   inpress:
   rank: 2
--
-  authors:
-    - J. Wagner: {lead: , advised: }
-    - J. Paulson: {advised: }
-    - X.S. Wang:
-    - B. Bhattacharjee:
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "Privacy preserving human microbiome analysis using secure computation"
-  cite: {journal: "Bioinformatics"}
-  year: 2016
-  inpress:
--
-  authors:
-    - H. Talukder: {lead: , advised: }
-    - J. Paulson: {advised: }
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "Finding regions of interest in high throughput genomics data using smoothing splines"
-  _inprep:
-  rank: 2
--
-  authors:
-    - H. Talukder: {lead: , advised: }
-    - H. Corrada Bravo: {me: }
-    - Z. Dezman: {corresponding: }
-    - B. Golden:
-    - S. Mankad: {lead: }
-  title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
-  cite: {journal: "Academic Emergency Medicine"}
-  _inprep:
-  rank: 3
 -
   authors:
     - M. Sharmin: { lead: , advised: }
@@ -580,3 +551,32 @@
   title: "Individual-specific changes in the human gut microbiota after challenge with enterotoxigenic _Escherichia coli_ and subsequent ciprofloxacin treatment"
   cite: { journal: "BMC Biology" }
   submitted:
+-
+  authors:
+    - H. Talukder: {lead: , advised: }
+    - J. Paulson: {advised: }
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "Finding regions of interest in high throughput genomics data using smoothing splines"
+  _inprep:
+  rank: 2
+-
+  authors:
+    - H. Talukder: {lead: , advised: }
+    - H. Corrada Bravo: {me: }
+    - Z. Dezman: {corresponding: }
+    - B. Golden:
+    - S. Mankad: {lead: }
+  title: "Does health insurance matter? Establishing insurance states as a risk factor for mortality rate"
+  cite: {journal: "Academic Emergency Medicine"}
+  _inprep:
+  rank: 3
+-
+  authors:
+    - S. Braid: {lead: }
+    - K. Okrah: {advised: }
+    - A. Shetty:
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
+  cite: {journal: "Clinical Epigenetics" }
+  _inprep:
+  rank: 2
