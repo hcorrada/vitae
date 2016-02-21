@@ -71,9 +71,9 @@
   agency: NSF
   recipient: "University of Maryland, College Park"
   amount: "$2,997,748"
-  dates: "September 2016-August 2021"
+  dates: "September 2017-August 2022"
   role: "co-PI"
-  declined:
+  submitted:
 -
   title: "Data Coordination and Integration Center (DCIC) for the Four-Dimensional Nucleome Network"
   agency: NIH
