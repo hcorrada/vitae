@@ -502,7 +502,7 @@
     - B.A. Burleigh: {corresponding: }
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
   cite: {journal: PLOS Pathogens}
-  inpress:
+  revision_submitted:
   rank: 2
 -
   authors:
@@ -531,8 +531,8 @@
     - D.M. Mosser:
     - N. El-Sayed: { corresponding: }
   title: "Dual transcriptome profiling of human macrophages infected with _Leishmania_ parasites reveals transient reprogramming events followed by a generic phagocytic response"
-  cite: { journal: "PLOS Pathogens" }
-  submitted:
+  cite: { journal: "mBio" }
+  inpress:
 -
   authors:
     - M. Pop: { lead: }
