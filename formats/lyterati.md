@@ -20,6 +20,7 @@ sections:
   software: { template: software, query: "research/works/software :released +date" }
   websites: { template: software, query: "research/works/websites :released +date" }
   grants: { template: grants, query: "research/funding/grants :funded" }
+  grants_completed: { template: grants, query: "research/funding/grants :completed" }
   fellowships: { template: fellowships, query: research/funding/fellowships }
   grants_submitted: { template: grants_submitted, query: "research/funding/grants :submitted" }
   articles_inprep: { template: unpublished_articles, filter: articles_inprep }
@@ -157,6 +158,7 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 ### Grants ###
 
 {{ grants }}
+{{ grants_completed }}
 
 ## Fellowships, Gifts and Other Funded Research ##
 

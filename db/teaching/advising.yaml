@@ -18,6 +18,10 @@ Mahfuza Sharmin:
   department: CS
   level: { doctoral: 'candidacy' }
   role: co-advisor
+Nathanael Olson:
+  department: CBMG
+  level: { doctoral: 'pre-candidacy' }
+  role: advisor
 Florin Chelaru:
   department: CS
   level: { doctoral: 'completed', placement: "Postdoc, MIT Broad Institute"}
