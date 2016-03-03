@@ -348,6 +348,7 @@
   year: 2014
   title: "Diarrhea in young children from low-income countries leads to large-scale alterations in intestinal microbiota composition"
   cite: {journal: "Genome Biology", volume: "15, R76"}
+  pmcid: PMC4072981
   published:
   rank: 1
 -
@@ -359,6 +360,7 @@
   year: 2014
   title: "Epiviz: interactive visual analytics for epigenomics data"
   cite: {journal: "Nature Methods", volume: "11 938-940", doi: "10.1038/nmeth.3038"}
+  pmcid: PMC4559604
   published:
   rank: 1
 -
@@ -386,14 +388,14 @@
   cite: {journal: "PeerJ", volume: "2:e561", doi: "10.7717/peerj.561"}
   published:
   rank: 2
-
 -
   authors:
     - K. Okrah: {lead: , advised: }
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Shape analysis for high-throughput transcriptomics experiment data"
   year: 2015
-  cite: {journal: "Biostatistics", doi: "10.1093/biostatistics/kxv018"}
+  cite: {journal: "Biostatistics", volume: "16(4):627-40", doi: "10.1093/biostatistics/kxv018"}
+  pmcid: PMC4570582
   published:
   rank: 2
 -
@@ -462,6 +464,7 @@
   title: "Transcriptomic profiling of gene expression and RNA processing during *Leishmania major* differentiation"
   year: 2015
   cite: {journal: "Nucleic Acids Research", volume: "43 (14): 6799-6813", doi: "10.1093/nar/gkv656" }
+  pmcid: PMC4538839
   published:
   rank: 2
 -
@@ -475,6 +478,7 @@
   title: "Simultaneous transcriptional profiling of Leishmania major and its murine macrophage host cell reveals insights into host-pathogen interactions"
   year: 2015
   cite: { journal: BMC Genomics, volume: "16:1108, doi:10.1186/s12864-015-2237-2" }
+  pmcid: PMC4696162
   published:
 -
   authors:
@@ -502,7 +506,8 @@
     - B.A. Burleigh: {corresponding: }
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
   cite: {journal: PLOS Pathogens}
-  revision_submitted:
+  year: 2016
+  inpress:
   rank: 2
 -
   authors:
@@ -516,14 +521,6 @@
   rank: 2
 -
   authors:
-    - M. Sharmin: { lead: , advised: }
-    - H. Corrada bravo: { me: }
-    - S. Hannenhalli: { corresponding: }
-  title: "Heterogeneity of TF binding specificity models within and across cell lines"
-  cite: { journal: "Genome Research" }
-  inrevision:
--
-  authors:
     - M.C. Fernandes: { lead: }
     - L.A. Dillon: { lead: }
     - A.T. Belew:
@@ -532,7 +529,16 @@
     - N. El-Sayed: { corresponding: }
   title: "Dual transcriptome profiling of human macrophages infected with _Leishmania_ parasites reveals transient reprogramming events followed by a generic phagocytic response"
   cite: { journal: "mBio" }
+  year: 2016
   inpress:
+-
+  authors:
+    - M. Sharmin: { lead: , advised: }
+    - H. Corrada bravo: { me: }
+    - S. Hannenhalli: { corresponding: }
+  title: "Heterogeneity of TF binding specificity models within and across cell lines"
+  cite: { journal: "Genome Research" }
+  inrevision:
 -
   authors:
     - M. Pop: { lead: }
