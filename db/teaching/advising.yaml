@@ -24,6 +24,11 @@ Nathanael Olson:
   level: { doctoral: 'pre-candidacy' }
   role: advisor
   start_term: Fall 2015
+Nicholas Thieme:
+  department: CS
+  level: { doctoral: 'pre-candidacy' }
+  role: advisor
+  start_term: Spring 2016
 Florin Chelaru:
   department: CS
   level: { doctoral: 'completed', placement: "Postdoc, MIT Broad Institute"}
@@ -58,6 +63,14 @@ Daniel Konecki:
   role: advisor
 Mihai Sirbu:
   department: CS
+  level: { undergrad: completed, placement: 'Capital One' }}
+  role: advisor
+Lan Tran:
+  department: CS
+  level: { undergrad: current}
+  role: advisor
+Morgan Walter:
+  department: Bioengineering
   level: { undergrad: current}
   role: advisor
 Viet-An Nguyen:
@@ -101,7 +114,7 @@ Mohammadreza Ghodsi:
   level: { doctoral: completed, placement: 'Software Engineer, Facebook' }
 Ginger Houston-Ludlam:
   department: CBMG
-  level: { doctoral: candidacy }
+  level: { doctoral: completed }
   role: committee member
 Louis Licamele:
   department: CS
@@ -157,11 +170,11 @@ Sameh Khamis:
   role: committee member
 Snighda Chaturvedi:
   department: CS
-  level: { doctoral: candidacy }
+  level: { doctoral: completed }
   role: committee member
 Alex Malozemoff:
   department: CS
-  level: { doctoral: candidacy }
+  level: { doctoral: completed }
   role: committee member
 Chris Hill:
   department: CS
@@ -169,7 +182,7 @@ Chris Hill:
   role: committee member
 Jose Carrillo:
   department: ANSC
-  level: { doctoral: candidacy }
+  level: { doctoral: completed }
   role: committee member
 Stephen Xi Chen:
   department: CS
@@ -205,6 +218,19 @@ Mohamed Rastegari:
   end_term: Spring 2016
 Sana Malek:
   department: CS
-  level: { doctoral: candidacy }
+  level: { doctoral: completed }
   role: committee member
   start_term: Fall 2014
+  end_term: Spring 2016
+Fan Yang:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+  start_term: Spring 2016
+  end_term: Spring 2016
+Bahadir Ozdemir:
+  department: CS
+  level: {doctoral: completed }
+  role: committee member
+  start_term: Spring 2016
+  end_term: Spring 2016
