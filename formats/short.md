@@ -4,6 +4,7 @@ sections:
   contact_info: { template: contact, filter: contact }
   umd_academic_appointments: { template: appointments, filter: "umd_appointments" }
   notumd_academic_appointments: { template: appointments, filter: notumd_appointments }
+  other_employment: { template: appointments, query: personal/appointments/other_employment }
   educational_background: { template: degrees, filter: degrees }
   selected_articles: { template: annotated_articles, filter:  selected_articles, args: "limit=15" }
   refereed_proceedings: { template: annotated_articles, filter:  refereed_proceedings }
@@ -12,6 +13,7 @@ sections:
   symposia: { template: presentations, query: "research/presentations/symposia +date" }
   software: { template: software, query: "research/works/software :released +date" }
   websites: { template: software, query: "research/works/websites :released +date" }
+  grants: { template: grants, query: "research/funding/grants :funded" }
   fellowships: { template: fellowships, query: research/funding/fellowships }
   editorships: { template: editorships, query: "service/review/editor" }
   journal_reviews: { template: reviews, filter: journal_reviews }
@@ -28,19 +30,13 @@ pandoc:
     - \renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
 ---
 
-{{{ notarization }}}
-
 #Personal Information
-
-##UID, Last Name, First Name, Middle Name, Contact Information
 
 {{ contact_info }}
 
-##Academic Appointments at UMD
+##Academic Appointments 
 
 {{ umd_academic_appointments }}
-
-\stepcounter{subsection}
 
 ##Other Employment
 
@@ -53,46 +49,32 @@ pandoc:
 
 #Research, Scholarly and Creative Activites
 
-\setcounter{subsection}{2}
+\footnotesize
+_Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\textsuperscript{\#}_
+\normalsize
 
-##Articles in Refereed Journals
+## Selected Articles in Refereed Journals
 
-{{ articles_inpress }}
-
-{{ articles_published }}
+{{ selected_articles }}
 
 ## Published Conference Proceedings ##
 	
 ### Refereed Conference Proceedings ###
 
+{{ inpress_proceedings }}
 {{ refereed_proceedings }}
 
 ## Conferences, Workshops and Talks ##
-
-\stepcounter{subsubsection}
 
 ### Invited Talks ###
 
 {{ invited_talks }}
 
-### Refereed Presentations ###
+### Presentations, Symposia and Workshops ###
 
 {{ refereed_presentations }}
-
-\setcounter{subsubsection}{6}
-
-### Non-Refereed Presentations ###
-
 {{ nonrefereed_presentations }}
-
-\setcounter{subsubsection}{10}
-
-### Symposia ###
-
 {{ symposia }}
-
-### Workshops ###
-
 {{ workshops }}
 
 ## Professional Publications ##
@@ -102,14 +84,9 @@ pandoc:
 ### Pre-print/Working Paper (Not Work in Progress) ###
 
 {{ preprints }}
-
 \stepcounter{subsection}
 
 ## Completed Creative Works ##
-
-\stepcounter{subsubsection}
-
-\setcounter{subsubsection}{7}
 
 ### Software and Applications ###
 
@@ -133,22 +110,10 @@ pandoc:
 
 {{ fellowships }}
 
-## Submissions and Works in Progress ##
-
-### Current Grant Applications ###
-
-{{ grants_submitted }}
-
-### Manuscripts in Preparation ###
-
-{{ articles_inprep }}
-
 ### Manuscripts under Review ###
 
 {{ articles_submitted }}
-
 {{ proceedings_submitted }}
-
 {{ articles_inrevision }}
 
 # Teaching, Mentoring and Advising #
@@ -158,8 +123,6 @@ pandoc:
 {{ courses_taught }}
 
 ## Teaching Innovations ##
-
-\setcounter{subsubsection}{4}
 
 ### Course or Curriculum Development ###
 
@@ -177,11 +140,7 @@ pandoc:
 
 {{ advising_doctoral }}
 
-\setcounter{subsection}{5}
-
 ## Professional and Extension Education ##
-
-\setcounter{subsubsection}{2}
 
 ### Workshops ###
 
@@ -195,12 +154,9 @@ pandoc:
 
 {{ editorships }}
 
-\stepcounter{subsubsection}
-
 ### Reviewing Activities for Journals and Presses ###
 
 {{ journal_reviews }}  
-
 {{ press_reviews }}
 
 ### Reviewing Activities for Agencies and Foundations ###
@@ -227,12 +183,7 @@ pandoc:
 
 {{ community_service }}
 
-\setcounter{subsubsection}{4}
-
 ### Consultancies ###
 
 {{ consulting }}
-
-
-
 

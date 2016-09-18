@@ -63,7 +63,7 @@ Daniel Konecki:
   role: advisor
 Mihai Sirbu:
   department: CS
-  level: { undergrad: completed, placement: 'Capital One' }}
+  level: { undergrad: completed, placement: 'Capital One' }
   role: advisor
 Lan Tran:
   department: CS
