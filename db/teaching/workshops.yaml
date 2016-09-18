@@ -33,3 +33,9 @@
   venue: "Workshop. Johns Hopkins University Center for Computational Genomics"
   location: "Baltimore, MD"
   date: "May 14, 2010"
+-
+  title: "Interactive Visualization of Genomic Data with epiviz(r)"
+  venue: "Bioconductor Conference"
+  location: "Palo Alto, CA"
+  date: "July 2016"
+  
