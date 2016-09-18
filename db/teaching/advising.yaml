@@ -14,6 +14,7 @@ Mohammed Gunady:
   department: CS
   level: { doctoral: 'pre-candidacy' }
   role: advisor
+  start_term: Fall 2014
 Mahfuza Sharmin:
   department: CS
   level: { doctoral: 'candidacy' }
@@ -22,6 +23,7 @@ Nathanael Olson:
   department: CBMG
   level: { doctoral: 'pre-candidacy' }
   role: advisor
+  start_term: Fall 2015
 Florin Chelaru:
   department: CS
   level: { doctoral: 'completed', placement: "Postdoc, MIT Broad Institute"}
@@ -133,7 +135,7 @@ Shane Squires:
   department: Physics
   level: { doctoral: completed }
   role: committee member
-Srutii Surda:
+Srutii Sarda:
   department: CBMG
   level: { doctoral: candidacy }
   role: committee member
@@ -189,3 +191,20 @@ Mossaab Bagdouri:
   department: CS
   level: { doctoral: candidacy }
   role: committee member
+Avinash Sahu:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+  start_term: Fall 2015
+  end_term: Fall 2015
+Mohamed Rastegari:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+  start_term: Spring 2016
+  end_term: Spring 2016
+Sana Malek:
+  department: CS
+  level: { doctoral: candidacy }
+  role: committee member
+  start_term: Fall 2014

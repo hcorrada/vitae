@@ -24,9 +24,17 @@
   agency: NIH
   recipient: "Stanford University, Michael P. Snyder (PI)"
   amount: "$100,702 subcontracted to UMCP"
-  dates: "September 2015-August 2016"
+  dates: "September 2015-December 2016"
   role: PI
   month_effort: 1.2
+  funded:
+-
+  title: "NRT-DESE; Network biology: from data to information to insights"
+  agency: NSF
+  recipient: "University of Maryland, College Park"
+  amount: "$2,999,847"
+  dates: "September 2016-August 2021"
+  role: "co-PI"
   funded:
 -
   title: "R01: Analysis tools and software for second generation sequencing"
@@ -66,14 +74,6 @@
   role: "PI"
   month_effort: 2
   declined:
--
-  title: "NRT-DESE; Network biology: from data to information to insights"
-  agency: NSF
-  recipient: "University of Maryland, College Park"
-  amount: "$2,997,748"
-  dates: "September 2017-August 2022"
-  role: "co-PI"
-  submitted:
 -
   title: "Data Coordination and Integration Center (DCIC) for the Four-Dimensional Nucleome Network"
   agency: NIH

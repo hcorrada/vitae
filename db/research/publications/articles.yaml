@@ -493,6 +493,16 @@
   published:
 -
   authors:
+    - M. Sharmin: {lead: }
+    - H. Corrada Bravo: {me: , corresponding: }
+    - S. Hannenhalli: {corresponding: }
+  title: "Characterizing the regulatory landscape of large hypomethylated blocks in colon cancer"
+  cite: {journal: BMC Cancer, volume: "16:88", doi: "10.1186/s12885-016-2128-1"}
+  year: 2016
+  published:
+  rank: 2
+-
+  authors:
     - Y. Li: {lead: }
     - K.L. Caradonna: {lead: }
     - K. Okrah: {lead: , advised: }
@@ -505,19 +515,10 @@
     - N. El-Sayed: {corresponding: }
     - B.A. Burleigh: {corresponding: }
   title: "Transcriptome Remodeling in Trypanosoma cruzi and Human Cells during Intracellular Infection"
-  cite: {journal: PLOS Pathogens}
+  cite: {journal: PLOS Pathogens, volume: "12(4):e1005511", doi: "10.1371/journal.ppat.1005511"}
   year: 2016
-  inpress:
-  rank: 2
--
-  authors:
-    - M. Sharmin: {lead: }
-    - H. Corrada Bravo: {me: , corresponding: }
-    - S. Hannenhalli: {corresponding: }
-  title: "Characterizing the regulatory landscape of large hypomethylated blocks in colon cancer"
-  cite: {journal: BMC Cancer}
-  year: 2016
-  inpress:
+  pmcid: PMC4821583
+  published:
   rank: 2
 -
   authors:
@@ -528,17 +529,20 @@
     - D.M. Mosser:
     - N. El-Sayed: { corresponding: }
   title: "Dual transcriptome profiling of human macrophages infected with _Leishmania_ parasites reveals transient reprogramming events followed by a generic phagocytic response"
-  cite: { journal: "mBio" }
+  cite: { journal: "mBio", volume: "7(3). pii: e00027-16", doi: "10.1128/mBio.00027-16"}
+  pmcid: PMC4959658
   year: 2016
-  inpress:
+  published:
 -
   authors:
     - M. Sharmin: { lead: , advised: }
     - H. Corrada bravo: { me: }
     - S. Hannenhalli: { corresponding: }
   title: "Heterogeneity of TF binding specificity models within and across cell lines"
-  cite: { journal: "Genome Research" }
-  inrevision:
+  cite: { journal: "Genome Research", volume: "26(8):1110-23", doi: "10.1101/gr.199166.115" }
+  year: 2016
+  pmcid: PMC4971765
+  published:
 -
   authors:
     - M. Pop: { lead: }
@@ -555,7 +559,43 @@
     - D.A. Sack:
     - O.C. Stine: { corresponding: }
   title: "Individual-specific changes in the human gut microbiota after challenge with enterotoxigenic _Escherichia coli_ and subsequent ciprofloxacin treatment"
-  cite: { journal: "BMC Biology" }
+  cite: { journal: "BMC Genomics", volume: "17(1):440", doi: "10.1186/s12864-016-27777-0" }
+  year: 2016
+  pmcid: PMC4898365
+  published:
+-
+  authors:
+    - S. Braid: {lead: }
+    - K. Okrah: {advised: }
+    - A. Shetty:
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "Differences in DNA methylation patterns in the cord blood of neonates across gestational age are associated with differences in cell-type composition"
+  cite: {journal: "Nursing Research" }
+  year: 2016
+  inpress:
+  rank: 2
+-
+  authors:
+    - S. Manimaran: { lead: }
+    - H.M. Selby:
+    - K. Okrah: { advised: }
+    - C. Ruberman:
+    - J.T. Leek:
+    - J. Quackenbush:
+    - B. Haibe-Kains:
+    - H. Corrada Bravo: { me: }
+    - W.E. Johnson: { corresponding: }
+  title: "BatchQC: interactive software for evaluating sample and batch effects in genomic data"
+  cite: {journal: Bioinformatics}
+  year: 2016
+  inpress:
+-
+  authors:
+    - J.N. Paulson: { lead: , advised: }
+    - H. Talukder: { lead: , advised: }
+    - H. Corrada Bravo: { me: }
+  title: "Longitudinal differential abundance analysis of microbial marker-gene surveys using smoothing splines"
+  cite: {journal: "Statistics in Medicine"}
   submitted:
 -
   authors:
@@ -576,13 +616,3 @@
   cite: {journal: "Academic Emergency Medicine"}
   _inprep:
   rank: 3
--
-  authors:
-    - S. Braid: {lead: }
-    - K. Okrah: {advised: }
-    - A. Shetty:
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "DNA methylation differences in cord blood between term and preterm infants is associated with differences in cell composition"
-  cite: {journal: "Clinical Epigenetics" }
-  _inprep:
-  rank: 2
