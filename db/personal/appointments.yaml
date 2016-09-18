@@ -1,22 +1,40 @@
 academic_appointments:
   -  
+    title: Associate Professor with Tenure
+    unit: Department of Computer Science
+    institution: University of Maryland
+    location: College Park, MD
+    dates: July 2016-Present
+  -  
+    title: Associate Professor with Tenure
+    unit: Institute for Advanced Computer Studies
+    institution: University of Maryland
+    location: College Park, MD
+    dates: July 2016-Present
+  -
+    title: Affiliate Associate Professor
+    unit: Applied Math, Statistics and Scientific Computation
+    institution: University of Maryland
+    location: College Park, MD
+    dates: July 2016-Present
+  -  
     title: Assistant Professor
     unit: Department of Computer Science
     institution: University of Maryland
     location: College Park, MD
-    dates: July 2010-Present
+    dates: July 2010-June 2016
   -  
     title: Assistant Professor
     unit: Institute for Advanced Computer Studies
     institution: University of Maryland
     location: College Park, MD
-    dates: July 2010-Present
+    dates: July 2010-June 2016
   -
     title: Affiliate Assistant Professor
     unit: Applied Math, Statistics and Scientific Computation
     institution: University of Maryland
     location: College Park, MD
-    dates: July 2011-Present
+    dates: July 2011-June 2016
   -  
     title: Postdoctoral Fellow
     unit: Department of Biostatistics
