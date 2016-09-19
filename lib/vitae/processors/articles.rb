@@ -85,6 +85,12 @@ module Vitae
       return x
     end
 
+    def selected_articles(db)
+      arts = db.select "research/publications/articles :selected +year"
+      arts = arts.map { |x| decorate_article x }
+      return { "annotated_articles" => arts }
+    end
+
     def articles_published(db)
       arts = db.select "research/publications/articles :published +year"
       arts = arts.map { |x| decorate_article x }

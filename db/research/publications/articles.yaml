@@ -38,6 +38,7 @@
   cite: {journal: Biometrics, volume: "66(3):665-74",  doi: "10.1111/j.1541-0420.2009.01353.x"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - H. Corrada Bravo: {me: , lead: }
@@ -51,6 +52,7 @@
   cite: {journal: "Proceedings of the National Academy of Science", volume: "106 (20): 8128-8133"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - K. H. Eng: {lead: }
@@ -61,6 +63,7 @@
   cite: {journal: "Molecular Biology and Evolution", volume: "26 (10):2363-2372"}
   published:
   rank: 2
+  selected:
 -
   authors:
     - M. Acevedo: {lead: }
@@ -73,6 +76,7 @@
   cite: {journal: "Ecological Informatics", volume: "4 (4):206-214"}
   published:
   rank: 2
+  selected:
 -
   authors:
     - H. Wu:
@@ -83,6 +87,7 @@
   cite: {journal: "Nature Methods", volume: "7:336-337"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - J.T. Leek: {lead: }
@@ -99,6 +104,7 @@
   cite: {journal: "Nature Reviews Genetics", volume: "11 (10):733-739"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - L. Shan: {lead: }
@@ -128,6 +134,7 @@
   cite: {journal: "Otology & Neurotology", volume: "32 (5):826-33"}
   published:
   rank: 3
+  selected:
 -
   authors:
     - K. Hansen: {lead: }
@@ -148,6 +155,7 @@
   cite: {journal: "Nature Genetics", volume: "43 (8):768-75"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - T.S. Niranjan: {lead: }
@@ -162,6 +170,7 @@
   cite: {journal: "Genome Biology", volume: "12 (9):R93"}
   published:
   rank: 2
+  selected:
 -
   authors:
     - W. Shi: {lead: }
@@ -187,6 +196,7 @@
   note: "Highly accessed"
   published:
   rank: 1
+  selected:
 -
   authors:
     - S. Boca: {lead: }
@@ -251,6 +261,7 @@
   cite: {journal: "Nature Methods", volume: "10 (12):1200-1202", doi: "10.1038/nmeth.2658"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - N. Akula: {lead: }
@@ -285,6 +296,7 @@
   cite: {journal: "Nucleic Acids Research", volume: "42 (6), 3503-14"}
   published:
   rank: 2
+  selected:
 -
   authors:
     - C. Ye: {lead: , advised: }
@@ -295,6 +307,7 @@
   cite: {journal: "Bioinformatics", volume: "30 (9):1214-9"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - M. Aryee: {lead: }
@@ -309,6 +322,7 @@
   cite: {journal: "Bioinformatics", volume: "30 (10):1363-9"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - M. Pop: {lead: }
@@ -351,6 +365,7 @@
   pmcid: PMC4072981
   published:
   rank: 1
+  selected:
 -
   authors:
     - F. Chelaru: {advised: , lead: }
@@ -363,6 +378,7 @@
   pmcid: PMC4559604
   published:
   rank: 1
+  selected:
 -
   authors:
     - W. Timp: {lead: }
@@ -378,6 +394,7 @@
   cite: {journal: "Genome Medicine", volume: "6:61",  doi: "10.1186/s13073-014-0061-y"}
   published:
   rank: 1
+  selected:
 -
   authors:
     - H.S. Parker: {lead: }
@@ -398,6 +415,7 @@
   pmcid: PMC4570582
   published:
   rank: 2
+  selected:
 -
   authors:
     - W. Huber: {lead: }
@@ -430,6 +448,7 @@
   published:
   pmcid: "PMC4509590"
   rank: 1
+  selected:
 -
   authors:
     - W. Dinalankara: {lead: , advised: }
@@ -439,6 +458,7 @@
   cite: {journal: "Cancer Informatics", volume: "14:71-81" }
   published:
   rank: 1
+  selected:
 -
   authors:
     - M. Taub: {lead: }
@@ -449,6 +469,7 @@
   cite: {journal: "Genome Medicine", volume: "2 (12):87"}
   published:
   rank: 2
+  selected:
 -
   authors:
     - L. Dillon: {lead: }
@@ -467,6 +488,7 @@
   pmcid: PMC4538839
   published:
   rank: 2
+  selected:
 -
   authors:
     - L.A. Dillon: { lead: }
@@ -491,6 +513,7 @@
   cite: {journal: "Bioinformatics", doi: "10.1093/bioinformatics/btw073"}
   year: 2016
   published:
+  selected:
 -
   authors:
     - M. Sharmin: {lead: }
@@ -501,6 +524,7 @@
   year: 2016
   published:
   rank: 2
+  selected:
 -
   authors:
     - Y. Li: {lead: }
@@ -520,6 +544,7 @@
   pmcid: PMC4821583
   published:
   rank: 2
+  selected:
 -
   authors:
     - M.C. Fernandes: { lead: }
@@ -543,6 +568,7 @@
   year: 2016
   pmcid: PMC4971765
   published:
+  selected:
 -
   authors:
     - M. Pop: { lead: }
@@ -563,6 +589,7 @@
   year: 2016
   pmcid: PMC4898365
   published:
+  selected:
 -
   authors:
     - S. Braid: {lead: }
@@ -574,6 +601,7 @@
   year: 2016
   inpress:
   rank: 2
+  selected:
 -
   authors:
     - S. Manimaran: { lead: }
@@ -589,6 +617,7 @@
   cite: {journal: Bioinformatics}
   year: 2016
   inpress:
+  selected:
 -
   authors:
     - J.N. Paulson: { lead: , advised: }
