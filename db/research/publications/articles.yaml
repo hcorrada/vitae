@@ -625,15 +625,7 @@
     - H. Corrada Bravo: { me: }
   title: "Longitudinal differential abundance analysis of microbial marker-gene surveys using smoothing splines"
   cite: {journal: "Statistics in Medicine"}
-  submitted:
--
-  authors:
-    - H. Talukder: {lead: , advised: }
-    - J. Paulson: {advised: }
-    - H. Corrada Bravo: {me: , corresponding: }
-  title: "Finding regions of interest in high throughput genomics data using smoothing splines"
   _inprep:
-  rank: 2
 -
   authors:
     - H. Talukder: {lead: , advised: }

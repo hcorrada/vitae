@@ -1,4 +1,14 @@
 -
+  name: "Metaviz: Interactive visualization for metagenomics data"
+  url: "http://metaviz.org"
+  date: "December 2016"
+  released:
+-
+  name: "Metavizr: Interactive visualziation of metagenomics data in R/Bioconductor"
+  url: "http://github.com/epiviz/metavizr"
+  date: "December 2016"
+  released:
+-
   name: "Minfi: Analyze Illumina's 450k methylation arrays"
   date: "Febraury 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/minfi.html"
@@ -11,7 +21,8 @@
 -
   name: "methylFlow: cell-specific methylation pattern reconstruction"
   url: "http://github.com/hcorrada/methylFlow"
-  inprep:
+  date: "June 2015"
+  released:
 -
   name: "Epiviz: Interactive visualization for genomics data"
   date: "June 2013"

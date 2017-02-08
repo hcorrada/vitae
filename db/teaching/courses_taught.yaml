@@ -1,4 +1,22 @@
 -
+  course: "CMSC 423"
+  date: {term: Spring, year: 2017}
+  enrollment: 52
+  description: "Bioinformatic Databases, Tools and Algorithms"
+  classroom:
+-
+  course: "CMSC 320"
+  date: {term: Fall, year: 2016}
+  enrollment: 83
+  description: "Introduction to Data Science"
+  classroom:
+-
+  course: "CMSC 899"
+  date: {term: Fall, year: 2016}
+  enrollment: 2
+  description: "Doctoral Dissertation Research"
+  individual:
+-
   course: "CMSC 320"
   date: {term: Spring, year: 2016}
   enrollment: 50
@@ -11,7 +29,7 @@
   description: "Pre-candidacy Research"
   individual:
 -
-  couse: "CMSC 899"
+  course: "CMSC 899"
   date: {term: Spring, year: 2016}
   enrollment: 1
   description: "Doctoral Dissertation Research"
