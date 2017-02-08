@@ -1,4 +1,9 @@
 -
+  name: "qsmooth: smooth quantile normalization"
+  url: "https://github.com/stephaniehicks/qsmooth"
+  date: "October 2016"
+  released:
+-
   name: "Metaviz: Interactive visualization for metagenomics data"
   url: "http://metaviz.org"
   date: "December 2016"
