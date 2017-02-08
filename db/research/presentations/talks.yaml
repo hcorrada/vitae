@@ -160,3 +160,21 @@
   location: "Boston, MA"
   date: "February 2016"
   invited:
+-
+  title: "Statistics and visualization for metagenomics data"
+  venue: "Johns Hopkins Young Investigator Symposium"
+  location: "Baltimore, MD"
+  date: "October 2016"
+  invited:
+-
+  title: "Statistics and visualization for metagenomics data"
+  venue: "Georgetown University ICBI Seminar Series"
+  location: "Washington, DC"
+  date: "October 2016"
+  invited:
+-
+  title: "Bias in Biomedical Data Science"
+  venue: "University of Maryland Diversity in Computing Summit"
+  location: "College Park, MD"
+  date: "November 2016"
+  invited:

@@ -39,6 +39,22 @@
   role: "co-PI"
   funded:
 -
+  title: "CGDNet: Cancer Gene Drug Network: Using patient-specific drug-gene networks for recommending targeted cancer therapies"
+  agency: NIH
+  recipient: "Georgetown University, Simina Boca (PI)"
+  amount: "$149,051 subcontracted to UMCP"
+  dates: "September 2017-August 2019"
+  role: PI
+  submitted:
+-
+  title: "Visualization tools for the BRAIN initiative"
+  agency: NIH
+  recipient: "University of Maryland, Baltimore, Ronna Hertzano (PI)"
+  amount: "$424,280 subcontracted to UMCP"
+  dates: "November 2017-October 2020"
+  role: PI
+  submitted:
+-
   title: "R01: Analysis tools and software for second generation sequencing"
   agency: "NIH"
   number: "HG005220"
