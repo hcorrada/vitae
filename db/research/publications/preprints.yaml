@@ -63,3 +63,37 @@
   year: 2015
   cite: {archive: "biorxiv", number: "http://dx.doi.org/10.1101/025999" }
   published:
+-
+  authors:
+    - S. Hicks: { lead: }
+    - K. Okrah: { advised: }
+    - J. Paulson: { advised: }
+    - J. Quackenbush:
+    - R. Irizarry:
+    - H. Corrada Bravo: {me: , corresponding: }
+  title: "Smooth quantile normalization"
+  year: 2016
+  cite: {archive: "biorxiv", number: "https://doi.org/10.1101/085175" }
+  published:
+-
+  authors:
+    - J. Paulson: { lead: , advised: }
+    - H. Talukder: { advised: }
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Longitudinal differential abundance analysis of microbial marker-gene surveys using smoothing splines"
+  year: 2017
+  cite: {archive: "biorxiv", number: "https://doi.org/10.1101/099457"}
+  published:
+-
+  authors:
+    - J. Wanger: { lead: , advised: }
+    - F. Chelaru: { lead: , advised: }
+    - J. Kancherla: { lead: }
+    - J. Paulson: { lead: , advised: }
+    - V. Felix:
+    - A. Mahurkar:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Metaviz: interactive statistical and visual analysis of metagenomic data"
+  year: 2017
+  cite: {archive: "biorxiv", number: "https://doi.org/10.1101/105205" }
+  published:
