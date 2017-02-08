@@ -628,6 +628,18 @@
   _inprep:
 -
   authors:
+    - S. Hicks: { lead: }
+    - K. Okrah: { advised: }
+    - J. Paulson: { advised: }
+    - J. Quackenbush:
+    - R. Irizarry:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Smooth quantile normalization"
+  cite: {journal: "Biostatistics"}
+  year: 2017
+  inrevision:
+-
+  authors:
     - H. Talukder: {lead: , advised: }
     - H. Corrada Bravo: {me: }
     - Z. Dezman: {corresponding: }
