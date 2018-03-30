@@ -1,6 +1,6 @@
 Faezeh Dorri:
   department: CS
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'candidacy' }
   role: advisor
 Justin Wagner:
   department: CS
@@ -17,16 +17,16 @@ Mohammed Gunady:
   start_term: Fall 2014
 Mahfuza Sharmin:
   department: CS
-  level: { doctoral: 'candidacy' }
+  level: { doctoral: 'completed', placement: "Postdoc, Stanford University" }
   role: co-advisor
 Nathanael Olson:
   department: CBMG
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'candidacy' }
   role: advisor
   start_term: Fall 2015
 Nicholas Thieme:
   department: CS
-  level: { doctoral: 'pre-candidacy' }
+  level: { masters: 'completed' }
   role: advisor
   start_term: Spring 2016
 Florin Chelaru:
@@ -60,6 +60,10 @@ Joseph Paulson:
 Daniel Konecki:
   department: CS
   level: { undergrad: completed, placement: 'Baylor College of Medicine' }
+  role: advisor
+Tim Wood:
+  department: CS
+  level: { undergrad: 'current' }
   role: advisor
 Mihai Sirbu:
   department: CS
