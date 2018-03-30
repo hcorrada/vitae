@@ -20,16 +20,6 @@
   funded:
   addendum:
 -
-  title: "U54: Longitudinal multiomics microbial profiling in healthy and disease individuals"
-  agency: NIH
-  number: "DK102556"
-  recipient: "Stanford University, Michael P. Snyder (PI)"
-  amount: "$100,702 subcontracted to UMCP"
-  dates: "September 2015-December 2016"
-  role: PI
-  month_effort: 1.2
-  funded:
--
   title: "NRT-DESE; Network biology: from data to information to insights"
   agency: NSF
   number: "1632976"
@@ -45,7 +35,7 @@
   amount: "$149,051 subcontracted to UMCP"
   dates: "September 2017-August 2019"
   role: PI
-  submitted:
+  funded:
 -
   title: "Visualization tools for the BRAIN initiative"
   agency: NIH
@@ -54,6 +44,39 @@
   dates: "November 2017-October 2020"
   role: PI
   submitted:
+-
+  title: "An integrated network analytics and data visualization platform for complex clinical datasets"
+  agency: NIH
+  recipient: "University of Maryland, College Park, Michelle Girvan (PI)"
+  amount: "$450,000"
+  dates: "September 2018-August 2020"
+  role: co-I
+  submitted:
+-
+  title: "Macrophage regulation of immune responses"
+  agency: NIH
+  recipient: "University of Maryland, College Park, David M. Mosser (PI)"
+  dates: "Septmeber 2018-August 2022"
+  role: co-I
+  submitted:
+-
+  title: "U19 Center for Translational Research: Discovery and Preclinical Development of Host-Targeted, Small-Molecule, Pan-Respiratory Virus Therapeutics"
+  agency: NIH
+  recipient: "University of Maryland Baltimore and UM College Park, Mathew Frieman (Center PI)"
+  dates: "March 2019-February 2024"
+  role: PI
+  amount: "$1,157,879"
+  submitted:
+-
+  title: "U54: Longitudinal multiomics microbial profiling in healthy and disease individuals"
+  agency: NIH
+  number: "DK102556"
+  recipient: "Stanford University, Michael P. Snyder (PI)"
+  amount: "$100,702 subcontracted to UMCP"
+  dates: "September 2015-December 2016"
+  role: PI
+  month_effort: 1.2
+  completed:
 -
   title: "R01: Analysis tools and software for second generation sequencing"
   agency: "NIH"
