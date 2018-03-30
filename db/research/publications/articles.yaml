@@ -597,9 +597,9 @@
     - A. Shetty:
     - H. Corrada Bravo: {me: , corresponding: }
   title: "Differences in DNA methylation patterns in the cord blood of neonates across gestational age are associated with differences in cell-type composition"
-  cite: {journal: "Nursing Research" }
-  year: 2016
-  inpress:
+  cite: {journal: "Nursing Research", volume: "66(2): 115-122", doi: "10.1097/NNR.0000000000000210" }
+  year: 2017
+  published:
   rank: 2
   selected:
 -
@@ -614,18 +614,10 @@
     - H. Corrada Bravo: { me: }
     - W.E. Johnson: { corresponding: }
   title: "BatchQC: interactive software for evaluating sample and batch effects in genomic data"
-  cite: {journal: Bioinformatics}
+  cite: {journal: Bioinformatics, volume: "32(24):3836-3838", doi: "10.1093/bioinformatics/btw538" }
   year: 2016
-  inpress:
+  published:
   selected:
--
-  authors:
-    - J.N. Paulson: { lead: , advised: }
-    - H. Talukder: { lead: , advised: }
-    - H. Corrada Bravo: { me: }
-  title: "Longitudinal differential abundance analysis of microbial marker-gene surveys using smoothing splines"
-  cite: {journal: "Statistics in Medicine"}
-  _inprep:
 -
   authors:
     - S. Hicks: { lead: }
@@ -635,9 +627,43 @@
     - R. Irizarry:
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Smooth quantile normalization"
-  cite: {journal: "Biostatistics"}
-  year: 2017
-  inpress:
+  cite: {journal: "Biostatistics", volume: "19(2): 185-198", doi: "10.1093/biostatistics/kxx028" }
+  year: 2018
+  published:
+-
+  authors:
+    - J. Wagner: { lead: , advised: }
+    - F. Chelaru: { lead: , advised: }
+    - J. Kancherla: { lead: }
+    - J.N. Paulson: { lead: , advised: }
+    - A. Zhang: { advised: }
+    - V. Felix:
+    - A. Mahurkar:
+    - N. Elmqvist:
+    - H. Corrada Bravo: { me: , corresponding : }
+  title: "Metaviz: interactive statistical and visual analysis of metagenomic data"
+  cite: {journal: "Nucleic Acids Research", volume: "gky136", doi: "10.1093/nar/gky136" }
+  year: 2018
+  published:
+-
+  authors:
+    - M.S. Kumar: { lead: , advised: }
+    - E.V. Slud:
+    - K. Okrah: { advised: }
+    - S.C. Hicks:
+    - S. Hannenhalli:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Analysis and correction of compositional bias in sparse sequencing count data"
+  cite: { journal: "BMC Genomics" }
+  submitted:
+-
+  authors:
+    - J.N. Paulson: { lead: , advised: }
+    - H. Talukder: { lead: , advised: }
+    - H. Corrada Bravo: { me: }
+  title: "Longitudinal differential abundance analysis of microbial marker-gene surveys using smoothing splines"
+  cite: {journal: "Statistics in Medicine"}
+  _inprep:
 -
   authors:
     - H. Talukder: {lead: , advised: }

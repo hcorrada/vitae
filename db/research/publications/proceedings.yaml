@@ -43,5 +43,23 @@
     - H. Corrada Bravo: {me: , corresponding: }
   year: 2015
   title: "methylFlow: cell-specific methylation pattern reconstruction from high-throughput bisulfite-converted DNA sequencing"
-  cite: {conference: "HitSEQ 2015; Bioinformatics"}
-  inpress:
+  cite: {conference: "HitSEQ 2015; Bioinformatics 32(11):1618-24" }
+  published: 
+-
+  authors:
+    - M.K. Gunady: {lead: , advised: }
+    - S. Cornwell: { advised: }
+    - S.M. Mount:
+    - H. Corrada Bravo: { me: , corresponding: }
+  year: 2017
+  title: "Yanagi: transcript segment library construction for RNA-seq quantification"
+  cite: { conference: "17th Workshop for Algorithms in Bioinformatics (WABI) 2017" }
+  published:
+-
+  authors:
+    - A.A. Ismail: { lead: , advised: }
+    - T. Wood: { advised: }
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Improving long-horizon forecasts with expectation-biased LSTM networks"
+  cite: { conference: "KDD 2018" }
+  submitted:

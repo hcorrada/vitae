@@ -97,3 +97,15 @@
   year: 2017
   cite: {archive: "biorxiv", number: "https://doi.org/10.1101/105205" }
   published:
+-
+  authors:
+    - M.S. Kumar: { lead: , advised: }
+    - E.V. Slud:
+    - K. Okrah: { advised: }
+    - S.C. Hicks:
+    - S. Hannenhalli:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Analysis and correction of compositional bias in sparse sequencing count data"
+  year: 2017
+  cite: {archive: "biorxiv", number: "https://doi.org/10.1101/142851" }
+  published:
