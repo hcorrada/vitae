@@ -178,3 +178,28 @@
   location: "College Park, MD"
   date: "November 2016"
   invited:
+-
+  title: "Interactive statistical and computational analysis of functional and metagenomic data"
+  venue: "University of Puerto Rico"
+  location: "Rio Piedras, PR"
+  date: "April 2017"
+  invited:
+
+-
+  title: "Interactive visual and computational analysis of epigenetic data"
+  venue: "VIZBI 2017"
+  location: "Sindey, Australia"
+  date: "June 2017"
+  invited:
+-
+  title: "Challenges and opportunities in metagenomic data analysis"
+  venue: "NE1602 Kickoff Meeting"
+  location: "Washington, DC"
+  date: "March 2017"
+  invited:
+-
+  title: "Is this Data Science? Adventures in metagenomic data analysis"
+  venue: "Computation and Informatics in Biology and Medicine Program Annual Retreat, University of Wisconsin"
+  location: "Madison, WI"
+  date: "October 2017"
+  invited:
