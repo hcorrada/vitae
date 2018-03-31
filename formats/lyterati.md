@@ -15,7 +15,7 @@ sections:
   refereed_presentations: { template: presentations, query: "research/presentations/conferences :refereed +date" }
   nonrefereed_presentations: { template: presentations, query: "research/presentations/conferences :nonrefereed +date" }
   symposia: { template: presentations, query: "research/presentations/symposia +date" }
-  workshops: { template: presentations, query: "research/presentations/symposia +date" }
+  workshops: { template: presentations, query: "research/presentations/workshops +date" }
   preprints: { template: annotated_articles, filter: preprints }
   software: { template: software, query: "research/works/software :released +date" }
   websites: { template: software, query: "research/works/websites :released +date" }

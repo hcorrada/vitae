@@ -1,5 +1,10 @@
 -
   name: "Epiviz: Interactive visualization for genomics data"
   date: "May 2014" 
-  url: "http://epiviz.cbcb.umd.edu/help"
+  url: "http://epiviz.org"
   released: 
+-
+  name: "Metaviz: Interactive visualization for metagenomic data"
+  date: "September 2017"
+  url: "http://metaviz.org"
+  released:
