@@ -1,4 +1,46 @@
 -
+  course: "CMSC899"
+  date: { term: Fall, year: 2017 }
+  enrollment: 2
+  description: "Doctoral Dissertation Research"
+  individual:
+-
+  course: "CMSC898"
+  date: { term: Fall, year: 2017 }
+  enrollment: 1
+  description: "Pre-candidacy Research"
+  individual:
+-
+  course: "CSMC828O"
+  date: { term: Fall, year: 2017 }
+  enrollment: 31
+  description: "Analysis of Biological Networks across Scales"
+  classroom:
+-
+  course: "CSMC798E"
+  date: { term: Fall, year: 2017 }
+  enrollment: 23
+  description: "Graduate Seminar in Computer Science: Research Colloqium"
+  classroom:
+-
+  course: "CMSC798"
+  date: { term: Fall, year: 2017 }
+  enrollment: 1
+  description: "Graduate Seminar in Computer Science"
+  individual:
+-
+  course: "CMSC643"
+  date: { term: Fall, year: 2017 }
+  enrollment: 11
+  description: "Machine Learning & Data Mining (Data Mining Professional Master's Certificate"
+  classroom:
+-
+  course: "CMSC499A"
+  date: { term: Fall, year: 2017 }
+  enrollment: 1
+  description: "Independent Undergraduate Research"
+  individual:
+-
   course: "CMSC 423"
   date: {term: Spring, year: 2017}
   enrollment: 52
