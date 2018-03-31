@@ -33,6 +33,7 @@ sections:
   courses_developed: { template: courses_developed, filter: courses_developed }
   advising_doctoral: { template: advising, filter: advising_doctoral }
   advising_undergrad: { template: advising, filter: advising_undergrad }
+  advising_masters: { template: advising, filter: advising_masters }
   teaching_workshops: { template: presentations, query: "teaching/workshops" }
   editorships: { template: editorships, query: "service/review/editor" }
   journal_reviews: { template: reviews, filter: journal_reviews }
@@ -206,6 +207,8 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 {{ advising_undergrad }}
 
 ### Master's ###
+
+{{ advising_masters }}
 
 ### Doctoral ###
 

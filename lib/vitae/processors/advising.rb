@@ -8,7 +8,15 @@ module Vitae
       end
       return x
     end
-    
+
+    def advising_masters(db)
+      students = db.select 'teaching/advising'
+      out = students.select { |key, x| x['level'].has_key? 'masters' and (x['role'] == 'advisor' or x['role'] == 'co-advisor') }
+      out = out.merge students.select { |key, x| x['level'].has_key? 'masters' and x['role'] != 'advisor' and x['role'] != 'co-advisor' }
+      out = out.map { |key, x| decorate_student key, x }
+      return { "advising" => out}
+    end
+
     def advising_doctoral(db)
       students = db.select 'teaching/advising'
       out = students.select { |key, x| x['level'].has_key? 'doctoral' and (x['role'] == 'advisor' or x['role'] == 'co-advisor') }

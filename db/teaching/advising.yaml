@@ -39,11 +39,6 @@ Mahfuza Sharmin:
   department: CS
   level: { doctoral: 'completed', placement: "Postdoc, Stanford University" }
   role: co-advisor
-Nicholas Thieme:
-  department: CS
-  level: { masters: 'completed' }
-  role: advisor
-  start_term: Spring 2016
 Florin Chelaru:
   department: CS
   level: { doctoral: 'completed', placement: "Postdoc, MIT Broad Institute"}
@@ -69,6 +64,19 @@ Joseph Paulson:
   level: { doctoral: 'completed', placement: "Postdoc, Harvard/Dana-Farber Cancer Institute" }
   role: co-advisor
 
+# Current masters
+Graham Antoszewski:
+  department: Math
+  level: { masters: 'current' }
+  role: advisor
+
+# Completed masters
+Nicholas Thieme:
+  department: CS
+  level: { masters: 'completed' }
+  role: advisor
+  start_term: Spring 2016
+  
 # Current undergrad
 Tim Wood:
   department: CS
