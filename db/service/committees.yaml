@@ -1,6 +1,14 @@
 -
+  name: Capital One Chairs Search Committee
+  dates: "2018-"
+  department:
+-
+  name: Department Faculty Search Committee
+  dates: "2017-2018"
+  department:
+-
   name: Department Council
-  dates: "2016-"
+  dates: "2016-2017"
   department:
 -
   name: Computer Science Recruitment Committee
@@ -28,7 +36,7 @@
   department:
 -
   name: Computer Science Chair Search Committee
-  dates: "December 2011-March 2012, November 2016-"
+  dates: "December 2011-March 2012, November 2016-March 2017"
   college:
 -
   name: City of Hyattsville Council Educational Advisory Committee
