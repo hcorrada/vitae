@@ -1,9 +1,16 @@
 -
-  title: "CMSC 498 - Introduction to Data Science II, Exploring, Modeling and Communicating with Data"
+  title: "CSMC828O - Analysis of Biological networks across scales"
   description: |
-    This is the second of two new courses covering the practice of data science. This course focuses on
-    exploratory and statistical data analysis, data and information visualization, and the presentation and
-    communication of analysis results. It is heavily assignment-based and draws extensively from applications.
+    Developed new course in support of our NSF NRT training grant. This course introduces tools and methods for analysis
+    of network data focusing on the study of molecular, neurological and ecological networks. Students are introduced
+    to methods and tools from network science, statistics, Machine Learning and visualization.
+-
+  title: "CMSC643 - Machine Learning and Data Mining"
+  description: |
+    Developed a new course as part of the Data Science Professional Master's Certificate program in the
+    Computer Science Department. This course introduced students to tools and methods for data mining and
+    Machine Learning. It covered mathematical and conceptual aspects of these tools, while introducing practical
+    use of these tools through newly-design projects.
 -
   title: "CMSC 320 - Introduction to Data Science"
   description: |
@@ -11,6 +18,12 @@
     Data Science specialization within the undergraduate program of the Department of Computer Science.
     This course focuses on data management, exploratory and statistical data analysis, data and information visualization.
     It is heavily assignment-based and draws extensively from applications.
+-
+  title: "CMSC 498 - Introduction to Data Science II, Exploring, Modeling and Communicating with Data"
+  description: |
+    This is the second of two new courses covering the practice of data science. This course focuses on
+    exploratory and statistical data analysis, data and information visualization, and the presentation and
+    communication of analysis results. It is heavily assignment-based and draws extensively from applications.
 -
   title: "CMSC 702 - Computational Systems Biology and Functional Genomics"
   description: |
