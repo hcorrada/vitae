@@ -27,6 +27,7 @@
   amount: "$50,000"
   dates: "August 2017-July 2018"
   role: co-PI
+  month_effort: 1
   funded:
 -
   title: "NRT-DESE; Network biology: from data to information to insights"
@@ -36,6 +37,7 @@
   amount: "$2,999,847"
   dates: "September 2016-August 2021"
   role: "co-PI"
+  month_effort: 0.6
   funded:
 -
   title: "CGDNet: Cancer Gene Drug Network: Using patient-specific drug-gene networks for recommending targeted cancer therapies"
@@ -44,6 +46,7 @@
   amount: "$149,051 subcontracted to UMCP"
   dates: "September 2017-August 2019"
   role: PI
+  month_effort: 1
   funded:
 -
   title: "Visualization tools for the BRAIN initiative"
@@ -52,6 +55,7 @@
   amount: "$424,280 subcontracted to UMCP"
   dates: "November 2017-October 2020"
   role: PI
+  month_effort: 1
   submitted:
 -
   title: "An integrated network analytics and data visualization platform for complex clinical datasets"
@@ -60,6 +64,7 @@
   amount: "$450,000"
   dates: "September 2018-August 2020"
   role: co-I
+  month_effort: 0.6
   submitted:
 -
   title: "Macrophage regulation of immune responses"
@@ -67,6 +72,7 @@
   recipient: "University of Maryland, College Park, David M. Mosser (PI)"
   dates: "Septmeber 2018-August 2022"
   role: co-I
+  month_effort: 0.6
   submitted:
 -
   title: "U19 Center for Translational Research: Discovery and Preclinical Development of Host-Targeted, Small-Molecule, Pan-Respiratory Virus Therapeutics"
@@ -75,6 +81,7 @@
   dates: "March 2019-February 2024"
   role: PI
   amount: "$1,157,879"
+  month_effort: 2
   submitted:
 -
   title: "U54: Longitudinal multiomics microbial profiling in healthy and disease individuals"

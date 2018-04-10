@@ -8,7 +8,7 @@ sections:
   }
   pending_grants: {
     template: candp_grants,
-    query: "research/funding/grants :pending",
+    query: "research/funding/grants :submitted",
     decorator: decorate_grant
   }
 pandoc:
