@@ -1,3 +1,10 @@
+# types:
+#  (_)inprep
+#  submitted
+#  inrevision
+#  revision_submitted
+#  inpress
+#  published
 -
   authors:
     - C. Kuang:
@@ -655,6 +662,26 @@
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Analysis and correction of compositional bias in sparse sequencing count data"
   cite: { journal: "BMC Genomics" }
+  inrevision:
+-
+  authors:
+    - J. Kancherla: { lead: , advised: }
+    - A. Zhang: { advised: }
+    - B. Gottfried: { advised: }
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Epiviz Web components: reusable and extensible component library to visualize genomic datasets"
+  cite: { journal: "Bioinformatics" }
+  _inprep:
+-
+  authors:
+    - N.D. Olson: { lead: , advised: }
+    - N. Shah:
+    - J. Kancherla: { advised: }
+    - J.N. Paulson: { advised: }
+    - J. Wagner: { advised: }
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "metagenomeFeatures: An R package for working with 16S rRNA reference databases and marker-gene survey feature data"
+  cite: { journal: "Bioinformatics" }
   submitted:
 -
   authors:
