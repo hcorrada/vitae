@@ -59,28 +59,28 @@ pandoc:
 
 {{{ notarization }}}
 
-#Personal Information
+# Personal Information #
 
-##UID, Last Name, First Name, Middle Name, Contact Information
+## UID, Last Name, First Name, Middle Name, Contact Information ##
 
 {{ contact_info }}
 
-##Academic Appointments at UMD
+## Academic Appointments at UMD ##
 
 {{ umd_academic_appointments }}
 
 \stepcounter{subsection}
 
-##Other Employment
+## Other Employment ##
 
 {{ notumd_academic_appointments }}
 {{ other_employment }}
 
-##Educational Background
+## Educational Background ##
 
 {{ educational_background }}
 
-#Research, Scholarly, Creative and Professional Activites
+# Research, Scholarly, Creative and Professional Activites #
 
 \footnotesize
 _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\textsuperscript{\#}_
@@ -88,7 +88,7 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 
 \setcounter{subsection}{2}
 
-##Articles in Refereed Journals
+## Articles in Refereed Journals ##
 
 {{ articles_inpress }}
 {{ articles_published }}

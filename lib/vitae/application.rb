@@ -53,7 +53,7 @@ module Vitae
       pandoc_config.delete 'options'
 
       content = pandoc_config.to_yaml + "---\n" + str
-#      puts content
+      puts content
 
       command += " #{options} -o #{outfile}"
       puts command
