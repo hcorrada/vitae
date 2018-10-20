@@ -20,16 +20,6 @@
   funded:
   addendum:
 -
-  title: "Epigenomic regulation of hippocampal transcriptome after experimental traumatic brain injury"
-  agency: UMD Seed Grant
-  number: NA
-  recipient: "University of Maryland, College Park"
-  amount: "$50,000"
-  dates: "August 2017-July 2018"
-  role: co-PI
-  month_effort: 1
-  funded:
--
   title: "NRT-DESE; Network biology: from data to information to insights"
   agency: NSF
   number: "1632976"
@@ -49,40 +39,24 @@
   month_effort: 1
   funded:
 -
-  title: "Visualization tools for the BRAIN initiative"
+  title: "Illuminating neurodevelopment through integrate analysis and visualization of multi-omic data"
   agency: NIH
   recipient: "University of Maryland, Baltimore, Ronna Hertzano (PI)"
-  amount: "$424,280 subcontracted to UMCP"
-  dates: "November 2017-October 2020"
+  amount: "$415,443 subcontracted to UMCP"
+  dates: "September 2018-May 2021"
   role: PI
   month_effort: 1
-  submitted:
+  funded:
 -
-  title: "An integrated network analytics and data visualization platform for complex clinical datasets"
-  agency: NIH
-  recipient: "University of Maryland, College Park, Michelle Girvan (PI)"
-  amount: "$450,000"
-  dates: "September 2018-August 2020"
-  role: co-I
-  month_effort: 0.6
-  submitted:
--
-  title: "Macrophage regulation of immune responses"
-  agency: NIH
-  recipient: "University of Maryland, College Park, David M. Mosser (PI)"
-  dates: "Septmeber 2018-August 2022"
-  role: co-I
-  month_effort: 0.6
-  submitted:
--
-  title: "U19 Center for Translational Research: Discovery and Preclinical Development of Host-Targeted, Small-Molecule, Pan-Respiratory Virus Therapeutics"
-  agency: NIH
-  recipient: "University of Maryland Baltimore and UM College Park, Mathew Frieman (Center PI)"
-  dates: "March 2019-February 2024"
-  role: PI
-  amount: "$1,157,879"
-  month_effort: 2
-  submitted:
+  title: "Epigenomic regulation of hippocampal transcriptome after experimental traumatic brain injury"
+  agency: UMD Seed Grant
+  number: NA
+  recipient: "University of Maryland, College Park"
+  amount: "$50,000"
+  dates: "August 2017-July 2018"
+  role: co-PI
+  month_effort: 1
+  completed:
 -
   title: "U54: Longitudinal multiomics microbial profiling in healthy and disease individuals"
   agency: NIH
@@ -113,6 +87,32 @@
   role: PI
   month_effort: 2.4
   completed:
+-
+  title: "Macrophage regulation of immune responses"
+  agency: NIH
+  recipient: "University of Maryland, College Park, David M. Mosser (PI)"
+  dates: "Septmeber 2018-August 2022"
+  role: co-I
+  month_effort: 0.6
+  declined:
+-
+  title: "An integrated network analytics and data visualization platform for complex clinical datasets"
+  agency: NIH
+  recipient: "University of Maryland, College Park, Michelle Girvan (PI)"
+  amount: "$450,000"
+  dates: "September 2018-August 2020"
+  role: co-I
+  month_effort: 0.6
+  declined:
+-
+  title: "U19 Center for Translational Research: Discovery and Preclinical Development of Host-Targeted, Small-Molecule, Pan-Respiratory Virus Therapeutics"
+  agency: NIH
+  recipient: "University of Maryland Baltimore and UM College Park, Mathew Frieman (Center PI)"
+  dates: "March 2019-February 2024"
+  role: PI
+  amount: "$1,157,879"
+  month_effort: 2
+  declined:
 -
   title: "R01: Host-microbiome consortium in periodontal disease"
   agency: "NIH"
