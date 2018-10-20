@@ -68,5 +68,14 @@
     - T. Wood: { advised: }
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Improving long-horizon forecasts with expectation-biased LSTM networks"
-  cite: { conference: "ICDM 2018" }
-  _inprep:
+  cite: { conference: "AAAI 2019" }
+  submitted:
+-
+  authors:
+    - Z. Cui: { lead: , advised: }
+    - J. Kancherla: { advised: }
+    - H. Corrada Bravo: { me: }
+    - N. Elmqvist: { corresponding: }
+  title: "Sherpa: Leveraging User Attention for Computational Steering in Visual Analytics"
+  cite: { conference: "CHI 2019" }
+  submitted:

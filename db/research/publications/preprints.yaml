@@ -109,3 +109,26 @@
   year: 2017
   cite: {archive: "biorxiv", number: "https://doi.org/10.1101/142851" }
   published:
+-
+  authors:
+    - N.D. Olson: { lead: , advised: }
+    - M. Senthil Kumar: { advised: }
+    - S. Li:
+    - S. Hao:
+    - W. Timp:
+    - M.L. Salit:
+    - O.C. Stine:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Assessing 16S marker gene survey data analysis methods using mixtures of human stool sample DNA extracts"
+  year: 2018
+  cite: { archive: "biorxiv", number: "https://doi.org/10.1101/400226" }
+  published:
+-
+  authors:
+    - M.K. Gunady: { lead: , advised: }
+    - S. Mount:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Fast and interpretable alternative splicing and differential gene-level expression analysis using transcriptome segmentation with Yanagi"
+  cite: { archive: "biorxiv", number: "https://doi.org/10.1101/364281" } 
+  published:
+-

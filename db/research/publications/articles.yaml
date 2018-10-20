@@ -654,6 +654,28 @@
   published:
 -
   authors:
+    - J. Kancherla: { lead: , advised: }
+    - A. Zhang: { advised: }
+    - B. Gottfried: { advised: }
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Epiviz Web components: reusable and extensible component library to visualize genomic datasets"
+  year: 2018
+  cite: { journal: "F1000 Research", volume: "7:1096", doi: "10.12688/f1000research.15433.1" }
+  published:
+-
+  authors:
+    - A.E. Nazario-Toole: { lead: }
+    - J. Robalino:
+    - K. Okrah: { advised: }
+    - H. Corrada Bravo: { me: }
+    - S.M. Mount:
+    - L.P. Wu: { corresponding: }
+  title: "The splicing factor RNA-binding Fox Protein 1 mediates the cellular immune response in Drosophila melanogaster"
+  cite: { journal: "The Journal of Immunology", volume "ji1800496", doi: "10.4049/jimmunol.1800496" }
+  year: 2018
+  published:
+-
+  authors:
     - M.S. Kumar: { lead: , advised: }
     - E.V. Slud:
     - K. Okrah: { advised: }
@@ -662,16 +684,48 @@
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Analysis and correction of compositional bias in sparse sequencing count data"
   cite: { journal: "BMC Genomics" }
-  inrevision:
+  inpress:
 -
   authors:
-    - J. Kancherla: { lead: , advised: }
-    - A. Zhang: { advised: }
-    - B. Gottfried: { advised: }
-    - H. Corrada Bravo: { me: , corresponding: }
-  title: "Epiviz Web components: reusable and extensible component library to visualize genomic datasets"
-  cite: { journal: "Bioinformatics" }
-  _inprep:
+    - J.S. Meisel: { lead: }
+    - D.J. Nasko:
+    - B. Brubach:
+    - V. Cepeda Espinoza:
+    - J. Chopyk:
+    - H. Corrada-Bravo: { me: }
+    - M. Fedarko:
+    - J. Ghurye:
+    - K. Javkar:
+    - N.D. Olson: { advised: }
+    - N. Shah:
+    - S.M. Allard:
+    - A.L. Bazinet:
+    - N.H. Bergman:
+    - A. Brown:
+    - J.G. Caporaso:
+    - S. Conlan:
+    - J. DiRuggiero:
+    - S.P. Forry:
+    - N.A. Hasan:
+    - J. Kralj:
+    - P.M. Leuthy:
+    - D.K. Milton:
+    - B.D. Ondov:
+    - S. Preheim:
+    - S. Ratnayake:
+    - S.M. Rogers:
+    - M.J. Rosovitz:
+    - E.G. Sakowski:
+    - N.O. Schliebs:
+    - D.D. Sommer:
+    - K.L. Ternus:
+    - G. Uritskiy:
+    - S.X. Zhang:
+    - M. Pop:
+    - T.J. Treangen: { corresponding: }
+  title: "Current progress and future opportunities in applications of DNA sequencing for biodefense and pathogen detection: Report from the Winter Mid-Atlantic Microbiome Meet-up, College Park, MD January 10th, 2018"
+  cite: { journal: Microbiome }
+  inpress:
 -
   authors:
     - N.D. Olson: { lead: , advised: }
@@ -682,6 +736,27 @@
     - H. Corrada Bravo: { me: , corresponding: }
   title: "metagenomeFeatures: An R package for working with 16S rRNA reference databases and marker-gene survey feature data"
   cite: { journal: "Bioinformatics" }
+  inrevision:
+-
+  authors:
+    - N.D. Olson: { lead: , advised: }
+    - M. Senthil Kumar: { advised: }
+    - S. Li:
+    - S. Hao:
+    - W. Timp:
+    - M.L. Salit:
+    - O.C. Stine:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Assessing 16S marker gene survey data analysis methods using mixtures of human stool sample DNA extracts"
+  cite: { journal: Microbiome }
+  submitted:
+-
+  authors:
+    - M.K. Gunady: { lead: , advised: }
+    - S. Mount:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Fast and interpretable alternative splicing and differential gene-level expression analysis using transcriptome segmentation with Yanagi"
+  cite: { journal: BMC Bioinformatics }
   submitted:
 -
   authors:
