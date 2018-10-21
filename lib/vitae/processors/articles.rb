@@ -85,6 +85,13 @@ module Vitae
       return x
     end
 
+    def articles_fiveyears(db)
+      arts = db.select "research/publications/articles :published <5 +year"
+      puts arts
+      arts = arts.map { |x| decorate_article x }
+      return { "annotated_articles" => arts }
+    end
+
     def selected_articles(db)
       arts = db.select "research/publications/articles :selected +year"
       arts = arts.map { |x| decorate_article x }
@@ -129,6 +136,12 @@ module Vitae
 
     def refereed_proceedings(db)
       arts = db.select "research/publications/proceedings :published +year"
+      arts = arts.map { |x| decorate_proceeding x }
+      return { "annotated_articles" => arts }
+    end
+
+    def refereed_proceedings_fiveyears(db)
+      arts = db.select "research/publications/proceedings :published <5 +year"
       arts = arts.map { |x| decorate_proceeding x }
       return { "annotated_articles" => arts }
     end

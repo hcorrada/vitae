@@ -1,3 +1,3 @@
 {{# presentations }}
-#. {{ title }}. *{{ venue }},* {{ location }}. {{ date }}.  
+#. {{ title }}. *{{ venue }},* {{ location }}. {{ date }}. 
 {{/ presentations }}

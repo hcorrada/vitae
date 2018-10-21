@@ -17,6 +17,12 @@ module Vitae
       return { "advising" => out}
     end
 
+    def advising_phds(db)
+      students = db.select 'teaching/advising'
+      out = students.select { |key, x| x['level'].has_key? 'doctoral' and (x['role'] == 'advisor' or x['role'] == 'co-advisor') }
+      out = out.map { |key, x| decorate_student key, x }
+      return { "advising" => out }
+    end
     def advising_doctoral(db)
       students = db.select 'teaching/advising'
       out = students.select { |key, x| x['level'].has_key? 'doctoral' and (x['role'] == 'advisor' or x['role'] == 'co-advisor') }

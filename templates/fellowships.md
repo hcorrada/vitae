@@ -1,3 +1,3 @@
 {{# fellowships }}
-#. {{ name }}, {{ agency }}. {{ dates }}  
+#. {{ name }}, {{ agency }}. {{ dates }}
 {{/ fellowships }}

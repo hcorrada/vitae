@@ -5,7 +5,7 @@ Aya Ismail:
   role: advisor
 Mohammed Gunady:
   department: CS
-  level: { doctoral: 'pre-candidacy' }
+  level: { doctoral: 'candidacy' }
   role: advisor
   start_term: Fall 2014
 Domenick Braccia:
@@ -20,21 +20,21 @@ Faezeh Dorri:
   department: CS
   level: { doctoral: 'candidacy' }
   role: advisor
-Justin Wagner:
-  department: CS
-  level: { doctoral: 'candidacy' }
-  role: advisor
 Senthil Muthiah:
   department: CBMG
   level: { doctoral: 'candidacy' }
-  role: co-advisor
-Nathanael Olson:
-  department: CBMG
-  level: { doctoral: 'candidacy' }
   role: advisor
-  start_term: Fall 2015
 
 # PhD Alumni
+Nathanael Olson:
+  department: CBMG
+  level: { doctoral: 'completed', placement: "Research Scientist, NIST" }
+  role: advisor
+  start_term: Fall 2015
+Justin Wagner:
+  department: CS
+  level: { doctoral: 'completed', placement: "Resarch Scientist, NIST" }
+  role: advisor
 Mahfuza Sharmin:
   department: CS
   level: { doctoral: 'completed', placement: "Postdoc, Stanford University" }
