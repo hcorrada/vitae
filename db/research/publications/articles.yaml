@@ -684,6 +684,7 @@
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Analysis and correction of compositional bias in sparse sequencing count data"
   cite: { journal: "BMC Genomics" }
+  year: 2018
   inpress:
 -
   authors:
@@ -724,6 +725,7 @@
     - M. Pop:
     - T.J. Treangen: { corresponding: }
   title: "Current progress and future opportunities in applications of DNA sequencing for biodefense and pathogen detection: Report from the Winter Mid-Atlantic Microbiome Meet-up, College Park, MD January 10th, 2018"
+  year: 2018
   cite: { journal: Microbiome }
   inpress:
 -
