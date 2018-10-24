@@ -4,6 +4,7 @@ sections:
   papers: { template: annotated_articles, filter: articles_fiveyears }
   inpress: { template: annotated_articles, filter: articles_inpress }
   proceedings: { template: annotated_articles, filter: refereed_proceedings_fiveyears }
+  preprints: { template: annotated_articles, filter: preprints_fiveyears }
 pandoc:
   options: -s -V graphics
   geometry: margin=.75in
@@ -20,3 +21,7 @@ pandoc:
 ## Refereed Conference Proceedings ##
 
 {{ proceedings }}
+
+## Preprints ##
+
+{{ preprints }}

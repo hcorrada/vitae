@@ -193,5 +193,12 @@ module Vitae
       records = records.map { |x| decorate_preprint x }
       return { "annotated_articles" => records }
     end
+
+    def preprints_fiveyears(db)
+      arts = db.select "research/publications/preprints :published <5 +year"
+      puts arts
+      arts = arts.map { |x| decorate_preprint x }
+      return { "annotated_articles" => arts }
+    end
   end
 end

@@ -83,48 +83,40 @@ pandoc:
     - \renewcommand{\thesubsection}{\arabic{subsection}.}
     - \renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
 ---
-
 {{ contact_info }}
 
-##Articles in Refereed Journals
+## Articles in Refereed Journals ##
 
-{{ articles_inpress }}
-{{ articles_published }}
+{{ articles_inpress }}{{ articles_published }}
 
-##Published Conference Proceedings
+## Published Conference Proceedings ##
 
-{{ proceedings_inpress }}
-{{ proceedings_published }}
+{{ proceedings_inpress }}{{ proceedings_published }}
 
-##Pre-print/Working Paper (Not Work in Progress)
+## Pre-print/Working Paper (Not Work in Progress) ##
 
 {{ preprints }}
 
-##Completed Creative Works
+## Completed Creative Works
 
-###Software and Applications
+### Software and Applications
 
 {{ software }}
 
-###Websites
+### Websites
 
 {{ websites }}
 
-##Sponsored Research, Grants
+## Sponsored Research, Grants
 
 {{ grants }}
 
-##Submissions and Works in Progress
+## Submissions and Works in Progress
 
-###Current Grant Applications
+### Current Grant Applications
 
 {{ grants_submitted }}
 
-###Manuscripts under Review
+### Manuscripts under Review
 
-{{ articles_revised }}
-{{ articles_inrevision }}
-{{ articles_submitted }}
-{{ proceedings_revised }}
-{{ proceedings_inrevision }}
-{{ proceedings_submitted }}
+{{ articles_revised }}{{ articles_inrevision }}{{ articles_submitted }}{{ proceedings_revised }}{{ proceedings_inrevision }}{{ proceedings_submitted }}
