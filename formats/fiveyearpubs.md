@@ -1,6 +1,7 @@
 ---
-title: "Héctor Corrada Bravo"
+title: "Publications during past five years"
 sections: 
+  contact_info: { template: contact, filter: contact }
   papers: { template: annotated_articles, filter: articles_fiveyears }
   inpress: { template: annotated_articles, filter: articles_inpress }
   proceedings: { template: annotated_articles, filter: refereed_proceedings_fiveyears }
@@ -11,6 +12,8 @@ pandoc:
   fontsize: 10pt
   fontfamily: utopia
 ---
+
+{{ contact_info }}
 
 # Publications (last 5 years) #
 
