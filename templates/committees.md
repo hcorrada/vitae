@@ -1,3 +1,3 @@
 {{# committees }}
-- {{ name }}. {{ dates }}  
+#. {{ name }}. {{ dates }}
 {{/ committees }}

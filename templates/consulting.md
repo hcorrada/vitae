@@ -1,3 +1,3 @@
 {{# consulting }}
-- {{ title }}. *{{ client }}*, {{ dates }}.  
+#. {{ title }}. *{{ client }}*, {{ dates }}
 {{/ consulting }}
