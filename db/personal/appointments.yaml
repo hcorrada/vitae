@@ -20,7 +20,14 @@ academic_appointments:
     location: College Park, MD
     dates: July 2016-Present
     current:
-  -  
+-
+    title: Affiliate Associate Professor
+    unit: Department of Mathematics
+    institution: University of Maryland
+    location: College Park, MD
+    dates: July 2018-Present
+    current:
+-  
     title: Assistant Professor
     unit: Department of Computer Science
     institution: University of Maryland
