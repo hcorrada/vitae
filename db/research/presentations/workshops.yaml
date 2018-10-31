@@ -23,4 +23,9 @@
   venue: "Bioconductor Conference"
   location: "Palo Alto, CA"
   date: "July 2016"
+-
+  title: "Segment-based transcriptome analysis with Yanagi"
+  venue: "8th Workshop on Computational Advances for Next Generation Sequencing, IEEE International Conference on Computational Advances in Bio and Medical Sciences"
+  location: "Las Vegas, NV"
+  date: "October 2018"
   

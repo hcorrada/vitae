@@ -50,7 +50,8 @@ module Vitae
       end
 
       if not filter.nil?
-        items = items.select { |x| x.has_key? filter }
+        keys = filter.split(',')
+        items = items.select { |x| keys.all? { |key| x.has_key? key } }
       elsif not filter_out.nil?
         items = items.select { |x| not x.has_key? filter_out }
       end

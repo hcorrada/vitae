@@ -5,7 +5,7 @@ sections:
   contact_info: { template: contact_with_uid, filter: contact }
   umd_academic_appointments: { template: appointments, filter: umd_appointments }
   notumd_academic_appointments: { template: appointments, filter: notumd_appointments }
-  other_employment: { template: appointments, query: personal/appointments/other_employment }
+  other_employment: { template: appointments, query: "personal/appointments :other" }
   educational_background: { template: degrees, filter: degrees }
   articles_inpress: { template: annotated_articles, filter: articles_inpress }
   articles_published: { template: annotated_articles, filter: articles_published }
@@ -42,6 +42,7 @@ sections:
   conference_reviews: { template: reviews, filter: conference_reviews }
   dept_service: { template: committees, query: "service/committees :department" }
   college_service: { template: committees, query: "service/committees :college" }
+  university_service: { template: committees, query: "service/committees :university" }
   community_service: { template: committees, query: "service/committees :community" }
   conference_service: { template: committees, query: "service/committees :conference" }
   consulting: { template: consulting, query: "service/consulting" }
@@ -257,7 +258,11 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 
 {{ college_service }}
 
-\setcounter{subsubsection}{6}
+### Campus Service - University ###
+
+{{ university_service }}
+
+\setcounter{subsubsection}{5}
 
 ### Leadership Roles in Meetings and Conferences
 
