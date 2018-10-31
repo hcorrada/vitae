@@ -78,12 +78,24 @@ Nicholas Thieme:
   start_term: Spring 2016
   
 # Current undergrad
-Tim Wood:
+Yifan Yang:
   department: CS
   level: { undergrad: 'current' }
   role: advisor
 
 # Completed undergrad
+Brian Gottfried:
+  department: CS
+  level: { undergrad: 'completed', placement: 'Institute of Genome Science, University of Maryland, Baltimore' }
+  role: advisor
+Alexander Zhang:
+  department: CS
+  level: { undergrad: 'completed', placement: 'Facebook' }
+  role: advisor
+Tim Wood:
+  department: CS
+  level: { undergrad: 'completed', placement: 'Broad Institute' }
+  role: advisor
 Daniel Konecki:
   department: CS
   level: { undergrad: completed, placement: 'Baylor College of Medicine' }
@@ -293,4 +305,27 @@ Hua He:
   department: CS
   level: { doctoral: candidacy }
   role: committee member
-
+Yue-Hei Ng:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+Yang Shen:
+  department: Chemistry
+  level: { doctoral: completed }
+  role: committee member
+Xiyang Dai:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+Hui Miao:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+Ahmed Kosba:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
+Jay Ghurye:
+  department: CS
+  level: { doctoral: completed }
+  role: committee member
