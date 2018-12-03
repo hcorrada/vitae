@@ -4,6 +4,7 @@
     Developed new course in support of our NSF NRT training grant. This course introduces tools and methods for analysis
     of network data focusing on the study of molecular, neurological and ecological networks. Students are introduced
     to methods and tools from network science, statistics, Machine Learning and visualization.
+  selected:
 -
   title: "CMSC643 - Machine Learning and Data Mining"
   description: |
@@ -18,6 +19,7 @@
     Data Science specialization within the undergraduate program of the Department of Computer Science.
     This course focuses on data management, exploratory and statistical data analysis, data and information visualization.
     It is heavily assignment-based and draws extensively from applications.
+  selected:
 -
   title: "CMSC 498 - Introduction to Data Science II, Exploring, Modeling and Communicating with Data"
   description: |
@@ -30,6 +32,7 @@
     Developed this new advanced graduate-level course concentrating on the use of Statistical Learning
     methods and algorithms in the analysis of large high-throughput biomedical assays. Core course in the
     Computational Biology concentration area.
+  selected:
 -
   title: "CMSC 858P - Computational Methods for High-Throughput Analysis of Biological Systems"
   description: |

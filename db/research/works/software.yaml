@@ -8,31 +8,37 @@
   url: "http://metaviz.org"
   date: "December 2016"
   released:
+  selected:
 -
   name: "Metavizr: Interactive visualization of metagenomics data in R/Bioconductor"
   url: "http://github.com/epiviz/metavizr"
   date: "December 2016"
   released:
+  selected:
 -
   name: "Minfi: Analyze Illumina's 450k methylation arrays"
   date: "Febraury 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/minfi.html"
   released:
+  selected:
 -
   name: "Epivizr: interactive visualization of genomics data in R/Bioconductor"
   date: "June 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/epivizr.html"
   released:
+  selected:
 -
   name: "methylFlow: cell-specific methylation pattern reconstruction"
   url: "http://github.com/hcorrada/methylFlow"
   date: "June 2015"
   released:
+  selected:
 -
   name: "Epiviz: Interactive visualization for genomics data"
   date: "June 2013"
   url: "http://github.com/epiviz"
   released:
+  selected:
 -
   name: "Healthvis: Interactive visualization in health"
   date: "April 2013"
@@ -48,6 +54,7 @@
   date: "February 2013"
   url: "http://bioconductor.org/packages/release/bioc/html/metagenomeSeq.html"
   released:
+  selected:
 -
   name: "bumphunter: Tools for finding bumps in genomic data"
   date: "February 2013"
@@ -73,6 +80,7 @@
   date: "Jan. 2008"
   url: "http://cran.r-project.org/web/packages/Rcplex/index.html"
   released:
+  selected:
 -
   name: "Rcsdp: An interface to the CSDP semidefinite programming library for R"
   date: "Dec. 2008"

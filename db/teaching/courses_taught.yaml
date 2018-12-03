@@ -1,4 +1,34 @@
 -
+  course: "CSMC828O"
+  date: { term: Fall, year: 2018 }
+  enrollment: 27
+  description: "Analysis of Biological Networks across Scales"
+  classroom:
+-
+  course: "CSMC798E"
+  date: { term: Fall, year: 2018 }
+  enrollment: 9
+  description: "Graduate Seminar in Computer Science: Research Colloqium"
+  classroom:
+-
+  course: "CMSC798"
+  date: { term: Fall, year: 2018 }
+  enrollment: 1
+  description: "Graduate Seminar in Computer Science"
+  individual:
+-
+  course: "CMSC643"
+  date: { term: Fall, year: 2018 }
+  enrollment: 18
+  description: "Machine Learning & Data Mining (Data Mining Professional Master's Certificate"
+  classroom:
+-
+  course: "CMSC 320"
+  date: {term: Spring, year: 2018}
+  enrollment: 183
+  description: "Introduction to Data Science"
+  classroom:
+-
   course: "CMSC899"
   date: { term: Fall, year: 2017 }
   enrollment: 2

@@ -31,11 +31,15 @@ module Vitae
 
     def run()
       processor = Vitae::Processor.new(@config['sections'])
+      print "Config read\n"
+
       content_sections = processor.run(@db)
-      
+      print "Processing Done\n"
+
       renderer = Vitae::Renderer.new
       output = renderer.run(@content, content_sections)
-      
+      print "Rendering Done\n"
+
       @config['outfile'] ||= File.basename(@inputfile, File.extname(@inputfile)) + ".pdf"
       @config['outdir'] ||= 'output'
       @config['pandoc'] ||= {"command" => 'pandoc'}

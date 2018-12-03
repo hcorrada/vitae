@@ -38,6 +38,14 @@ module Vitae
       return { "courses" => courses }
     end
 
+    def recent_courses_taught(db)
+      courses = db.select "teaching/courses_taught <5 :classroom"
+      courses = courses.sort { |x,y| compare_courses x, y }
+      courses = courses.reverse
+      courses = courses.map { |x| decorate_course x }
+      return { "courses" => courses }
+    end
+
     def decorate_development(x)
       x['description'] = x['description'].gsub "\n", " "
       return x
@@ -45,6 +53,12 @@ module Vitae
 
     def courses_developed(db)
       courses = db.select "teaching/development"
+      courses = courses.map { |x| decorate_development x }
+      return { "courses" => courses }
+    end
+
+    def selected_courses_developed(db)
+      courses = db.select "teaching/development :selected"
       courses = courses.map { |x| decorate_development x }
       return { "courses" => courses }
     end

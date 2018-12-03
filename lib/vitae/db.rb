@@ -58,7 +58,12 @@ module Vitae
 
       if not age.nil?
         items = items.select do |x|
+          print x
           datestr = x.has_key?('date') ? x['date'] : "1/#{x['year']}"
+          if not (datestr.is_a? String)
+            year = datestr['year']
+            datestr = "1/#{year}"
+          end
           Date.parse(datestr).year >= (Date.today.year - age.to_i)
         end
       end

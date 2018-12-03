@@ -70,7 +70,6 @@
   cite: {journal: "Molecular Biology and Evolution", volume: "26 (10):2363-2372"}
   published:
   rank: 2
-  selected:
 -
   authors:
     - M. Acevedo: {lead: }
@@ -83,7 +82,6 @@
   cite: {journal: "Ecological Informatics", volume: "4 (4):206-214"}
   published:
   rank: 2
-  selected:
 -
   authors:
     - H. Wu:
@@ -94,7 +92,6 @@
   cite: {journal: "Nature Methods", volume: "7:336-337"}
   published:
   rank: 1
-  selected:
 -
   authors:
     - J.T. Leek: {lead: }
@@ -177,7 +174,6 @@
   cite: {journal: "Genome Biology", volume: "12 (9):R93"}
   published:
   rank: 2
-  selected:
 -
   authors:
     - W. Shi: {lead: }
@@ -314,7 +310,6 @@
   cite: {journal: "Bioinformatics", volume: "30 (9):1214-9"}
   published:
   rank: 1
-  selected:
 -
   authors:
     - M. Aryee: {lead: }
@@ -422,7 +417,6 @@
   pmcid: PMC4570582
   published:
   rank: 2
-  selected:
 -
   authors:
     - W. Huber: {lead: }
@@ -531,7 +525,6 @@
   year: 2016
   published:
   rank: 2
-  selected:
 -
   authors:
     - Y. Li: {lead: }
@@ -608,7 +601,6 @@
   year: 2017
   published:
   rank: 2
-  selected:
 -
   authors:
     - S. Manimaran: { lead: }
@@ -624,7 +616,6 @@
   cite: {journal: Bioinformatics, volume: "32(24):3836-3838", doi: "10.1093/bioinformatics/btw538" }
   year: 2016
   published:
-  selected:
 -
   authors:
     - S. Hicks: { lead: }
@@ -637,6 +628,7 @@
   cite: {journal: "Biostatistics", volume: "19(2): 185-198", doi: "10.1093/biostatistics/kxx028" }
   year: 2018
   published:
+  selected:
 -
   authors:
     - J. Wagner: { lead: , advised: }
@@ -652,6 +644,7 @@
   cite: {journal: "Nucleic Acids Research", volume: "gky136", doi: "10.1093/nar/gky136" }
   year: 2018
   published:
+  selected:
 -
   authors:
     - J. Kancherla: { lead: , advised: }
@@ -662,6 +655,7 @@
   year: 2018
   cite: { journal: "F1000 Research", volume: "7:1096", doi: "10.12688/f1000research.15433.1" }
   published:
+  selected:
 -
   authors:
     - A.E. Nazario-Toole: { lead: }
@@ -686,6 +680,7 @@
   cite: { journal: "BMC Genomics" }
   year: 2018
   inpress:
+  selected:
 -
   authors:
     - J.S. Meisel: { lead: }

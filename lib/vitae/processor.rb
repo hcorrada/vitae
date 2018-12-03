@@ -15,6 +15,7 @@ module Vitae
       renderer = Vitae::Renderer.new
       section_content = {}
       @sections.each_pair do |key, section|
+        print "Processing section " + key + "\n"
                  template = self.load_template section['template']
                  if section.has_key? 'filter'
                    if not self.respond_to? section['filter']

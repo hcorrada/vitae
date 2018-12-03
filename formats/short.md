@@ -1,17 +1,17 @@
 ---
-title: Hector Corrada Bravo
+title: Curriculum Vitae
 sections:
   contact_info: { template: contact, filter: contact }
-  umd_academic_appointments: { template: appointments, filter: "umd_appointments" }
+  umd_academic_appointments: { template: appointments, filter: umd_appointments }
   notumd_academic_appointments: { template: appointments, filter: notumd_appointments }
-  other_employment: { template: appointments, query: personal/appointments/other_employment }
+  other_employment: { template: appointments, query: "personal/appointments :other" }
   educational_background: { template: degrees, filter: degrees }
   selected_articles: { template: annotated_articles, filter: selected_articles }
   refereed_proceedings: { template: annotated_articles, filter:  refereed_proceedings }
-  invited_talks: { template: presentations, query: "research/presentations/talks :invited +date" }
-  refereed_presentations: { template: presentations, query: "research/presentations/conferences :refereed +date" }
-  symposia: { template: presentations, query: "research/presentations/symposia +date" }
-  software: { template: software, query: "research/works/software :released +date" }
+  invited_talks: { template: presentations, query: "research/presentations/talks :invited <5 +date" }
+  refereed_presentations: { template: presentations, query: "research/presentations/conferences :refereed +date <5" }
+  symposia: { template: presentations, query: "research/presentations/symposia +date <5" }
+  software: { template: software, query: "research/works/software :selected :released +date" }
   websites: { template: software, query: "research/works/websites :released +date" }
   grants: { template: grants, query: "research/funding/grants :funded" }
   fellowships: { template: fellowships, query: research/funding/fellowships }
@@ -20,14 +20,14 @@ sections:
   articles_revised: { template: unpublished_articles, filter: articles_revised }
   proceedings_submitted: { template: unpublished_articles, filter:  proceedings_submitted }
   proceedings_revised: { template: unpublished_articles, filter: proceedings_revised }
-  courses_taught: { template: courses_taught, filter: courses_taught }
-  courses_developed: { template: courses_developed, filter: courses_developed }
-  advising_doctoral: { template: advising, filter: advising_doctoral }
+  courses_taught: { template: courses_taught, filter: recent_courses_taught }
+  courses_developed: { template: courses_developed, filter: selected_courses_developed }
+  advising_doctoral: { template: advising, filter: advising_phds }
   advising_undergrad: { template: advising, filter: advising_undergrad }
   teaching_workshops: { template: presentations, query: "teaching/workshops" }
   editorships: { template: editorships, query: "service/review/editor" }
-  journal_reviews: { template: reviews, filter: journal_reviews }
-  press_reviews: { template: reviews, filter: press_reviews }
+  journal_reviews: { template: compact_reviews, filter: journal_reviews }
+  press_reviews: { template: compact_reviews, filter: press_reviews }
   panel_reviews: { template: reviews, filter: panel_reviews }
   conference_reviews: { template: reviews, filter: conference_reviews }
   dept_service: { template: committees, query: "service/committees :department" }
@@ -37,7 +37,7 @@ sections:
   consulting: { template: consulting, query: "service/consulting" }
 pandoc:
   options: -s --number-sections
-  geometry: margin=.75in
+  geometry: margin=.5in
   fontsize: 10pt
   fontfamily: utopia
   header-includes:
@@ -46,30 +46,30 @@ pandoc:
     - \renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
 ---
 
-#Personal Information
+# Personal Information
 
 {{ contact_info }}
 
-##Academic Appointments 
+## Academic Appointments 
 
 {{ umd_academic_appointments }}
 
-##Other Employment
+## Other Employment
 
 {{ notumd_academic_appointments }}
 {{ other_employment }}
 
-##Educational Background
+## Educational Background
 
 {{ educational_background }}
 
-#Research, Scholarly and Creative Activites
+# Research, Scholarly and Creative Activites
 
 \footnotesize
 _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\textsuperscript{\#}_
 \normalsize
 
-## Selected Articles in Refereed Journals
+## Selected Articles in Refereed Journals (out of 46)
 
 {{ selected_articles }}
 
@@ -80,7 +80,7 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 {{ inpress_proceedings }}
 {{ refereed_proceedings }}
 
-## Conferences, Workshops and Talks ##
+## Conferences, Workshops and Talks (last 5 years) ##
 
 ### Invited Talks ###
 
@@ -91,20 +91,19 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 {{ refereed_presentations }}
 {{ nonrefereed_presentations }}
 {{ symposia }}
-{{ workshops }}
 
-## Professional Publications ##
+<!--## Professional Publications ##
 
 \stepcounter{subsubsection}
 
 ### Pre-print/Working Paper (Not Work in Progress) ###
 
-{{ preprints }}
+{{ preprints }}-->
 \stepcounter{subsection}
 
 ## Completed Creative Works ##
 
-### Software and Applications ###
+### Selected Software and Applications ###
 
 {{ software }}
 
@@ -119,13 +118,14 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 ### Grants ###
 
 {{ grants }}
-
+<!--
 ## Fellowships, Gifts and Other Funded Research ##
 
 ### Fellowships ###
 
 {{ fellowships }}
-
+-->
+<!--
 ### Manuscripts under Review ###
 
 {{ articles_revised }}
@@ -133,14 +133,15 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 {{ articles_submitted }}
 {{ proceedings_inrevision }}
 {{ proceedings_submitted }}
+-->
 
 # Teaching, Mentoring and Advising #
 
-## Courses Taught ##
+## Courses Taught (last 5 years) ##
 
 {{ courses_taught }}
 
-## Teaching Innovations ##
+## Selected Teaching Innovations ##
 
 ### Course or Curriculum Development ###
 
@@ -152,7 +153,9 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 
 {{ advising_undergrad }}
 
+<!--
 ### Master's ###
+-->
 
 ### Doctoral ###
 
@@ -174,8 +177,8 @@ _Annotation: corresponding authors\*, lead authors\textasciicircum, advisee\text
 
 ### Reviewing Activities for Journals and Presses ###
 
-{{ journal_reviews }}  
-{{ press_reviews }}
+_Journals:_ {{ journal_reviews }}  
+_Academic Presses:_ {{ press_reviews }}
 
 ### Reviewing Activities for Agencies and Foundations ###
 
