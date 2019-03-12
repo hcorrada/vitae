@@ -4,7 +4,7 @@
   number: "HG005220"
   recipient: "Dana Farber Cancer Institute, Rafael A. Irizarry (PI)"
   amount: "$397,903 subcontracted to UMCP"
-  dates: "March 2015-February 2019"
+  dates: "March 2015-February 2020"
   role: PI
   month_effort: 2.4
   funded:
@@ -55,10 +55,10 @@
   number: NA
   recipient: "University of Maryland, College Park"
   amount: "$50,000"
-  dates: "August 2017-July 2018"
+  dates: "August 2017-July 2019"
   role: co-PI
   month_effort: 1
-  completed:
+  funded:
 -
   title: "U54: Longitudinal multiomics microbial profiling in healthy and disease individuals"
   agency: NIH
@@ -95,6 +95,14 @@
   recipient: "University of Maryland, College Park, Abani K. Pradhan (PI)"
   amount: "$499,998"
   role: co-PI
+  month_effort: 1
+  submitted:
+-
+  title: "HDR DSC: Project experiences to ready the Data Scientist"
+  agency: "National Science Foundation"
+  number: "1924273"
+  recipient: "University of Maryland, College Park"
+  role: PI
   month_effort: 1
   submitted:
 -
