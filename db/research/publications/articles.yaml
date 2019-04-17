@@ -677,9 +677,9 @@
     - S. Hannenhalli:
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Analysis and correction of compositional bias in sparse sequencing count data"
-  cite: { journal: "BMC Genomics" }
+  cite: { journal: "BMC Genomics", volume: "19:799", doi: "10.1186/s12864-018-5160-5" }
   year: 2018
-  inpress:
+  published:
   selected:
 -
   authors:
@@ -721,8 +721,8 @@
     - T.J. Treangen: { corresponding: }
   title: "Current progress and future opportunities in applications of DNA sequencing for biodefense and pathogen detection: Report from the Winter Mid-Atlantic Microbiome Meet-up, College Park, MD January 10th, 2018"
   year: 2018
-  cite: { journal: Microbiome }
-  inpress:
+  cite: { journal: Microbiome, volume: "6:197", doi: "10.1186/s40168-018-0582-5" }
+  published:
 -
   authors:
     - N.D. Olson: { lead: , advised: }
@@ -732,8 +732,9 @@
     - J. Wagner: { advised: }
     - H. Corrada Bravo: { me: , corresponding: }
   title: "metagenomeFeatures: An R package for working with 16S rRNA reference databases and marker-gene survey feature data"
-  cite: { journal: "Bioinformatics" }
-  inrevision:
+  year: 2019
+  cite: { journal: "Bioinformatics", volume: "btz136", doi: "10.1093/bioinformatics/btz136" }
+  published:
 -
   authors:
     - N.D. Olson: { lead: , advised: }
@@ -746,14 +747,23 @@
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Assessing 16S marker gene survey data analysis methods using mixtures of human stool sample DNA extracts"
   cite: { journal: Microbiome }
-  submitted:
+  revision_submitted:
 -
   authors:
     - M.K. Gunady: { lead: , advised: }
     - S. Mount:
     - H. Corrada Bravo: { me: , corresponding: }
   title: "Fast and interpretable alternative splicing and differential gene-level expression analysis using transcriptome segmentation with Yanagi"
-  cite: { journal: BMC Bioinformatics }
+  cite: { journal: "BMC Bioinformatics" }
+  revision_submitted:
+-
+  authors:
+    - Z. Cui: { lead: , advised: }
+    - J. Kancherla: { advised: }
+    - N. Elmqvist:
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Proactive Visual and Statistical Analysis of Genomic Data in Epiviz"
+  cite: { journal: "Bioinformatics" }
   submitted:
 -
   authors:
