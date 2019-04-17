@@ -767,6 +767,14 @@
   submitted:
 -
   authors:
+    - A.A. Ismail: { lead: , advised: }
+    - T. Wood: { advised: }
+    - H. Corrada Bravo: { me: , corresponding: }
+  title: "Improving long-horizon forecasts with expectation-biased LSTM networks"
+  cite: { journal: "Scientific Reports" }
+  submitted:
+-
+  authors:
     - J.N. Paulson: { lead: , advised: }
     - H. Talukder: { lead: , advised: }
     - H. Corrada Bravo: { me: }
