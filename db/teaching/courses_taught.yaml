@@ -1,5 +1,17 @@
 -
-  course: "CSMC828O"
+  course: "CMSC320"
+  date: { term: Spring, year: 2019 }
+  enrollment: 230
+  description: "Introduction to Data Science"
+  classroom:
+-
+  course: "CMSC644"
+  date: { term: Spring, year: 2019 }
+  enrollment: 16
+  description: "Algorithms for Data Science"
+  classroom:
+-
+  course: "CMSC828O"
   date: { term: Fall, year: 2018 }
   enrollment: 27
   description: "Analysis of Biological Networks across Scales"

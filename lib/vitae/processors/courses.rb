@@ -6,8 +6,8 @@ module Vitae
         return cmp
       end
 
-      cmp = x['date']['term'] <=> y['date']['term']
-      if cmp != 0
+      cmp = x['date']['term'] == y['date']['term']
+      if not cmp
         return x == 'Spring' ? -1 : 1
       end
 
